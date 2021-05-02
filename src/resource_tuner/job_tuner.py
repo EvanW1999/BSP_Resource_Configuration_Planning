@@ -1,29 +1,39 @@
+
 from kubernetes import client, config, watch
+from typing import List
+from ..shared.types import Json
 
 
-DEFAULT_NAMESPACE = "default"
-NUM_ITERATIONS = 2
-JOB_NAME = "qj-1"
+DEFAULT_NAMESPACE: str = "default"
+NUM_ITERATIONS: int = 2
+JOB_NAME: str = "qj-1"
+KUBE_BATCH_GROUP_NAME: str = "scheduling.k8s.io/group-name"
+POD_GROUP_NAME: str = "qj-1"
+ITERATION_ENV_NAME: str = "NUM_ITERATIONS"
 
 config.load_kube_config()
-api_instance = client.BatchV1Api()
+api_instance: client.BatchV1Api = client.BatchV1Api()
 
 
-def create_job_object(iteration):
-    metadata = client.V1ObjectMeta(
+def create_job_object(cpu_iteration: int, num_iterations: int):
+    metadata: client.V1ObjectMeta = client.V1ObjectMeta(
         namespace=DEFAULT_NAMESPACE, name=JOB_NAME)
 
-    resource_requests = {"cpu": f"{200 + 100 * iteration}m"}
+    resource_requests: Json = {"cpu": f"{200 + 100 * cpu_iteration}m"}
     resource_requirements = client.V1ResourceRequirements(
         requests=resource_requests, limits=resource_requests)
+
+    env_vars: List[client.V1EnvVar] = [client.V1EnvVar(
+        name=ITERATION_ENV_NAME, value=str(num_iterations))]
     container = client.V1Container(
-        name="matmul", image="evanw1999/matmul:public", image_pull_policy="Always")
+        name="matmul", env=env_vars, image="evanw1999/matmul:public", image_pull_policy="Always")
     container.resources = resource_requirements
     spec = client.V1PodSpec(
         containers=[container], restart_policy="Never", scheduler_name="kube-batch")
 
     template = client.V1PodTemplateSpec()
-    template.metadata = client.V1ObjectMeta()
+    template.metadata = client.V1ObjectMeta(
+        annotations={KUBE_BATCH_GROUP_NAME: POD_GROUP_NAME})
     template.spec = spec
 
     body = client.V1Job(api_version="batch/v1", kind="Job")
@@ -33,9 +43,9 @@ def create_job_object(iteration):
     return body
 
 
-def kube_create_job(iteration):
+def kube_create_job(cpu_iteration: int):
     api_instance.create_namespaced_job(
-        DEFAULT_NAMESPACE, create_job_object(iteration))
+        DEFAULT_NAMESPACE, create_job_object(cpu_iteration, 10))
 
 
 def get_job_duration():
@@ -59,8 +69,16 @@ def tune_resources():
         print(f"Iteration {iteration} took {duration} seconds")
 
 
+def get_available_resources():
+    cust: client.CustomObjectsApi = client.CustomObjectsApi()
+    response: Json = cust.list_cluster_custom_object(
+        'metrics.k8s.io', 'v1beta1', 'nodes')
+    print(response)
+
+
 def main():
     tune_resources()
+    # get_available_resources()
 
 
 if __name__ == "__main__":
