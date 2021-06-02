@@ -33,10 +33,8 @@ class ResourceTuner():
 
 
 def main():
-    # tune_resources()
     resource_tuner: ResourceTuner = ResourceTuner()
     resource_tuner.profile_resource_configurations(["matmul", "eigen"])
-    # get_available_resources()
 
 
 if __name__ == "__main__":
