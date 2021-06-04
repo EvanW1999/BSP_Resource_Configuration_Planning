@@ -6,7 +6,7 @@ from kazoo.recipe.queue import LockingQueue
 
 NUMBER_OF_TASKS: int = 2
 BARRIER_PATH: str = "/barrier"
-JOB_NAME: str = "matrix"
+JOB_NAME: str = "vecmath"
 UTF_ENCODING: str = "utf-16"
 ZOOKEEEPER_CLIENT_ENDPOINT: str = "zookeeper:2181" # if using dns
 
@@ -32,9 +32,8 @@ def main() -> None:
     zk_barrier.enter()
 
     subprocess.check_output(
-        ["stress-ng", f"--{JOB_NAME}", "0", "--metrics", "--cpu-ops", str(20000 * workload_modifier), "-t", "1m"])
+        ["stress-ng", f"--{JOB_NAME}", "0", "--metrics", "--cpu-ops", str(50000), "-t", "1m"])
     zk_barrier.leave()
-
 
 if __name__ == '__main__':
     main()
