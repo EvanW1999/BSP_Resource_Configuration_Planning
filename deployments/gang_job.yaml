@@ -3,15 +3,14 @@ kind: Job
 metadata:
   name: qj-1
 spec:
-  completions: 2
-  parallelism: 2
   template:
-    metadata:
-      annotations:
-        scheduling.k8s.io/group-name: qj-1
+    # metadata:
+    # annotations:
+    # scheduling.k8s.io/group-name: qj-1
     spec:
       containers:
-      - image: evanw1999/matmul:public
-        name: matmul
+        - image: evanw1999/stress-ng:public
+          imagePullPolicy: Always
+          name: stress-ng
       restartPolicy: Never
       schedulerName: kube-batch

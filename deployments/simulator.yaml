@@ -1,0 +1,23 @@
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: simulator
+  labels:
+    name: simulator
+spec:
+  template:
+    spec:
+      containers:
+      - name: simulator
+        image: evanw1999/simulator:public
+        imagePullPolicy: Always
+        env: 
+        - name: PYTHONUNBUFFERED
+          value: "1"
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+      restartPolicy: Never
+      schedulerName: kube-batch

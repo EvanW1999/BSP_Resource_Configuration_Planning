@@ -5,8 +5,8 @@ from pathlib import Path
 from sklearn.linear_model import LinearRegression
 from statistics import mean
 from typing import Tuple
-from .shared.types import Json
-from .resource_tuner.create_kube_job import kube_create_multiple_jobs, get_job_duration
+from simulation.shared.types import Json
+from simulation.resource_tuner.create_kube_job import kube_create_multiple_jobs, get_job_duration
 
 
 PATH: str = str(Path(__file__).parent.absolute())

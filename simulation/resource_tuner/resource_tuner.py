@@ -1,8 +1,6 @@
-from kubernetes import client, config, watch
 from typing import List
-from .create_kube_job import kube_create_job, get_job_duration
-from .stat_logger import StatLogger
-from ..shared.types import Json
+from simulation.resource_tuner.create_kube_job import kube_create_job, get_job_duration
+from simulation.resource_tuner.stat_logger import StatLogger
 
 CSV_HEADER: List[str] = ["num_iterations", "cpu_shares", "duration"]
 
