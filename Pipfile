@@ -9,8 +9,13 @@ kazoo = "*"
 
 [dev-packages]
 autopep8 = "*"
-keras = "*"
 sklearn = "*"
+pandas = "*"
+mypy = "*"
+matplotlib = "*"
+tensorflow = "==2.4.1"
+keras = "*"
+numpy = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.8.5"

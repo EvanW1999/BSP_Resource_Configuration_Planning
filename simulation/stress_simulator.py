@@ -12,7 +12,7 @@ NUM_TASKS: int = len(JOB_NAMES)
 WORKLOADS: List[int] = [5, 5, 255]
 
 
-def clean_zookeeper(zk: KazooClient):
+def clean_zookeeper(zk: KazooClient) -> None:
     zk._delete_recursive("/barrier")
     for job_name in JOB_NAMES:
         if zk.exists(job_name):
