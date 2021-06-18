@@ -3,14 +3,19 @@ import os
 from kazoo.client import KazooClient
 from kazoo.recipe.barrier import DoubleBarrier
 from kazoo.recipe.queue import LockingQueue
+from simulation.shared.env_vars import EnvVarName
+
+NUM_TASKS: int = int(os.getenv(EnvVarName.NUM_TASKS.value, 1))
+JOB_NAME: str = os.getenv(EnvVarName.JOB_NAME.value, "TestJob")
+OP_NAME: str = os.getenv(EnvVarName.OP_NAME.value, "TestOp")
+WORKLOAD_MODIFIER: int = int(os.getenv(EnvVarName.WORKLOAD_MODIFIER.value, 10))
+NUM_INSTANCES: int = int(os.getenv(EnvVarName.NUM_INSTANCES.value, 0))
+ZOOKEEPER_CLIENT_ENDPOINT: str = os.getenv(
+    EnvVarName.ZOOKEEPER_CLIENT_ENDPOINT.value, "zookeeper:2181")
+BARRIER_PATH: str = os.getenv(EnvVarName.BARRIER_PATH.value, "/barrier")
 
 
-NUM_TASKS: int = int(os.getenv("NUM_TASKS", 1))
-JOB_NAME: str = os.getenv("JOB_NAME", "matrix")
-OP_NAME: str = os.getenv("OP_NAME", "cpu-ops")
-
-ZOOKEEPER_CLIENT_ENDPOINT: str = "zookeeper:2181"  # if using dns
-BARRIER_PATH: str = "/barrier"
+STRESS_NG_COMMAND: str = "stress-ng"
 
 
 def main() -> None:
@@ -39,7 +44,7 @@ def main() -> None:
         zk_barrier.enter()
         print(f"Starting with workload: {workload}")
         subprocess.check_output(
-            ["stress-ng", f"--{JOB_NAME}", "0", f"--{OP_NAME}", str(20000 * workload)])
+            [STRESS_NG_COMMAND, f"--{JOB_NAME}", str(NUM_INSTANCES), OP_NAME, str(WORKLOAD_MODIFIER * workload)])
         zk_barrier.leave()
 
 

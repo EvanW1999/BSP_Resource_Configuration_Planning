@@ -1,12 +1,10 @@
 import csv
 from typing import TextIO, List, Union
-from pathlib import Path
 
 
 class StatLogger():
-    def __init__(self, file_name: str):
-        path: str = str(Path(__file__).parent.absolute())
-        self.csv_file: TextIO = open(path + file_name, "w+")
+    def __init__(self, file_path: str):
+        self.csv_file: TextIO = open(file_path, "w+")
         self.csv_writer: csv.writer = csv.writer(self.csv_file)
 
     def write_header(self, headers: List[str]):

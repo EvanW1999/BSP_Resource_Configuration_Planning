@@ -3,4 +3,4 @@ kind: PodGroup
 metadata:
   name: qj-1
 spec:
-  minMember: 2
+  minMember: 1

@@ -1,0 +1,28 @@
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: persistent-volume
+  labels:
+    type: local
+spec:
+  storageClassName: pv-demo 
+  capacity:
+    storage: 100Mi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/mnt/persistent-volume"
+
+---
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: persistent-volumeclaim
+spec:
+  storageClassName: pv-demo 
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Mi

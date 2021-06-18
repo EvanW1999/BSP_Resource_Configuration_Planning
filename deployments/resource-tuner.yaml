@@ -1,17 +1,24 @@
----
+--- 
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: simulator
+  name: resource-tuner
   labels:
-    name: simulator
+    name: resource-tuner
 spec:
   template:
     spec:
+      volumes:
+      - name: resource-tuner-pv
+        persistentVolumeClaim:
+          claimName: persistent-volumeclaim
       containers:
-      - name: simulator
-        image: evanw1999/simulator:public
+      - name: resource-tuner
+        image: evanw1999/resource-tuner:public
         imagePullPolicy: Always
+        volumeMounts:
+          - mountPath: "/user/share"
+            name: resource-tuner-pv
         env: 
         - name: PYTHONUNBUFFERED
           value: "1"

@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 kubernetes = "*"
 kazoo = "*"
+configobj = "*"
 
 [dev-packages]
 autopep8 = "*"

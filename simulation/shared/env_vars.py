@@ -1,0 +1,13 @@
+import os
+from enum import Enum
+
+
+class EnvVarName(Enum):
+    NUM_TASKS: str = "NUM_TASKS"
+    JOB_NAME: str = "JOB_NAME"
+    OP_NAME: str = "OP_NAME"
+    WORKLOAD_MODIFIER: str = "WORKLOAD_MODIFIER"
+    PYTHONUNBUFFERED: str = "PYTHONUNBUFFERED"
+    NUM_INSTANCES: str = "NUM_INSTANCES"
+    ZOOKEEPER_CLIENT_ENDPOINT: str = "ZOOKEEPER_CLIENT_ENDPOINT"
+    BARRIER_PATH: str = "BARRIER_PATH"

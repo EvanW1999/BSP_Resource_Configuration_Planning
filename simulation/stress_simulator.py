@@ -1,22 +1,15 @@
 from kazoo.client import KazooClient
 from kazoo.recipe.queue import LockingQueue
 from kazoo.recipe.barrier import DoubleBarrier
-from simulation.resource_tuner.create_kube_job import kube_create_job, kube_update_job, kube_delete_job
+from simulation.shared.create_kube_job import kube_create_job, kube_update_job, kube_delete_job
+from simulation.shared.zookeeper import reset_zookeeper
+from simulation.config.config import ZOOKEEPER_CLIENT_ENDPOINT, ZOOKEEPER_BARRIER_PATH
 from typing import Dict, List
 
 
-ZOOKEEPER_CLIENT_ENDPOINT: str = "zookeeper:2181"
-BARRIER_PATH: str = "/barrier"
 JOB_NAMES: List[str] = ["matrix", "vecmath"]
 NUM_TASKS: int = len(JOB_NAMES)
 WORKLOADS: List[int] = [5, 5, 255]
-
-
-def clean_zookeeper(zk: KazooClient) -> None:
-    zk._delete_recursive("/barrier")
-    for job_name in JOB_NAMES:
-        if zk.exists(job_name):
-            zk._delete_recursive(f"/{job_name}")
 
 
 def main() -> None:
@@ -31,7 +24,8 @@ def main() -> None:
 
     print(zk.get_children("/"))
 
-    zk_barrier: DoubleBarrier = DoubleBarrier(zk, BARRIER_PATH, NUM_TASKS + 1)
+    zk_barrier: DoubleBarrier = DoubleBarrier(
+        zk, ZOOKEEPER_BARRIER_PATH, NUM_TASKS + 1)
 
     job_name: str
     zk_queues: Dict[str, LockingQueue] = {}
@@ -63,7 +57,7 @@ def main() -> None:
     for job_name in JOB_NAMES:
         kube_delete_job(job_name)
     print("Jobs Finished")
-    clean_zookeeper(zk)
+    reset_zookeeper(zk, WORKLOADS)
 
 
 if __name__ == "__main__":
