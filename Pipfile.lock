@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "82acad57159d5ccd28ea8f0df7c3e8ae9bbfcca38e87e05efd25606550ff6a64"
+            "sha256": "7fb28cd59d7f6895f2b4f09c6361d23099dcde40b3784bc00b718835ea264257"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -688,6 +688,14 @@
             ],
             "version": "==2.7.0"
         },
+        "pydocstyle": {
+            "hashes": [
+                "sha256:1d41b7c459ba0ee6c345f2eb9ae827cab14a7533a88c5c6f7e94923f72df92dc",
+                "sha256:6987826d6775056839940041beef5c08cc7e3d71d63149b48e36727f70144dc4"
+            ],
+            "index": "pypi",
+            "version": "==6.1.1"
+        },
         "pyparsing": {
             "hashes": [
                 "sha256:c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1",
@@ -826,6 +834,7 @@
                 "sha256:f68eb46b86b2c246af99fcaa6f6e37c7a7a413e1084a794990b877f2ff71f7b6",
                 "sha256:fdf606341cd798530b05705c87779606fcdfaf768a8129c348ea94441da15b04"
             ],
+            "index": "pypi",
             "version": "==1.6.3"
         },
         "six": {
@@ -841,6 +850,13 @@
             ],
             "index": "pypi",
             "version": "==0.0"
+        },
+        "snowballstemmer": {
+            "hashes": [
+                "sha256:b51b447bea85f9968c13b650126a888aabd4cb4463fca868ec596826325dedc2",
+                "sha256:e997baa4f2e9139951b6f4c631bad912dfd3c792467e2f03d7239464af90e914"
+            ],
+            "version": "==2.1.0"
         },
         "tensorboard": {
             "hashes": [

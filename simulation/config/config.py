@@ -2,10 +2,10 @@ from configobj import ConfigObj, Section
 from pathlib import Path
 
 
-PATH: str = str(Path(__file__).parent.absolute())
+SIMULATION_DIR: str = str(Path(__file__).parent.parent.absolute())
 
 
-CONFIG: ConfigObj = ConfigObj(f"{PATH}/config.ini")
+CONFIG: ConfigObj = ConfigObj(f"{SIMULATION_DIR}/config/config.ini")
 
 
 # Zookeeper config variables
@@ -14,12 +14,13 @@ ZOOKEEPER_CLIENT_ENDPOINT: str = ZOOKEEPER_SECTION["client_endpoint"]
 ZOOKEEPER_BARRIER_PATH: str = ZOOKEEPER_SECTION["barrier_path"]
 
 # Resource tuner config variables
-RESOURCE_TUNER_SECTION: Section = CONFIG["resource_tuner"]
-TUNER_MIN_SHARES: int = RESOURCE_TUNER_SECTION.as_int("min_shares")
-TUNER_MAX_SHARES: int = RESOURCE_TUNER_SECTION.as_int("max_shares")
-TUNER_SHARE_INCREMENT: int = RESOURCE_TUNER_SECTION.as_int("share_increment")
-TUNER_TRIES: int = RESOURCE_TUNER_SECTION.as_int("num_tries")
-TUNER_OUTPUT_PATH: str = RESOURCE_TUNER_SECTION["output_path"]
+WORKLOAD_PROFILER_SECTION: Section = CONFIG["workload_profiler"]
+PROFILER_MIN_SHARES: int = WORKLOAD_PROFILER_SECTION.as_int("min_shares")
+PROFILER_MAX_SHARES: int = WORKLOAD_PROFILER_SECTION.as_int("max_shares")
+PROFILER_SHARE_INCREMENT: int = WORKLOAD_PROFILER_SECTION.as_int(
+    "share_increment")
+PROFILER_TRIES: int = WORKLOAD_PROFILER_SECTION.as_int("num_tries")
+PROFILER_OUTPUT_PATH: str = WORKLOAD_PROFILER_SECTION["output_path"]
 
 # Simulation config variables
 STRESS_NG_SECTION: Section = CONFIG["stress-ng"]
@@ -29,3 +30,13 @@ SIMULATION_WORKLOAD_INCREMENT: int = STRESS_NG_SECTION.as_int(
     "workload_increment")
 SIMULATION_TERMINAL_WORKLOAD: int = STRESS_NG_SECTION.as_int(
     "terminal_workload")
+
+# Gang scheduling config variables
+GANG_SCHEDULING_SECTION: Section = CONFIG["gang-scheduling"]
+GANG_SCHEDULING_STARTING_SHARES: int = GANG_SCHEDULING_SECTION.as_int(
+    "starting_shares")
+GANG_SCHEDULING_MAX_SHARES: int = GANG_SCHEDULING_SECTION.as_int("max_shares")
+GANG_SCHEDULING_SHARE_INCREMENT: int = GANG_SCHEDULING_SECTION.as_int(
+    "share_increment")
+GANG_SCHEDULING_TOTAL_SHARES: int = GANG_SCHEDULING_SECTION.as_int(
+    "total_shares")

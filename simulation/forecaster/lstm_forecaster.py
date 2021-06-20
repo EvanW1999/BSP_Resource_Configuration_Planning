@@ -5,7 +5,7 @@ from keras.layers import LSTM, Dense
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error
 from pathlib import Path
-from typing import List, Tuple
+from typing import List, Tuple, Dict
 from math import sqrt
 import matplotlib.pyplot as plt
 
@@ -180,7 +180,7 @@ def inverse_transform(series: pandas.DataFrame, forecasts: numpy.ndarray, scaler
         forecast: numpy.ndarray = numpy.array(forecasts[i])
         forecast = forecast.reshape(1, len(forecast))
         # invert scaling
-        inv_scale: List[float] = scaler.inverse_transform(forecast)
+        inv_scale: numpy.ndarray = scaler.inverse_transform(forecast)
         inv_scale = inv_scale[0, :]
         # invert differencing
         index: int = len(series) - n_test + i - 1
@@ -233,16 +233,28 @@ def forecast_workload(series_data: Series) -> None:
         series_df, actual, scaler, n_test + n_seq - 1)
     evaluate_forecasts(actual, forecasts, n_seq)
 
-    actual: numpy.ndarray = numpy.reshape(actual, (n_test, n_seq))
-    forecasts: numpy.ndarray = numpy.reshape(forecasts, (n_test, n_seq))
+    actual = numpy.reshape(actual, (n_test, n_seq))
+    forecasts = numpy.reshape(forecasts, (n_test, n_seq))
 
     save_results(series_data.file_name, actual, forecasts)
 
 
-def forecast_workloads() -> Series:
+def forecast_workloads() -> None:
     workload: Workload
     for workload in WORKLOADS:
         forecast_workload(workload.time_series)
+
+
+def get_predictions_dict(workloads: List[Workload]) -> Dict[str, numpy.ndarray]:
+    predictions: Dict[str, numpy.ndarray] = {}
+    for workload in workloads:
+        forecasts_file = f"{PATH}/forecasts/{workload.time_series.file_name[:-4]}_forecasts.csv"
+        workload_predictions: numpy.ndarray = pandas.read_csv(
+            forecasts_file, dtype="float32").values
+        scaler: MinMaxScaler = MinMaxScaler(feature_range=(5, 30))
+        predictions[workload.task.task_name] = scaler.fit_transform(
+            workload_predictions)
+    return predictions
 
 
 def main():

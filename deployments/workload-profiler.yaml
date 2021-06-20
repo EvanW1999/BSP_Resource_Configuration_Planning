@@ -2,23 +2,23 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: resource-tuner
+  name: workload-profiler
   labels:
-    name: resource-tuner
+    name: workload-profiler
 spec:
   template:
     spec:
       volumes:
-      - name: resource-tuner-pv
+      - name: workload-profiler-pv
         persistentVolumeClaim:
           claimName: persistent-volumeclaim
       containers:
-      - name: resource-tuner
-        image: evanw1999/resource-tuner:public
+      - name: workload-profiler
+        image: evanw1999/workload-profiler:public
         imagePullPolicy: Always
         volumeMounts:
-          - mountPath: "/user/share"
-            name: resource-tuner-pv
+          - mountPath: "/user/home/simulation/workload_profiler/results/"
+            name: workload-profiler-pv
         env: 
         - name: PYTHONUNBUFFERED
           value: "1"

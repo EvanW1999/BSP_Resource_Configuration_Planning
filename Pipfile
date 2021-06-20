@@ -17,6 +17,8 @@ matplotlib = "*"
 tensorflow = "==2.4.1"
 keras = "*"
 numpy = "*"
+pydocstyle = "*"
+scipy = "*"
 
 [requires]
 python_version = "3.8.5"

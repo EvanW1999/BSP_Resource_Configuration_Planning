@@ -8,4 +8,4 @@ COPY ./Pipfile ./Pipfile.lock ./
 COPY ./simulation ./simulation
 RUN pipenv install --system --deploy
 ENV PYTHONPATH="$PYTHONPATH:/user/home"
-CMD ["python", "simulation/resource_tuner/resource_tuner.py"]
+CMD ["python", "simulation/workload_profiler/workload_profiler.py"]

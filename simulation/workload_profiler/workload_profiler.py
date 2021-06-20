@@ -6,18 +6,22 @@ from typing import List
 import time
 from simulation.shared.create_kube_job import kube_create_stress_job, kube_delete_job
 from simulation.shared.zookeeper import reset_zookeeper
-from simulation.resource_tuner.stat_logger import StatLogger
-from simulation.config.config import (ZOOKEEPER_CLIENT_ENDPOINT, ZOOKEEPER_BARRIER_PATH, TUNER_MIN_SHARES, TUNER_MAX_SHARES,
-                                      TUNER_TRIES, TUNER_SHARE_INCREMENT, SIMULATION_MIN_WORKLOAD, SIMULATION_MAX_WORKLOAD,
-                                      SIMULATION_WORKLOAD_INCREMENT, SIMULATION_TERMINAL_WORKLOAD, TUNER_OUTPUT_PATH)
+from simulation.workload_profiler.stat_logger import StatLogger
+from simulation.config.config import (ZOOKEEPER_CLIENT_ENDPOINT, ZOOKEEPER_BARRIER_PATH, PROFILER_MIN_SHARES, PROFILER_MAX_SHARES,
+                                      PROFILER_TRIES, PROFILER_SHARE_INCREMENT, SIMULATION_MIN_WORKLOAD, SIMULATION_MAX_WORKLOAD,
+                                      SIMULATION_WORKLOAD_INCREMENT, SIMULATION_TERMINAL_WORKLOAD, PROFILER_OUTPUT_PATH, SIMULATION_DIR)
 
-CSV_HEADER: List[str] = ["task", "num_iterations", "cpu_shares", "duration"]
+CSV_HEADER: List[str] = ["task", "workload_size", "cpu_shares", "duration"]
 NUM_TASKS_TUNING: int = 1
 
 
-class ResourceTuner():
+class WorkloadProfiler:
+    """Profiles runtimes for Workloads under various inputs and resource configurations
+    """
+
     def __init__(self):
-        self.stat_logger: StatLogger = StatLogger(TUNER_OUTPUT_PATH)
+        self.stat_logger: StatLogger = StatLogger(
+            SIMULATION_DIR + PROFILER_OUTPUT_PATH)
         self.stat_logger.write_header(CSV_HEADER)
         self.zk: KazooClient = KazooClient(hosts=ZOOKEEPER_CLIENT_ENDPOINT)
         self.barrier: DoubleBarrier = DoubleBarrier(
@@ -31,13 +35,13 @@ class ResourceTuner():
 
     def time_workload(self, queue: LockingQueue, workload_size: int) -> float:
         total_duration: float = 0
-        for _ in range(TUNER_TRIES):
+        for _ in range(PROFILER_TRIES):
             queue.put(bytes([workload_size]))
             self.barrier.enter()
             start: float = time.time()
             self.barrier.leave()
             total_duration += time.time() - start
-        return total_duration / TUNER_TRIES
+        return total_duration / PROFILER_TRIES
 
     def profile_cpu_configuration(self, cpu_shares: int, task: Task) -> None:
 
@@ -62,14 +66,14 @@ class ResourceTuner():
         workload: Workload
         cpu_shares: int
         for workload in workloads:
-            for cpu_shares in range(TUNER_MIN_SHARES, TUNER_MAX_SHARES, TUNER_SHARE_INCREMENT):
+            for cpu_shares in range(PROFILER_MIN_SHARES, PROFILER_MAX_SHARES, PROFILER_SHARE_INCREMENT):
                 self.profile_cpu_configuration(cpu_shares, workload.task)
         reset_zookeeper(self.zk, workloads)
         self.stat_logger.close_file()
 
 
 def main():
-    resource_tuner: ResourceTuner = ResourceTuner()
+    resource_tuner: WorkloadProfiler = WorkloadProfiler()
     resource_tuner.profile_resource_configurations(WORKLOADS)
 
 

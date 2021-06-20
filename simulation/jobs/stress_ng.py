@@ -44,7 +44,7 @@ def main() -> None:
         zk_barrier.enter()
         print(f"Starting with workload: {workload}")
         subprocess.check_output(
-            [STRESS_NG_COMMAND, f"--{JOB_NAME}", str(NUM_INSTANCES), OP_NAME, str(WORKLOAD_MODIFIER * workload)])
+            [STRESS_NG_COMMAND, "--metrics", f"--{JOB_NAME}", str(NUM_INSTANCES), OP_NAME, str(WORKLOAD_MODIFIER * workload)])
         zk_barrier.leave()
 
 
