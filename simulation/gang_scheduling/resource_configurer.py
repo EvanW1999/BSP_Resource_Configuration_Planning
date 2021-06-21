@@ -1,18 +1,29 @@
+import simulation
 import pandas
 import numpy
 from scipy import interpolate
-from typing import Dict, List, NamedTuple
+from dataclasses import dataclass
+from typing import Dict, List
 
 from simulation.shared.workloads import Workload, WORKLOADS
 from simulation.forecaster.lstm_forecaster import get_predictions_dict
-from simulation.config.config import GANG_SCHEDULING_SHARE_INCREMENT, GANG_SCHEDULING_STARTING_SHARES, GANG_SCHEDULING_TOTAL_SHARES, PROFILER_OUTPUT_PATH, SIMULATION_DIR
+from simulation.config.config import (GANG_SCHEDULING_SHARE_INCREMENT, GANG_SCHEDULING_STARTING_SHARES,
+                                      GANG_SCHEDULING_TOTAL_SHARES, PROFILER_OUTPUT_PATH, SIMULATION_DIR)
 
 
-class RunResult(NamedTuple):
+@dataclass(frozen=True)
+class RunResult:
     workload: Workload
     runtime: float
     workload_size: int
     cpu_shares: int
+
+
+@dataclass(frozen=True)
+class ConfigurationWindow:
+    simulation_time_step: int
+    window_size: int
+    starting_prediction: int = 0
 
 
 class ResourceConfigurer:
@@ -36,12 +47,13 @@ class ResourceConfigurer:
                 workload_values[:, 3].astype("float64"))
         return workload_models
 
-    def get_slowest_job(self, resource_configuration: Dict[str, int], timestep: int, forecast_step: int) -> RunResult:
+    def get_slowest_job(self, resource_configuration: Dict[str, int], configuration_window: ConfigurationWindow, forecast_step: int) -> RunResult:
         results: List[RunResult] = []
 
         for workload in self.workloads:
             workload_model: interpolate.interp2d = self.workload_models[workload.task.task_name]
-            workload_size: int = self.predictions[workload.task.task_name][timestep][forecast_step]
+            workload_size: int = self.predictions[workload.task.task_name][
+                configuration_window.simulation_time_step][configuration_window.starting_prediction + forecast_step]
             cpu_shares: int = resource_configuration[workload.task.task_name]
 
             duration: float = workload_model(workload_size, cpu_shares)
@@ -60,38 +72,41 @@ class ResourceConfigurer:
             improvements[job.workload.task.task_name] += job.runtime - new_runtime
         return min(improvements, key=improvements.get)  # type: ignore
 
-    def increment_configuration(self, resource_configuration: Dict[str, int], timestep: int, configuration_window: int) -> None:
+    def increment_configuration(self, resource_configuration: Dict[str, int], configuration_window: ConfigurationWindow) -> None:
 
         forecast_step: int
         slowest_jobs: List[RunResult] = []
-        for forecast_step in range(configuration_window):
+        for forecast_step in range(configuration_window.window_size):
             slowest_jobs.append(self.get_slowest_job(
-                resource_configuration, timestep, forecast_step))
+                resource_configuration, configuration_window, forecast_step))
         job_to_increment: str = self.find_largest_improvement(slowest_jobs)
         resource_configuration[job_to_increment] += GANG_SCHEDULING_SHARE_INCREMENT
 
-    def calculate_resource_configurations(self, timestep: int, configuration_window: int) -> Dict[str, int]:
+    def calculate_resource_configurations(self, configuration_window: ConfigurationWindow) -> Dict[str, int]:
         resource_configuration: Dict[str, int] = {
             workload.task.task_name: GANG_SCHEDULING_STARTING_SHARES for workload in self.workloads}
 
-        print(GANG_SCHEDULING_STARTING_SHARES * len(self.workloads))
-        print(GANG_SCHEDULING_TOTAL_SHARES)
         for _ in range(GANG_SCHEDULING_STARTING_SHARES * len(self.workloads),
                        GANG_SCHEDULING_TOTAL_SHARES, GANG_SCHEDULING_SHARE_INCREMENT):
             self.increment_configuration(
-                resource_configuration=resource_configuration, timestep=timestep, configuration_window=configuration_window)
+                resource_configuration=resource_configuration, configuration_window=configuration_window)
         return resource_configuration
+
+    def calculate_estimated_runtime(self, resource_configuration: Dict[str, int], configuration_window: ConfigurationWindow) -> float:
+        total_runtime: float = 0
+        forecast_step: int
+        for forecast_step in range(configuration_window.window_size):
+            total_runtime += self.get_slowest_job(resource_configuration=resource_configuration,
+                                                  configuration_window=configuration_window, forecast_step=forecast_step).runtime
+        return total_runtime
 
 
 def main():
-    a: Dict[str, int] = {"a": 1, "b": 2, "c": 3}
     predictions: Dict[str, numpy.ndarray] = get_predictions_dict(WORKLOADS)
     resource_configurer: ResourceConfigurer = ResourceConfigurer(
         WORKLOADS, predictions)
-    print(resource_configurer.calculate_resource_configurations(0, 1))
-    # print(min(a, key=a.get))
-    # print(SIMULATION_DIR)
-    # print(PROFILER_OUTPUT_PATH)
+    print(resource_configurer.calculate_resource_configurations(ConfigurationWindow(
+        simulation_time_step=0, window_size=10, starting_prediction=0)))
 
 
 if __name__ == "__main__":

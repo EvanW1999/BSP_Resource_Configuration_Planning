@@ -22,6 +22,10 @@ PROFILER_SHARE_INCREMENT: int = WORKLOAD_PROFILER_SECTION.as_int(
 PROFILER_TRIES: int = WORKLOAD_PROFILER_SECTION.as_int("num_tries")
 PROFILER_OUTPUT_PATH: str = WORKLOAD_PROFILER_SECTION["output_path"]
 
+# Forecasting config variables
+FORECASTER_SECTION: Section = CONFIG["forecaster"]
+FORECASTER_WINDOW_SIZE: int = FORECASTER_SECTION.as_int("window_size")
+
 # Simulation config variables
 STRESS_NG_SECTION: Section = CONFIG["stress-ng"]
 SIMULATION_MIN_WORKLOAD: int = STRESS_NG_SECTION.as_int("min_workload")
@@ -40,3 +44,11 @@ GANG_SCHEDULING_SHARE_INCREMENT: int = GANG_SCHEDULING_SECTION.as_int(
     "share_increment")
 GANG_SCHEDULING_TOTAL_SHARES: int = GANG_SCHEDULING_SECTION.as_int(
     "total_shares")
+GANG_SCHEDULING_WINDOW_SIZE: int = GANG_SCHEDULING_SECTION.as_int(
+    "window_size")
+GANG_SCHEDULING_CHECKPOINT_PENALTY: int = GANG_SCHEDULING_SECTION.as_int(
+    "checkpoint_penalty"
+)
+GANG_SCHEDULING_SIMULATION_LENGTH: int = GANG_SCHEDULING_SECTION.as_int(
+    "simulation_length"
+)

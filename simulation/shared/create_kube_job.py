@@ -69,6 +69,7 @@ def get_job_duration() -> int:
             api_instance.delete_namespaced_job(
                 "matrix", DEFAULT_NAMESPACE, propagation_policy="Background")
             return duration
+    return -1
 
 
 def get_available_resources():

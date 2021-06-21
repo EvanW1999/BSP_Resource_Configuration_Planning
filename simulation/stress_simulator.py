@@ -57,7 +57,6 @@ def main() -> None:
     for job_name in JOB_NAMES:
         kube_delete_job(job_name)
     print("Jobs Finished")
-    reset_zookeeper(zk, WORKLOADS)
 
 
 if __name__ == "__main__":
