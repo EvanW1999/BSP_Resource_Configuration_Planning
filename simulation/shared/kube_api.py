@@ -1,5 +1,8 @@
+import time
 from kubernetes import client, config, watch
 from typing import List, Dict
+
+from kubernetes.client.exceptions import ApiException
 from simulation.shared.types import Json
 from simulation.shared.env_vars import EnvVarName
 
@@ -43,18 +46,23 @@ def create_stress_body(env_vars: Dict[str, str], cpu_shares: int):
 
 
 def kube_create_stress_job(env_vars: Dict[str, str], cpu_shares: int):
-    api_instance.create_namespaced_job(
-        DEFAULT_NAMESPACE, create_stress_body(env_vars, cpu_shares))
+    try:
+        api_instance.create_namespaced_job(
+            DEFAULT_NAMESPACE, create_stress_body(env_vars, cpu_shares))
+    except ApiException as e:
+        time.sleep(20)
+        # print(e)
+        kube_create_stress_job(env_vars, cpu_shares)
 
 
-def kube_update_job(env_vars: Dict[str, str], cpu_shares: int):
+def kube_update_stress_job(env_vars: Dict[str, str], cpu_shares: int):
     kube_delete_job(env_vars[EnvVarName.JOB_NAME.value])
     kube_create_stress_job(env_vars, cpu_shares)
 
 
 def kube_delete_job(job_name: str):
     api_instance.delete_namespaced_job(
-        job_name, DEFAULT_NAMESPACE, propagation_policy="Background")
+        job_name, DEFAULT_NAMESPACE, propagation_policy="Foreground")
 
 
 def get_job_duration() -> int:

@@ -37,10 +37,6 @@ def main() -> None:
         print("Job is ready")
         workload: int = int.from_bytes(zk_queue.get(), byteorder="little")
         zk_queue.consume()
-
-        if workload == 255:
-            break
-
         zk_barrier.enter()
         print(f"Starting with workload: {workload}")
         subprocess.check_output(

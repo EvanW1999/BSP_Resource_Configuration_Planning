@@ -9,6 +9,7 @@ from typing import List, Tuple, Dict
 from math import sqrt
 import matplotlib.pyplot as plt
 
+from simulation.config.config import SIMULATION_MIN_WORKLOAD, SIMULATION_MAX_WORKLOAD
 from simulation.shared.workloads import WORKLOADS, Workload, Series
 
 PATH: str = str(Path(__file__).parent.absolute())
@@ -250,11 +251,25 @@ def get_predictions_dict(workloads: List[Workload]) -> Dict[str, numpy.ndarray]:
     for workload in workloads:
         forecasts_file = f"{PATH}/forecasts/{workload.time_series.file_name[:-4]}_forecasts.csv"
         workload_predictions: numpy.ndarray = pandas.read_csv(
-            forecasts_file, dtype="float32").values
+            forecasts_file, dtype="float64").values
         scaler: MinMaxScaler = MinMaxScaler(feature_range=(5, 30))
         predictions[workload.task.task_name] = scaler.fit_transform(
             workload_predictions)
     return predictions
+
+
+def get_actual_dict(workloads: List[Workload]) -> Dict[str, numpy.ndarray]:
+    actual: Dict[str, numpy.ndarray] = {}
+    for workload in workloads:
+        actual_file = f"{PATH}/actual/{workload.time_series.file_name[:-4]}_actual.csv"
+        workload_actual: numpy.ndarray = pandas.read_csv(
+            actual_file, dtype="float64").values
+        scaler: MinMaxScaler = MinMaxScaler(feature_range=(SIMULATION_MIN_WORKLOAD, SIMULATION_MAX_WORKLOAD))
+        actual[workload.task.task_name] = scaler.fit_transform(
+            workload_actual
+        )
+    return actual
+
 
 
 def main():

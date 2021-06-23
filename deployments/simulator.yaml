@@ -19,7 +19,7 @@ spec:
           value: "/user/home"
         resources:
           limits:
-            memory: "128Mi"
+            memory: "4Gi"
             cpu: "500m"
       restartPolicy: Never
       schedulerName: kube-batch

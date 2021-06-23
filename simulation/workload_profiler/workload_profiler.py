@@ -4,12 +4,12 @@ from kazoo.recipe.queue import LockingQueue
 from kazoo.recipe.barrier import DoubleBarrier
 from typing import List
 import time
-from simulation.shared.create_kube_job import kube_create_stress_job, kube_delete_job
+from simulation.shared.kube_api import kube_create_stress_job, kube_delete_job
 from simulation.shared.zookeeper import reset_zookeeper
 from simulation.workload_profiler.stat_logger import StatLogger
 from simulation.config.config import (ZOOKEEPER_CLIENT_ENDPOINT, ZOOKEEPER_BARRIER_PATH, PROFILER_MIN_SHARES, PROFILER_MAX_SHARES,
                                       PROFILER_TRIES, PROFILER_SHARE_INCREMENT, SIMULATION_MIN_WORKLOAD, SIMULATION_MAX_WORKLOAD,
-                                      SIMULATION_WORKLOAD_INCREMENT, SIMULATION_TERMINAL_WORKLOAD, PROFILER_OUTPUT_PATH, SIMULATION_DIR)
+                                      SIMULATION_WORKLOAD_INCREMENT, PROFILER_OUTPUT_PATH, SIMULATION_DIR)
 
 CSV_HEADER: List[str] = ["task", "workload_size", "cpu_shares", "duration"]
 NUM_TASKS_TUNING: int = 1
@@ -30,9 +30,6 @@ class WorkloadProfiler:
         if self.zk.connected:
             print("Resource tuner has connected to Zookeeper")
 
-    def put_terminal_workload(self, queue: LockingQueue) -> None:
-        queue.put(bytes([SIMULATION_TERMINAL_WORKLOAD]))
-
     def time_workload(self, queue: LockingQueue, workload_size: int) -> float:
         total_duration: float = 0
         for _ in range(PROFILER_TRIES):
@@ -52,14 +49,13 @@ class WorkloadProfiler:
         queue: LockingQueue = LockingQueue(self.zk, f"/{task.task_name}")
 
         workload_size: int
-        print(f"Currently timing job {task.task_name}")
+        # print(f"Currently timing job {task.task_name}")
         for workload_size in range(SIMULATION_MIN_WORKLOAD, SIMULATION_MAX_WORKLOAD, SIMULATION_WORKLOAD_INCREMENT):
             duration: float = self.time_workload(queue, workload_size)
             print(
-                f"{workload_size} Workload Size, {cpu_shares} CPU Shares, {duration} Seconds")
+                f"{task.task_name}, {workload_size}, {cpu_shares}, {duration}")
             self.stat_logger.log_statistics(
                 [task.task_name, workload_size, cpu_shares, duration])
-        self.put_terminal_workload(queue)
         kube_delete_job(task.task_name)
 
     def profile_resource_configurations(self, workloads: List[Workload]) -> None:

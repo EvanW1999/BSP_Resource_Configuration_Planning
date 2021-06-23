@@ -32,8 +32,6 @@ SIMULATION_MIN_WORKLOAD: int = STRESS_NG_SECTION.as_int("min_workload")
 SIMULATION_MAX_WORKLOAD: int = STRESS_NG_SECTION.as_int("max_workload")
 SIMULATION_WORKLOAD_INCREMENT: int = STRESS_NG_SECTION.as_int(
     "workload_increment")
-SIMULATION_TERMINAL_WORKLOAD: int = STRESS_NG_SECTION.as_int(
-    "terminal_workload")
 
 # Gang scheduling config variables
 GANG_SCHEDULING_SECTION: Section = CONFIG["gang-scheduling"]

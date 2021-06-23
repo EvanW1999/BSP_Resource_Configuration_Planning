@@ -19,6 +19,9 @@ keras = "*"
 numpy = "*"
 pydocstyle = "*"
 scipy = "*"
+pylint = "*"
+jedi = "*"
+rope = "*"
 
 [requires]
 python_version = "3.8.5"

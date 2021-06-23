@@ -5,7 +5,7 @@ RUN pip install --upgrade pip
 RUN pip install pipenv 
 COPY ./Pipfile ./Pipfile.lock /user/home/
 WORKDIR /user/home/
+RUN pipenv install --system --dev --deploy
 COPY ./simulation ./simulation
-RUN pipenv install --system --deploy
 ENV PYTHONPATH="$PYTHONPATH:/user/home"
 CMD ["python", "simulation/stress_simulator.py"]

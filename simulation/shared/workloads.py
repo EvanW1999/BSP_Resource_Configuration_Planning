@@ -32,20 +32,20 @@ WORKLOADS: List[Workload] = [
              task=Task(task_name="atomic", workload_param="--atomic-ops", workload_modifier=250000)),
     Workload(time_series=Series(file_name="nyc_taxi_3.csv"),
              task=Task(task_name="bsearch", workload_param="--bsearch-ops", workload_modifier=4000)),
-    Workload(time_series=Series(file_name="exchange-2_cpm_results.csv"),
-             task=Task(task_name="cache", workload_param="--cache-ops", workload_modifier=20)),
+    # Workload(time_series=Series(file_name="exchange-2_cpm_results.csv"),
+    #          task=Task(task_name="cache", workload_param="--cache-ops", workload_modifier=20)),
     Workload(time_series=Series(file_name="elb_request_count_8c0756_1.csv"),
              task=Task(task_name="chmod", workload_param="--chmod-ops", workload_modifier=2000)),
     Workload(time_series=Series(file_name="elb_request_count_8c0756_2.csv"),
              task=Task(task_name="matrix", workload_param="--matrix-ops", workload_modifier=30000)),
     Workload(time_series=Series(file_name="art_daily_small_noise.csv"),
              task=Task(task_name="memcpy", workload_param="--memcpy-ops", workload_modifier=3000))
-    # Workload(time_series=Series(file_name="ambient_temperature_system_failure_1.csv"),
+    # Workload(time_series=Series(file_name="ambient_temperature_system_failure_1.csv")
     #          task=Task(task_name="poll", workload_param="--poll-ops", workload_modifier=10000)),
     # Workload(time_series=Series(file_name="ambient_temperature_system_failure_2.csv"),
     #          task=Task(task_name="vecmath", workload_param="--vecmath-ops", workload_modifier=10000)),
     # Workload(time_series=Series(file_name="exchange-2_cpc_results.csv"),
-    #          task=Task(task_name="zero", workload_param="--zero-ops", workload_modifier=100000))
+    #          task=Task(task_name="zero", workload_param="--zero-ops", workload_modifier=1000000))
 ]
 
 
@@ -58,5 +58,5 @@ def get_env_vars(task: Task, num_tasks: int = len(WORKLOADS)) -> Dict[str, str]:
         EnvVarName.PYTHONUNBUFFERED.value: "1",
         EnvVarName.NUM_INSTANCES.value: "0",
         EnvVarName.ZOOKEEPER_CLIENT_ENDPOINT.value: ZOOKEEPER_CLIENT_ENDPOINT,
-        EnvVarName.BARRIER_PATH.value: ZOOKEEPER_BARRIER_PATH
+        EnvVarName.BARRIER_PATH.value: ZOOKEEPER_BARRIER_PATH,
     }
