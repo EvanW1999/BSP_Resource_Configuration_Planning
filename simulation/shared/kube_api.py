@@ -7,12 +7,10 @@ from simulation.shared.types import Json
 from simulation.shared.env_vars import EnvVarName
 
 DEFAULT_NAMESPACE: str = "default"
-KUBE_BATCH_GROUP_NAME: str = "scheduling.k8s.io/group-name"
-POD_GROUP_NAME: str = "qj-1"
 STRESS_NG_IMAGE: str = "evanw1999/stress-ng:public"
-KUBE_BATCH_SCHEDULER_NAME: str = "kube-batch"
 
-config.load_incluster_config()
+# config.load_incluster_config()
+config.load_kube_config()
 api_instance: client.BatchV1Api = client.BatchV1Api()
 
 
@@ -32,11 +30,9 @@ def create_stress_body(env_vars: Dict[str, str], cpu_shares: int):
         name=job_name, env=job_env_vars, image=STRESS_NG_IMAGE, image_pull_policy="Always")
     container.resources = resource_requirements
     spec = client.V1PodSpec(
-        containers=[container], restart_policy="Never", scheduler_name=KUBE_BATCH_SCHEDULER_NAME)
+        containers=[container], restart_policy="Never")
 
     template = client.V1PodTemplateSpec()
-    template.metadata = client.V1ObjectMeta(
-        annotations={KUBE_BATCH_GROUP_NAME: POD_GROUP_NAME})
     template.spec = spec
 
     body = client.V1Job(api_version="batch/v1", kind="Job")

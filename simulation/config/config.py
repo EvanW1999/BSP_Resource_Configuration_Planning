@@ -24,7 +24,7 @@ PROFILER_OUTPUT_PATH: str = WORKLOAD_PROFILER_SECTION["output_path"]
 
 # Forecasting config variables
 FORECASTER_SECTION: Section = CONFIG["forecaster"]
-FORECASTER_WINDOW_SIZE: int = FORECASTER_SECTION.as_int("window_size")
+FORECASTER_WINDOW_SIZE: int = FORECASTER_SECTION.as_int("forecast_window")
 
 # Simulation config variables
 STRESS_NG_SECTION: Section = CONFIG["stress-ng"]

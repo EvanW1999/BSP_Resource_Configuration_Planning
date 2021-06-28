@@ -69,8 +69,8 @@ class WorkloadProfiler:
 
 
 def main():
-    resource_tuner: WorkloadProfiler = WorkloadProfiler()
-    resource_tuner.profile_resource_configurations(WORKLOADS)
+    workload_profiler: WorkloadProfiler = WorkloadProfiler()
+    workload_profiler.profile_resource_configurations(WORKLOADS)
 
 
 if __name__ == "__main__":

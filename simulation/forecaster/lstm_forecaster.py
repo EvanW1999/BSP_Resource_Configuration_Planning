@@ -9,11 +9,15 @@ from typing import List, Tuple, Dict
 from math import sqrt
 import matplotlib.pyplot as plt
 
-from simulation.config.config import SIMULATION_MIN_WORKLOAD, SIMULATION_MAX_WORKLOAD
+from simulation.config.config import SIMULATION_MIN_WORKLOAD, SIMULATION_MAX_WORKLOAD, FORECASTER_WINDOW_SIZE
 from simulation.shared.workloads import WORKLOADS, Workload, Series
 
 PATH: str = str(Path(__file__).parent.absolute())
-HEADER: str = "t, t+1, t+2, t+3, t+4, t+5, t+6, t+7, t+8, t+9"
+HEADER: str = "t, t+1, t+2, t+3, t+4, t+5, t+6, t+7, t+8, t+9, t+10, t+11, t+12, t+13, t+14, t+15, t+16, t+17, t+18, t+19"
+
+
+STANDARD_SCALER: MinMaxScaler = MinMaxScaler(
+    feature_range=(SIMULATION_MIN_WORKLOAD, SIMULATION_MAX_WORKLOAD))
 
 
 def plot_series_data() -> None:
@@ -24,7 +28,8 @@ def plot_series_data() -> None:
         series_df = series_df.iloc[::5]
         series_df.reset_index().plot(
             x="index", y=workload.time_series.target_col, figsize=(10, 5))
-        plt.savefig(f"{PATH}/figures/{workload.time_series.file_name}.png")
+        plt.savefig(
+            f"{PATH}/figures/{workload.time_series.file_name[:-4]}.png")
 
 
 def get_series_data(series_data: Series) -> pandas.DataFrame:
@@ -195,11 +200,14 @@ def inverse_transform(series: pandas.DataFrame, forecasts: numpy.ndarray, scaler
 
 
 def evaluate_forecasts(test: numpy.ndarray, forecasts: numpy.ndarray, n_seq: int) -> None:
+    scaled_actual = STANDARD_SCALER.fit_transform(test)
+    scaled_predicted = STANDARD_SCALER.fit_transform(forecasts)
     for i in range(n_seq):
-        actual = [row[i] for row in test]
-        predicted = [forecast[i] for forecast in forecasts]
-        rmse = sqrt(mean_squared_error(actual, predicted))
-        print('t+%d RMSE: %f' % ((i+1), rmse))
+        scaled_actual_col = [row[i] for row in scaled_actual]
+        scaled_predicted_col = [row[i] for row in scaled_predicted]
+        rmse_scaled = sqrt(mean_squared_error(
+            scaled_actual_col, scaled_predicted_col))
+        print('t+%d Scaled RMSE: %f' % ((i+1), rmse_scaled))
 
 
 def save_results(file_name: str, actual: numpy.ndarray, forecasts: numpy.ndarray) -> None:
@@ -213,10 +221,11 @@ def save_results(file_name: str, actual: numpy.ndarray, forecasts: numpy.ndarray
 
 
 def forecast_workload(series_data: Series) -> None:
+    print(f"Forecasts for {series_data.file_name}")
     series_df: pandas.DataFrame = get_series_data(series_data)
 
     n_lag: int = 1
-    n_seq: int = 10
+    n_seq: int = FORECASTER_WINDOW_SIZE
     n_test: int = series_data.n_test
 
     scaler: MinMaxScaler
@@ -232,11 +241,11 @@ def forecast_workload(series_data: Series) -> None:
     actual: numpy.ndarray = numpy.array([row[n_lag:] for row in test])
     actual = inverse_transform(
         series_df, actual, scaler, n_test + n_seq - 1)
-    evaluate_forecasts(actual, forecasts, n_seq)
 
     actual = numpy.reshape(actual, (n_test, n_seq))
     forecasts = numpy.reshape(forecasts, (n_test, n_seq))
 
+    evaluate_forecasts(actual, forecasts, n_seq)
     save_results(series_data.file_name, actual, forecasts)
 
 
@@ -252,8 +261,7 @@ def get_predictions_dict(workloads: List[Workload]) -> Dict[str, numpy.ndarray]:
         forecasts_file = f"{PATH}/forecasts/{workload.time_series.file_name[:-4]}_forecasts.csv"
         workload_predictions: numpy.ndarray = pandas.read_csv(
             forecasts_file, dtype="float64").values
-        scaler: MinMaxScaler = MinMaxScaler(feature_range=(5, 30))
-        predictions[workload.task.task_name] = scaler.fit_transform(
+        predictions[workload.task.task_name] = STANDARD_SCALER.fit_transform(
             workload_predictions)
     return predictions
 
@@ -264,12 +272,10 @@ def get_actual_dict(workloads: List[Workload]) -> Dict[str, numpy.ndarray]:
         actual_file = f"{PATH}/actual/{workload.time_series.file_name[:-4]}_actual.csv"
         workload_actual: numpy.ndarray = pandas.read_csv(
             actual_file, dtype="float64").values
-        scaler: MinMaxScaler = MinMaxScaler(feature_range=(SIMULATION_MIN_WORKLOAD, SIMULATION_MAX_WORKLOAD))
-        actual[workload.task.task_name] = scaler.fit_transform(
+        actual[workload.task.task_name] = STANDARD_SCALER.fit_transform(
             workload_actual
         )
     return actual
-
 
 
 def main():

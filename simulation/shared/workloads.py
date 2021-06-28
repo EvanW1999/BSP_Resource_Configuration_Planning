@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+import os
 from typing import List, Dict
 from simulation.shared.env_vars import EnvVarName
 from simulation.config.config import ZOOKEEPER_BARRIER_PATH, ZOOKEEPER_CLIENT_ENDPOINT
@@ -8,8 +9,8 @@ from simulation.config.config import ZOOKEEPER_BARRIER_PATH, ZOOKEEPER_CLIENT_EN
 class Series:
     file_name: str
     target_col: str = "value"
-    n_rows: int = 1500
-    n_test: int = 500
+    n_rows: int = 2000
+    n_test: int = 1000
 
 
 @dataclass(frozen=True)
@@ -27,25 +28,28 @@ class Workload:
 
 WORKLOADS: List[Workload] = [
     Workload(time_series=Series(file_name="nyc_taxi_1.csv"),
-             task=Task(task_name="affinity", workload_param="--affinity-ops", workload_modifier=250000)),
+             task=Task(task_name="affinity", workload_param="--affinity-ops", workload_modifier=400000)),
     Workload(time_series=Series(file_name="nyc_taxi_2.csv"),
-             task=Task(task_name="atomic", workload_param="--atomic-ops", workload_modifier=250000)),
+     task=Task(task_name="atomic", workload_param="--atomic-ops", workload_modifier=250000)),
     Workload(time_series=Series(file_name="nyc_taxi_3.csv"),
              task=Task(task_name="bsearch", workload_param="--bsearch-ops", workload_modifier=4000)),
-    # Workload(time_series=Series(file_name="exchange-2_cpm_results.csv"),
-    #          task=Task(task_name="cache", workload_param="--cache-ops", workload_modifier=20)),
-    Workload(time_series=Series(file_name="elb_request_count_8c0756_1.csv"),
-             task=Task(task_name="chmod", workload_param="--chmod-ops", workload_modifier=2000)),
-    Workload(time_series=Series(file_name="elb_request_count_8c0756_2.csv"),
-             task=Task(task_name="matrix", workload_param="--matrix-ops", workload_modifier=30000)),
+    Workload(time_series=Series(file_name="nyc_taxi_4.csv"),
+             task=Task(task_name="cap", workload_param="--cap-ops", workload_modifier=2000000)),
     Workload(time_series=Series(file_name="art_daily_small_noise.csv"),
-             task=Task(task_name="memcpy", workload_param="--memcpy-ops", workload_modifier=3000))
-    # Workload(time_series=Series(file_name="ambient_temperature_system_failure_1.csv")
-    #          task=Task(task_name="poll", workload_param="--poll-ops", workload_modifier=10000)),
-    # Workload(time_series=Series(file_name="ambient_temperature_system_failure_2.csv"),
-    #          task=Task(task_name="vecmath", workload_param="--vecmath-ops", workload_modifier=10000)),
-    # Workload(time_series=Series(file_name="exchange-2_cpc_results.csv"),
-    #          task=Task(task_name="zero", workload_param="--zero-ops", workload_modifier=1000000))
+             task=Task(task_name="chmod", workload_param="--chmod-ops", workload_modifier=4000)),
+    Workload(time_series=Series(file_name="ambient_temperature_system_failure_1.csv"),
+             task=Task(task_name="memcpy", workload_param="--memcpy-ops", workload_modifier=4000)),
+    Workload(time_series=Series(file_name="ambient_temperature_system_failure_2.csv"),
+             task=Task(task_name="vecmath", workload_param="--vecmath-ops", workload_modifier=10000)),
+    Workload(time_series=Series(file_name="ambient_temperature_system_failure_3.csv"),
+             task=Task(task_name="zero", workload_param="--zero-ops", workload_modifier=1000000))
+
+
+    # Temporarily only test with 8 jobs
+    # Workload(time_series=Series(file_name="ambient_temperature_system_failure_1.csv"),
+    #          task=Task(task_name="matrix", workload_param="--matrix-ops", workload_modifier=40000)),
+    # Workload(time_series=Series(file_name="nyc_taxi_2.csv"),
+    #          task=Task(task_name="atomic", workload_param="--atomic-ops", workload_modifier=250000))
 ]
 
 

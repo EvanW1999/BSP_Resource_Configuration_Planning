@@ -1,0 +1,3348 @@
+Static simulation took 22874.174013093045 total seconds
+Simulating simulation for static window of size 1
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 3900, 'bsearch': 4500, 'cap': 1200, 'chmod': 1000, 'matrix': 4000, 'memcpy': 2900, 'vecmath': 2300, 'zero': 2300}
+85.86734320409413 at timestep 0
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 4100, 'bsearch': 4400, 'cap': 1200, 'chmod': 1000, 'matrix': 3900, 'memcpy': 2800, 'vecmath': 2200, 'zero': 2600}
+87.88565183363221 at timestep 1
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 4000, 'bsearch': 4000, 'cap': 1400, 'chmod': 1000, 'matrix': 3700, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3400}
+91.67530667384216 at timestep 2
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 4000, 'bsearch': 3900, 'cap': 1700, 'chmod': 1000, 'matrix': 3600, 'memcpy': 2500, 'vecmath': 2100, 'zero': 3400}
+91.92402016517276 at timestep 3
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 3900, 'bsearch': 4300, 'cap': 1800, 'chmod': 1000, 'matrix': 3500, 'memcpy': 2700, 'vecmath': 2100, 'zero': 2900}
+90.03521792337392 at timestep 4
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 4100, 'bsearch': 4100, 'cap': 1700, 'chmod': 1000, 'matrix': 3600, 'memcpy': 2700, 'vecmath': 2100, 'zero': 2900}
+91.0976729284896 at timestep 5
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 4000, 'bsearch': 4100, 'cap': 1800, 'chmod': 1000, 'matrix': 3600, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3100}
+93.88672122517028 at timestep 6
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 4100, 'bsearch': 4000, 'cap': 1900, 'chmod': 1000, 'matrix': 3500, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3100}
+94.79377871971123 at timestep 7
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 4000, 'bsearch': 3900, 'cap': 1900, 'chmod': 1100, 'matrix': 3300, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3300}
+93.07478062220186 at timestep 8
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 3800, 'bsearch': 3800, 'cap': 2000, 'chmod': 1100, 'matrix': 3300, 'memcpy': 2700, 'vecmath': 2200, 'zero': 3400}
+90.20582234450943 at timestep 9
+Creating configuration for window size of 1
+{'affinity': 1600, 'atomic': 3700, 'bsearch': 3800, 'cap': 1800, 'chmod': 1200, 'matrix': 3500, 'memcpy': 2900, 'vecmath': 2100, 'zero': 3400}
+85.37638866492865 at timestep 10
+Creating configuration for window size of 1
+{'affinity': 1500, 'atomic': 3600, 'bsearch': 3900, 'cap': 1600, 'chmod': 1400, 'matrix': 3500, 'memcpy': 3000, 'vecmath': 2100, 'zero': 3400}
+85.08319420452548 at timestep 11
+Creating configuration for window size of 1
+{'affinity': 1300, 'atomic': 4300, 'bsearch': 3800, 'cap': 1500, 'chmod': 1400, 'matrix': 3500, 'memcpy': 3000, 'vecmath': 2200, 'zero': 3000}
+83.73983671054783 at timestep 12
+Creating configuration for window size of 1
+{'affinity': 1200, 'atomic': 4600, 'bsearch': 4000, 'cap': 1400, 'chmod': 1400, 'matrix': 3400, 'memcpy': 3000, 'vecmath': 2200, 'zero': 2800}
+83.0705589198582 at timestep 13
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 4700, 'bsearch': 4000, 'cap': 1500, 'chmod': 1400, 'matrix': 3500, 'memcpy': 3100, 'vecmath': 2100, 'zero': 2700}
+81.43562861564371 at timestep 14
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 4800, 'bsearch': 4100, 'cap': 1400, 'chmod': 1500, 'matrix': 3600, 'memcpy': 3100, 'vecmath': 2100, 'zero': 2400}
+80.58001339625231 at timestep 15
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 4800, 'bsearch': 3900, 'cap': 1400, 'chmod': 1500, 'matrix': 3500, 'memcpy': 3200, 'vecmath': 2000, 'zero': 2700}
+79.82986206226866 at timestep 16
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 4800, 'bsearch': 3900, 'cap': 1400, 'chmod': 1500, 'matrix': 3600, 'memcpy': 3300, 'vecmath': 2000, 'zero': 2500}
+77.85189326345052 at timestep 17
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 4900, 'bsearch': 3900, 'cap': 1400, 'chmod': 1500, 'matrix': 3600, 'memcpy': 3300, 'vecmath': 2000, 'zero': 2400}
+76.34376793428979 at timestep 18
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 4900, 'bsearch': 3900, 'cap': 1400, 'chmod': 1400, 'matrix': 3600, 'memcpy': 3400, 'vecmath': 2000, 'zero': 2400}
+75.1025871486776 at timestep 19
+Creating configuration for window size of 1
+{'affinity': 1100, 'atomic': 5000, 'bsearch': 3700, 'cap': 1400, 'chmod': 1400, 'matrix': 3700, 'memcpy': 3500, 'vecmath': 2000, 'zero': 2200}
+73.19906098735075 at timestep 20
+Creating configuration for window size of 1
+{'affinity': 1400, 'atomic': 5000, 'bsearch': 3500, 'cap': 1400, 'chmod': 1400, 'matrix': 3800, 'memcpy': 3400, 'vecmath': 2000, 'zero': 2100}
+73.44846068737007 at timestep 21
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 5100, 'bsearch': 3400, 'cap': 1400, 'chmod': 1200, 'matrix': 3700, 'memcpy': 3500, 'vecmath': 2000, 'zero': 2000}
+72.27962984620811 at timestep 22
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 5000, 'bsearch': 3100, 'cap': 1300, 'chmod': 1200, 'matrix': 3900, 'memcpy': 3400, 'vecmath': 2000, 'zero': 2400}
+73.3811021332713 at timestep 23
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 4900, 'bsearch': 2800, 'cap': 1400, 'chmod': 1100, 'matrix': 3900, 'memcpy': 3300, 'vecmath': 2000, 'zero': 2700}
+75.69651070340116 at timestep 24
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 4500, 'bsearch': 2800, 'cap': 1500, 'chmod': 1200, 'matrix': 3700, 'memcpy': 3500, 'vecmath': 2200, 'zero': 2600}
+73.04374467035215 at timestep 25
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 4100, 'bsearch': 2800, 'cap': 1600, 'chmod': 1100, 'matrix': 3600, 'memcpy': 3400, 'vecmath': 2200, 'zero': 3200}
+75.11487124226274 at timestep 26
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 3800, 'bsearch': 2600, 'cap': 1800, 'chmod': 1200, 'matrix': 3700, 'memcpy': 3400, 'vecmath': 2200, 'zero': 3400}
+73.84058386006967 at timestep 27
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 3500, 'bsearch': 2600, 'cap': 2100, 'chmod': 1100, 'matrix': 3700, 'memcpy': 3500, 'vecmath': 2300, 'zero': 3300}
+73.03597754634878 at timestep 28
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 3400, 'bsearch': 2700, 'cap': 2000, 'chmod': 1200, 'matrix': 3600, 'memcpy': 3500, 'vecmath': 2600, 'zero': 3200}
+71.40189172844863 at timestep 29
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 3200, 'bsearch': 2800, 'cap': 1800, 'chmod': 1100, 'matrix': 3700, 'memcpy': 3600, 'vecmath': 2500, 'zero': 3300}
+69.4420840358184 at timestep 30
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 3000, 'bsearch': 3000, 'cap': 1900, 'chmod': 1100, 'matrix': 3600, 'memcpy': 3700, 'vecmath': 2500, 'zero': 3300}
+67.26407943961432 at timestep 31
+Creating configuration for window size of 1
+{'affinity': 2100, 'atomic': 2400, 'bsearch': 3000, 'cap': 2000, 'chmod': 1100, 'matrix': 3600, 'memcpy': 3700, 'vecmath': 2500, 'zero': 3600}
+66.14617451051258 at timestep 32
+Creating configuration for window size of 1
+{'affinity': 2100, 'atomic': 2100, 'bsearch': 3300, 'cap': 2000, 'chmod': 1100, 'matrix': 3500, 'memcpy': 3900, 'vecmath': 2600, 'zero': 3400}
+63.02364801258882 at timestep 33
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 2500, 'bsearch': 3100, 'cap': 1900, 'chmod': 1100, 'matrix': 3200, 'memcpy': 3800, 'vecmath': 2400, 'zero': 4000}
+64.90501210837799 at timestep 34
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 2200, 'bsearch': 3400, 'cap': 1900, 'chmod': 1300, 'matrix': 3100, 'memcpy': 3800, 'vecmath': 2300, 'zero': 4000}
+64.04063427959386 at timestep 35
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 2600, 'bsearch': 3500, 'cap': 1700, 'chmod': 1400, 'matrix': 3200, 'memcpy': 3900, 'vecmath': 2400, 'zero': 3300}
+63.83456393765315 at timestep 36
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 3300, 'bsearch': 3500, 'cap': 1600, 'chmod': 1300, 'matrix': 3000, 'memcpy': 3600, 'vecmath': 2200, 'zero': 3500}
+69.58862638100315 at timestep 37
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 3700, 'bsearch': 3700, 'cap': 1600, 'chmod': 1400, 'matrix': 3000, 'memcpy': 3600, 'vecmath': 2100, 'zero': 3000}
+70.77549185568473 at timestep 38
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 4200, 'bsearch': 3800, 'cap': 1500, 'chmod': 1200, 'matrix': 2800, 'memcpy': 3500, 'vecmath': 2100, 'zero': 3100}
+72.81016714793488 at timestep 39
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 4700, 'bsearch': 3800, 'cap': 1500, 'chmod': 1100, 'matrix': 2900, 'memcpy': 3400, 'vecmath': 2100, 'zero': 2800}
+74.1817762200139 at timestep 40
+Creating configuration for window size of 1
+{'affinity': 1600, 'atomic': 5000, 'bsearch': 4000, 'cap': 1400, 'chmod': 1200, 'matrix': 2600, 'memcpy': 3400, 'vecmath': 2100, 'zero': 2700}
+73.23479826146908 at timestep 41
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 5000, 'bsearch': 4100, 'cap': 1300, 'chmod': 1200, 'matrix': 2700, 'memcpy': 3500, 'vecmath': 2100, 'zero': 2400}
+72.97430417120967 at timestep 42
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 5000, 'bsearch': 4200, 'cap': 1300, 'chmod': 1200, 'matrix': 2600, 'memcpy': 3500, 'vecmath': 2100, 'zero': 2200}
+72.65929526272984 at timestep 43
+Creating configuration for window size of 1
+{'affinity': 2200, 'atomic': 4900, 'bsearch': 4100, 'cap': 1300, 'chmod': 1200, 'matrix': 2500, 'memcpy': 3500, 'vecmath': 2100, 'zero': 2200}
+71.48084845995152 at timestep 44
+Creating configuration for window size of 1
+{'affinity': 2200, 'atomic': 4700, 'bsearch': 4200, 'cap': 1300, 'chmod': 1200, 'matrix': 2700, 'memcpy': 3500, 'vecmath': 2100, 'zero': 2100}
+73.07407237659685 at timestep 45
+Creating configuration for window size of 1
+{'affinity': 2200, 'atomic': 4500, 'bsearch': 4300, 'cap': 1300, 'chmod': 1200, 'matrix': 2900, 'memcpy': 3600, 'vecmath': 2200, 'zero': 1800}
+70.55343598317721 at timestep 46
+Creating configuration for window size of 1
+{'affinity': 2200, 'atomic': 4700, 'bsearch': 4500, 'cap': 1300, 'chmod': 1000, 'matrix': 2600, 'memcpy': 3400, 'vecmath': 2200, 'zero': 2100}
+73.23479826146908 at timestep 47
+Creating configuration for window size of 1
+{'affinity': 2100, 'atomic': 4300, 'bsearch': 4200, 'cap': 1400, 'chmod': 1000, 'matrix': 2600, 'memcpy': 3400, 'vecmath': 2400, 'zero': 2600}
+74.67350323158684 at timestep 48
+Creating configuration for window size of 1
+{'affinity': 2100, 'atomic': 4700, 'bsearch': 4200, 'cap': 1500, 'chmod': 1000, 'matrix': 2500, 'memcpy': 3300, 'vecmath': 2500, 'zero': 2200}
+75.69651070340116 at timestep 49
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 4400, 'bsearch': 3900, 'cap': 1700, 'chmod': 1000, 'matrix': 2200, 'memcpy': 3200, 'vecmath': 2500, 'zero': 3100}
+78.95735395265072 at timestep 50
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 4000, 'bsearch': 3600, 'cap': 2000, 'chmod': 1000, 'matrix': 2200, 'memcpy': 3000, 'vecmath': 2700, 'zero': 3600}
+84.37950890665564 at timestep 51
+Creating configuration for window size of 1
+{'affinity': 2100, 'atomic': 4300, 'bsearch': 4000, 'cap': 2200, 'chmod': 1000, 'matrix': 2100, 'memcpy': 1900, 'vecmath': 3100, 'zero': 3300}
+77.7466973146979 at timestep 52
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 4400, 'bsearch': 3900, 'cap': 2200, 'chmod': 1000, 'matrix': 2200, 'memcpy': 1900, 'vecmath': 2900, 'zero': 3500}
+78.97025073076463 at timestep 53
+Creating configuration for window size of 1
+{'affinity': 2100, 'atomic': 4800, 'bsearch': 4000, 'cap': 1900, 'chmod': 1000, 'matrix': 2100, 'memcpy': 1900, 'vecmath': 3100, 'zero': 3100}
+75.61447772670823 at timestep 54
+Creating configuration for window size of 1
+{'affinity': 2100, 'atomic': 4700, 'bsearch': 4100, 'cap': 1900, 'chmod': 1000, 'matrix': 2100, 'memcpy': 1800, 'vecmath': 3100, 'zero': 3200}
+77.32157475795276 at timestep 55
+Creating configuration for window size of 1
+{'affinity': 2100, 'atomic': 4500, 'bsearch': 4100, 'cap': 1700, 'chmod': 1000, 'matrix': 2300, 'memcpy': 1900, 'vecmath': 3000, 'zero': 3400}
+74.34930156236247 at timestep 56
+Creating configuration for window size of 1
+{'affinity': 2200, 'atomic': 4100, 'bsearch': 4000, 'cap': 1700, 'chmod': 1000, 'matrix': 2300, 'memcpy': 1900, 'vecmath': 3100, 'zero': 3700}
+73.53871109983166 at timestep 57
+Creating configuration for window size of 1
+{'affinity': 2200, 'atomic': 4100, 'bsearch': 4000, 'cap': 1800, 'chmod': 1000, 'matrix': 2200, 'memcpy': 1800, 'vecmath': 3000, 'zero': 3900}
+71.11881414224166 at timestep 58
+Creating configuration for window size of 1
+{'affinity': 2300, 'atomic': 4000, 'bsearch': 4300, 'cap': 1700, 'chmod': 1000, 'matrix': 2600, 'memcpy': 1700, 'vecmath': 2800, 'zero': 3600}
+70.0539300210978 at timestep 59
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 4800, 'bsearch': 4100, 'cap': 1700, 'chmod': 1100, 'matrix': 2900, 'memcpy': 1600, 'vecmath': 2600, 'zero': 3200}
+72.22038298442752 at timestep 60
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 5000, 'bsearch': 4200, 'cap': 1600, 'chmod': 1000, 'matrix': 3400, 'memcpy': 1500, 'vecmath': 2500, 'zero': 2900}
+74.96936360777845 at timestep 61
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 5000, 'bsearch': 4100, 'cap': 1500, 'chmod': 1100, 'matrix': 3600, 'memcpy': 1500, 'vecmath': 2600, 'zero': 2800}
+73.69760516373897 at timestep 62
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 5200, 'bsearch': 4300, 'cap': 1500, 'chmod': 1000, 'matrix': 3500, 'memcpy': 1500, 'vecmath': 2600, 'zero': 2700}
+70.54762588320354 at timestep 63
+Creating configuration for window size of 1
+{'affinity': 1600, 'atomic': 5300, 'bsearch': 3700, 'cap': 1500, 'chmod': 1000, 'matrix': 3800, 'memcpy': 1500, 'vecmath': 2600, 'zero': 3000}
+69.58241050578724 at timestep 64
+Creating configuration for window size of 1
+{'affinity': 1400, 'atomic': 5200, 'bsearch': 3800, 'cap': 1500, 'chmod': 1000, 'matrix': 3900, 'memcpy': 1500, 'vecmath': 2700, 'zero': 3000}
+70.20725480333698 at timestep 65
+Creating configuration for window size of 1
+{'affinity': 1100, 'atomic': 5600, 'bsearch': 3600, 'cap': 1400, 'chmod': 1100, 'matrix': 4100, 'memcpy': 1600, 'vecmath': 2900, 'zero': 2600}
+67.4181131633929 at timestep 66
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 6000, 'bsearch': 3500, 'cap': 1400, 'chmod': 1100, 'matrix': 4000, 'memcpy': 1600, 'vecmath': 2900, 'zero': 2500}
+66.77285279717628 at timestep 67
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 6300, 'bsearch': 3500, 'cap': 1300, 'chmod': 1100, 'matrix': 4000, 'memcpy': 1600, 'vecmath': 2900, 'zero': 2300}
+64.3664445126979 at timestep 68
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 6300, 'bsearch': 3200, 'cap': 1300, 'chmod': 1000, 'matrix': 4000, 'memcpy': 1600, 'vecmath': 3100, 'zero': 2500}
+64.3664445126979 at timestep 69
+Creating configuration for window size of 1
+{'affinity': 1100, 'atomic': 6300, 'bsearch': 3200, 'cap': 1200, 'chmod': 1000, 'matrix': 4200, 'memcpy': 1600, 'vecmath': 3300, 'zero': 2100}
+65.0114755924666 at timestep 70
+Creating configuration for window size of 1
+{'affinity': 1200, 'atomic': 5700, 'bsearch': 2900, 'cap': 1400, 'chmod': 1000, 'matrix': 4200, 'memcpy': 1500, 'vecmath': 3200, 'zero': 2900}
+67.38846030823407 at timestep 71
+Creating configuration for window size of 1
+{'affinity': 1400, 'atomic': 5300, 'bsearch': 2800, 'cap': 1500, 'chmod': 1000, 'matrix': 4100, 'memcpy': 1500, 'vecmath': 3300, 'zero': 3100}
+69.02539623466416 at timestep 72
+Creating configuration for window size of 1
+{'affinity': 1400, 'atomic': 5200, 'bsearch': 2800, 'cap': 1600, 'chmod': 1000, 'matrix': 4100, 'memcpy': 1400, 'vecmath': 3400, 'zero': 3100}
+69.86021016825165 at timestep 73
+Creating configuration for window size of 1
+{'affinity': 1500, 'atomic': 4900, 'bsearch': 2700, 'cap': 1900, 'chmod': 1000, 'matrix': 3900, 'memcpy': 1400, 'vecmath': 3200, 'zero': 3500}
+75.1025871486776 at timestep 74
+Creating configuration for window size of 1
+{'affinity': 1500, 'atomic': 4800, 'bsearch': 2500, 'cap': 2100, 'chmod': 1000, 'matrix': 3800, 'memcpy': 1300, 'vecmath': 3200, 'zero': 3800}
+77.8288338161483 at timestep 75
+Creating configuration for window size of 1
+{'affinity': 1600, 'atomic': 4800, 'bsearch': 2500, 'cap': 2300, 'chmod': 1000, 'matrix': 3900, 'memcpy': 1300, 'vecmath': 3100, 'zero': 3500}
+77.75566337237224 at timestep 76
+Creating configuration for window size of 1
+{'affinity': 1600, 'atomic': 4700, 'bsearch': 2700, 'cap': 2100, 'chmod': 1000, 'matrix': 3900, 'memcpy': 1400, 'vecmath': 3000, 'zero': 3600}
+76.38267798089828 at timestep 77
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 4300, 'bsearch': 2700, 'cap': 2100, 'chmod': 1300, 'matrix': 4200, 'memcpy': 1300, 'vecmath': 3000, 'zero': 3400}
+81.57900459729007 at timestep 78
+Creating configuration for window size of 1
+{'affinity': 1600, 'atomic': 4000, 'bsearch': 2800, 'cap': 2100, 'chmod': 1300, 'matrix': 4400, 'memcpy': 1300, 'vecmath': 2900, 'zero': 3600}
+82.10366808108553 at timestep 79
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 3700, 'bsearch': 2900, 'cap': 2200, 'chmod': 1300, 'matrix': 4300, 'memcpy': 1300, 'vecmath': 3000, 'zero': 3600}
+83.03026570572553 at timestep 80
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 3400, 'bsearch': 3200, 'cap': 1800, 'chmod': 1500, 'matrix': 4500, 'memcpy': 1300, 'vecmath': 3100, 'zero': 3500}
+81.7161764488965 at timestep 81
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 3100, 'bsearch': 3300, 'cap': 1800, 'chmod': 1500, 'matrix': 4600, 'memcpy': 1300, 'vecmath': 3100, 'zero': 3600}
+79.80841804085273 at timestep 82
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 2100, 'bsearch': 3800, 'cap': 1700, 'chmod': 1700, 'matrix': 4600, 'memcpy': 1400, 'vecmath': 3300, 'zero': 3400}
+71.81346802528533 at timestep 83
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 2100, 'bsearch': 4100, 'cap': 1600, 'chmod': 1800, 'matrix': 4800, 'memcpy': 1500, 'vecmath': 3300, 'zero': 2800}
+68.0760307749367 at timestep 84
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 2100, 'bsearch': 4200, 'cap': 1600, 'chmod': 1900, 'matrix': 4700, 'memcpy': 1500, 'vecmath': 3200, 'zero': 2800}
+68.02970491869108 at timestep 85
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 2100, 'bsearch': 4300, 'cap': 1600, 'chmod': 1800, 'matrix': 4400, 'memcpy': 1400, 'vecmath': 3200, 'zero': 3200}
+69.92859859839506 at timestep 86
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 3000, 'bsearch': 4300, 'cap': 1500, 'chmod': 1800, 'matrix': 4100, 'memcpy': 1400, 'vecmath': 3100, 'zero': 2800}
+71.06329656966054 at timestep 87
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 3200, 'bsearch': 4500, 'cap': 1500, 'chmod': 1800, 'matrix': 4000, 'memcpy': 1400, 'vecmath': 3000, 'zero': 2600}
+71.01278527278222 at timestep 88
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 3600, 'bsearch': 4700, 'cap': 1500, 'chmod': 1600, 'matrix': 3800, 'memcpy': 1400, 'vecmath': 2800, 'zero': 2700}
+72.82805340807543 at timestep 89
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 3800, 'bsearch': 4800, 'cap': 1400, 'chmod': 1600, 'matrix': 3800, 'memcpy': 1400, 'vecmath': 2900, 'zero': 2300}
+70.44285165682415 at timestep 90
+Creating configuration for window size of 1
+{'affinity': 2100, 'atomic': 4100, 'bsearch': 4800, 'cap': 1300, 'chmod': 1600, 'matrix': 3700, 'memcpy': 1400, 'vecmath': 2800, 'zero': 2200}
+72.60895291481047 at timestep 91
+Creating configuration for window size of 1
+{'affinity': 2200, 'atomic': 4000, 'bsearch': 4800, 'cap': 1300, 'chmod': 1600, 'matrix': 3800, 'memcpy': 1400, 'vecmath': 2700, 'zero': 2200}
+73.43525449240639 at timestep 92
+Creating configuration for window size of 1
+{'affinity': 2100, 'atomic': 4600, 'bsearch': 4600, 'cap': 1200, 'chmod': 1500, 'matrix': 3800, 'memcpy': 1400, 'vecmath': 2700, 'zero': 2100}
+73.89285667166166 at timestep 93
+Creating configuration for window size of 1
+{'affinity': 2200, 'atomic': 4300, 'bsearch': 4800, 'cap': 1200, 'chmod': 1500, 'matrix': 4000, 'memcpy': 1400, 'vecmath': 2700, 'zero': 1900}
+73.8606653178866 at timestep 94
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 4600, 'bsearch': 4800, 'cap': 1300, 'chmod': 1400, 'matrix': 4000, 'memcpy': 1300, 'vecmath': 2500, 'zero': 2100}
+78.68294255902003 at timestep 95
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 4300, 'bsearch': 4700, 'cap': 1400, 'chmod': 1200, 'matrix': 4000, 'memcpy': 1300, 'vecmath': 2400, 'zero': 2700}
+80.93502491924293 at timestep 96
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 4700, 'bsearch': 4700, 'cap': 1400, 'chmod': 1100, 'matrix': 4000, 'memcpy': 1300, 'vecmath': 2500, 'zero': 2300}
+78.59946591917512 at timestep 97
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 4500, 'bsearch': 4300, 'cap': 1700, 'chmod': 1100, 'matrix': 3900, 'memcpy': 1200, 'vecmath': 2400, 'zero': 3000}
+84.58989462993922 at timestep 98
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 4400, 'bsearch': 4100, 'cap': 1900, 'chmod': 1100, 'matrix': 3800, 'memcpy': 1200, 'vecmath': 2300, 'zero': 3300}
+86.62888127999068 at timestep 99
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 4500, 'bsearch': 4300, 'cap': 1800, 'chmod': 1200, 'matrix': 3700, 'memcpy': 1200, 'vecmath': 2300, 'zero': 3100}
+86.98844930530043 at timestep 100
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 4500, 'bsearch': 4400, 'cap': 1900, 'chmod': 1300, 'matrix': 3900, 'memcpy': 1200, 'vecmath': 2300, 'zero': 2600}
+85.83114766225225 at timestep 101
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 4300, 'bsearch': 4400, 'cap': 1800, 'chmod': 1400, 'matrix': 3900, 'memcpy': 1200, 'vecmath': 2400, 'zero': 2700}
+86.68976650115788 at timestep 102
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 4400, 'bsearch': 4200, 'cap': 2000, 'chmod': 1500, 'matrix': 3700, 'memcpy': 1100, 'vecmath': 2200, 'zero': 3100}
+92.98513654989304 at timestep 103
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 4400, 'bsearch': 4300, 'cap': 1900, 'chmod': 1500, 'matrix': 3600, 'memcpy': 1100, 'vecmath': 2200, 'zero': 3300}
+94.20385320514114 at timestep 104
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 4500, 'bsearch': 4200, 'cap': 1800, 'chmod': 1500, 'matrix': 3700, 'memcpy': 1100, 'vecmath': 2300, 'zero': 3100}
+90.61837270928 at timestep 105
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 4100, 'bsearch': 4200, 'cap': 1600, 'chmod': 1600, 'matrix': 3900, 'memcpy': 1200, 'vecmath': 2300, 'zero': 3200}
+84.47091220952291 at timestep 106
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 3900, 'bsearch': 4400, 'cap': 1600, 'chmod': 1600, 'matrix': 3800, 'memcpy': 1300, 'vecmath': 2300, 'zero': 3200}
+82.45460591569493 at timestep 107
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 4600, 'bsearch': 4500, 'cap': 1400, 'chmod': 1700, 'matrix': 3800, 'memcpy': 1300, 'vecmath': 2300, 'zero': 2400}
+78.35259049557268 at timestep 108
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 4800, 'bsearch': 4600, 'cap': 1400, 'chmod': 1700, 'matrix': 3700, 'memcpy': 1300, 'vecmath': 2300, 'zero': 2300}
+77.7665070419768 at timestep 109
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 4800, 'bsearch': 4800, 'cap': 1300, 'chmod': 1700, 'matrix': 3700, 'memcpy': 1300, 'vecmath': 2400, 'zero': 2300}
+77.7665070419768 at timestep 110
+Creating configuration for window size of 1
+{'affinity': 1600, 'atomic': 4900, 'bsearch': 4900, 'cap': 1300, 'chmod': 1700, 'matrix': 3500, 'memcpy': 1300, 'vecmath': 2400, 'zero': 2400}
+76.0127029973128 at timestep 111
+Creating configuration for window size of 1
+{'affinity': 1600, 'atomic': 5000, 'bsearch': 4700, 'cap': 1300, 'chmod': 1800, 'matrix': 3500, 'memcpy': 1400, 'vecmath': 2400, 'zero': 2300}
+74.23803176102913 at timestep 112
+Creating configuration for window size of 1
+{'affinity': 1500, 'atomic': 5100, 'bsearch': 4600, 'cap': 1400, 'chmod': 1700, 'matrix': 3400, 'memcpy': 1400, 'vecmath': 2300, 'zero': 2600}
+72.75145309852414 at timestep 113
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 5100, 'bsearch': 4700, 'cap': 1400, 'chmod': 1700, 'matrix': 3600, 'memcpy': 1500, 'vecmath': 2300, 'zero': 2700}
+71.11627166993863 at timestep 114
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 5400, 'bsearch': 4600, 'cap': 1300, 'chmod': 1600, 'matrix': 3700, 'memcpy': 1500, 'vecmath': 2500, 'zero': 2400}
+68.15640674338881 at timestep 115
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 5400, 'bsearch': 4500, 'cap': 1400, 'chmod': 1600, 'matrix': 3700, 'memcpy': 1500, 'vecmath': 2400, 'zero': 2500}
+68.575484219188 at timestep 116
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 5700, 'bsearch': 4300, 'cap': 1300, 'chmod': 1700, 'matrix': 3700, 'memcpy': 1500, 'vecmath': 2600, 'zero': 2200}
+66.19304549423512 at timestep 117
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 5700, 'bsearch': 4300, 'cap': 1200, 'chmod': 1600, 'matrix': 4000, 'memcpy': 1500, 'vecmath': 2600, 'zero': 2100}
+67.21359709969873 at timestep 118
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 5600, 'bsearch': 3900, 'cap': 1400, 'chmod': 1600, 'matrix': 4000, 'memcpy': 1500, 'vecmath': 2500, 'zero': 2500}
+67.4181131633929 at timestep 119
+Creating configuration for window size of 1
+{'affinity': 1100, 'atomic': 5200, 'bsearch': 3800, 'cap': 1500, 'chmod': 1400, 'matrix': 3900, 'memcpy': 1400, 'vecmath': 2400, 'zero': 3300}
+71.06918445776265 at timestep 120
+Creating configuration for window size of 1
+{'affinity': 1300, 'atomic': 5200, 'bsearch': 3600, 'cap': 1600, 'chmod': 1400, 'matrix': 4400, 'memcpy': 1400, 'vecmath': 2500, 'zero': 2600}
+69.79116933798905 at timestep 121
+Creating configuration for window size of 1
+{'affinity': 1400, 'atomic': 5000, 'bsearch': 3400, 'cap': 1700, 'chmod': 1300, 'matrix': 4200, 'memcpy': 1300, 'vecmath': 2400, 'zero': 3300}
+75.04288584732448 at timestep 122
+Creating configuration for window size of 1
+{'affinity': 1400, 'atomic': 4800, 'bsearch': 2800, 'cap': 2200, 'chmod': 1400, 'matrix': 4000, 'memcpy': 1300, 'vecmath': 2300, 'zero': 3800}
+77.7665070419768 at timestep 123
+Creating configuration for window size of 1
+{'affinity': 1600, 'atomic': 5000, 'bsearch': 2800, 'cap': 1900, 'chmod': 1500, 'matrix': 4100, 'memcpy': 1300, 'vecmath': 2500, 'zero': 3300}
+74.48630763535581 at timestep 124
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 4900, 'bsearch': 2800, 'cap': 2000, 'chmod': 1700, 'matrix': 4000, 'memcpy': 1400, 'vecmath': 2500, 'zero': 3000}
+73.977247660504 at timestep 125
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 4600, 'bsearch': 2800, 'cap': 2100, 'chmod': 1700, 'matrix': 4400, 'memcpy': 1300, 'vecmath': 2500, 'zero': 2800}
+75.49807018709207 at timestep 126
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 4300, 'bsearch': 2900, 'cap': 1900, 'chmod': 1700, 'matrix': 4200, 'memcpy': 1300, 'vecmath': 2800, 'zero': 3100}
+75.08007879260987 at timestep 127
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 4000, 'bsearch': 2900, 'cap': 1900, 'chmod': 1800, 'matrix': 4300, 'memcpy': 1300, 'vecmath': 2900, 'zero': 3100}
+74.5267649602011 at timestep 128
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 3700, 'bsearch': 3200, 'cap': 1800, 'chmod': 1800, 'matrix': 4300, 'memcpy': 1300, 'vecmath': 2900, 'zero': 3200}
+74.87713764495201 at timestep 129
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 3700, 'bsearch': 3300, 'cap': 1800, 'chmod': 1800, 'matrix': 4100, 'memcpy': 1400, 'vecmath': 2700, 'zero': 3300}
+72.57045976935888 at timestep 130
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 2500, 'bsearch': 3900, 'cap': 1700, 'chmod': 1900, 'matrix': 4200, 'memcpy': 1500, 'vecmath': 3100, 'zero': 3200}
+67.26830724161132 at timestep 131
+Creating configuration for window size of 1
+{'affinity': 2200, 'atomic': 2000, 'bsearch': 4400, 'cap': 1600, 'chmod': 2000, 'matrix': 4200, 'memcpy': 1500, 'vecmath': 3300, 'zero': 2800}
+63.154683264714485 at timestep 132
+Creating configuration for window size of 1
+{'affinity': 2400, 'atomic': 2200, 'bsearch': 4700, 'cap': 1500, 'chmod': 2000, 'matrix': 4100, 'memcpy': 1500, 'vecmath': 3100, 'zero': 2500}
+63.588849838809516 at timestep 133
+Creating configuration for window size of 1
+{'affinity': 2200, 'atomic': 2500, 'bsearch': 4600, 'cap': 1500, 'chmod': 2000, 'matrix': 4000, 'memcpy': 1500, 'vecmath': 3000, 'zero': 2700}
+64.34850518078746 at timestep 134
+Creating configuration for window size of 1
+{'affinity': 2100, 'atomic': 2700, 'bsearch': 5000, 'cap': 1500, 'chmod': 1900, 'matrix': 4000, 'memcpy': 1500, 'vecmath': 2800, 'zero': 2500}
+65.4177148378251 at timestep 135
+Creating configuration for window size of 1
+{'affinity': 2200, 'atomic': 2900, 'bsearch': 5000, 'cap': 1400, 'chmod': 1900, 'matrix': 3900, 'memcpy': 1500, 'vecmath': 2700, 'zero': 2500}
+65.4177148378251 at timestep 136
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 3600, 'bsearch': 5200, 'cap': 1300, 'chmod': 1900, 'matrix': 3600, 'memcpy': 1500, 'vecmath': 2700, 'zero': 2200}
+66.92052667869721 at timestep 137
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 3900, 'bsearch': 5200, 'cap': 1300, 'chmod': 1900, 'matrix': 3500, 'memcpy': 1500, 'vecmath': 2500, 'zero': 2200}
+67.18343393859281 at timestep 138
+Creating configuration for window size of 1
+{'affinity': 2100, 'atomic': 4200, 'bsearch': 5200, 'cap': 1200, 'chmod': 1900, 'matrix': 3300, 'memcpy': 1500, 'vecmath': 2400, 'zero': 2200}
+67.06584731627518 at timestep 139
+Creating configuration for window size of 1
+{'affinity': 2200, 'atomic': 4100, 'bsearch': 5500, 'cap': 1200, 'chmod': 1800, 'matrix': 3200, 'memcpy': 1500, 'vecmath': 2400, 'zero': 2100}
+67.66452849616608 at timestep 140
+Creating configuration for window size of 1
+{'affinity': 2300, 'atomic': 4700, 'bsearch': 5300, 'cap': 1100, 'chmod': 1900, 'matrix': 2800, 'memcpy': 1500, 'vecmath': 2400, 'zero': 2000}
+66.54089768545617 at timestep 141
+Creating configuration for window size of 1
+{'affinity': 2100, 'atomic': 4400, 'bsearch': 5000, 'cap': 1100, 'chmod': 1700, 'matrix': 2400, 'memcpy': 2900, 'vecmath': 2400, 'zero': 2000}
+71.80766430406139 at timestep 142
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 4800, 'bsearch': 5000, 'cap': 1100, 'chmod': 1700, 'matrix': 2300, 'memcpy': 2700, 'vecmath': 2300, 'zero': 2200}
+76.04940430631744 at timestep 143
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 4400, 'bsearch': 5000, 'cap': 1300, 'chmod': 1600, 'matrix': 2200, 'memcpy': 2800, 'vecmath': 2300, 'zero': 2700}
+78.76858124571746 at timestep 144
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 4700, 'bsearch': 4800, 'cap': 1300, 'chmod': 1500, 'matrix': 2300, 'memcpy': 3100, 'vecmath': 2200, 'zero': 2300}
+78.83255088873065 at timestep 145
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 4500, 'bsearch': 4500, 'cap': 1500, 'chmod': 1500, 'matrix': 2200, 'memcpy': 3000, 'vecmath': 2100, 'zero': 3000}
+81.55054600401866 at timestep 146
+Creating configuration for window size of 1
+{'affinity': 1600, 'atomic': 4500, 'bsearch': 4100, 'cap': 2000, 'chmod': 1400, 'matrix': 2200, 'memcpy': 2800, 'vecmath': 2000, 'zero': 3400}
+89.2643022520622 at timestep 147
+Creating configuration for window size of 1
+{'affinity': 1600, 'atomic': 4300, 'bsearch': 4300, 'cap': 1800, 'chmod': 1500, 'matrix': 2400, 'memcpy': 2900, 'vecmath': 2100, 'zero': 3100}
+86.30566176206857 at timestep 148
+Creating configuration for window size of 1
+{'affinity': 1600, 'atomic': 4300, 'bsearch': 4500, 'cap': 1700, 'chmod': 1500, 'matrix': 2300, 'memcpy': 2900, 'vecmath': 2200, 'zero': 3000}
+86.56070127911823 at timestep 149
+Creating configuration for window size of 1
+{'affinity': 1500, 'atomic': 4300, 'bsearch': 4600, 'cap': 1700, 'chmod': 1600, 'matrix': 2500, 'memcpy': 3000, 'vecmath': 2100, 'zero': 2700}
+84.97342602819954 at timestep 150
+Creating configuration for window size of 1
+{'affinity': 1400, 'atomic': 4400, 'bsearch': 4600, 'cap': 1700, 'chmod': 1600, 'matrix': 2400, 'memcpy': 3000, 'vecmath': 2100, 'zero': 2800}
+85.02423466313206 at timestep 151
+Creating configuration for window size of 1
+{'affinity': 1300, 'atomic': 4200, 'bsearch': 4700, 'cap': 1700, 'chmod': 1600, 'matrix': 2400, 'memcpy': 2900, 'vecmath': 2200, 'zero': 3000}
+85.23516183637491 at timestep 152
+Creating configuration for window size of 1
+{'affinity': 1200, 'atomic': 4300, 'bsearch': 4600, 'cap': 1700, 'chmod': 1600, 'matrix': 2500, 'memcpy': 3000, 'vecmath': 2300, 'zero': 2800}
+83.07692565842173 at timestep 153
+Creating configuration for window size of 1
+{'affinity': 1100, 'atomic': 4300, 'bsearch': 4500, 'cap': 1500, 'chmod': 1600, 'matrix': 2400, 'memcpy': 3100, 'vecmath': 2300, 'zero': 3200}
+81.65141677592982 at timestep 154
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 4300, 'bsearch': 4700, 'cap': 1500, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3300, 'vecmath': 2300, 'zero': 2700}
+78.03801620260293 at timestep 155
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 4600, 'bsearch': 4700, 'cap': 1400, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2200, 'zero': 2700}
+79.76733549997864 at timestep 156
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 4700, 'bsearch': 4800, 'cap': 1400, 'chmod': 1700, 'matrix': 2400, 'memcpy': 3100, 'vecmath': 2100, 'zero': 2800}
+80.58001339625231 at timestep 157
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 4700, 'bsearch': 4900, 'cap': 1400, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2000, 'zero': 2600}
+80.46188312874017 at timestep 158
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 4800, 'bsearch': 4900, 'cap': 1500, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2000, 'zero': 2400}
+78.1550329630303 at timestep 159
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 4700, 'bsearch': 4800, 'cap': 1500, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2100, 'zero': 2500}
+78.73778184410753 at timestep 160
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 4700, 'bsearch': 4900, 'cap': 1400, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3300, 'vecmath': 2100, 'zero': 2400}
+77.63774095920517 at timestep 161
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 4900, 'bsearch': 4900, 'cap': 1200, 'chmod': 1800, 'matrix': 2600, 'memcpy': 3400, 'vecmath': 2100, 'zero': 2100}
+73.66281647749447 at timestep 162
+Creating configuration for window size of 1
+{'affinity': 1000, 'atomic': 4800, 'bsearch': 5000, 'cap': 1100, 'chmod': 1800, 'matrix': 2700, 'memcpy': 3500, 'vecmath': 2000, 'zero': 2100}
+71.31402385492628 at timestep 163
+Creating configuration for window size of 1
+{'affinity': 1200, 'atomic': 4700, 'bsearch': 4800, 'cap': 1200, 'chmod': 1700, 'matrix': 2800, 'memcpy': 3500, 'vecmath': 2100, 'zero': 2000}
+70.80024728133822 at timestep 164
+Creating configuration for window size of 1
+{'affinity': 1400, 'atomic': 4800, 'bsearch': 4500, 'cap': 1000, 'chmod': 1700, 'matrix': 3100, 'memcpy': 3500, 'vecmath': 2100, 'zero': 1900}
+71.28421925167343 at timestep 165
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 4300, 'bsearch': 4600, 'cap': 1100, 'chmod': 1600, 'matrix': 3000, 'memcpy': 3500, 'vecmath': 2200, 'zero': 2000}
+71.23603646497729 at timestep 166
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 4100, 'bsearch': 4200, 'cap': 1300, 'chmod': 1600, 'matrix': 2800, 'memcpy': 3500, 'vecmath': 2200, 'zero': 2600}
+71.25843201070843 at timestep 167
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 3800, 'bsearch': 4000, 'cap': 1400, 'chmod': 1500, 'matrix': 2800, 'memcpy': 3400, 'vecmath': 2200, 'zero': 3000}
+73.23479826146908 at timestep 168
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 3500, 'bsearch': 3800, 'cap': 1500, 'chmod': 1400, 'matrix': 3000, 'memcpy': 3400, 'vecmath': 2300, 'zero': 3200}
+74.05051373136384 at timestep 169
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 2600, 'bsearch': 3700, 'cap': 1800, 'chmod': 1500, 'matrix': 2800, 'memcpy': 3400, 'vecmath': 2500, 'zero': 3700}
+73.23479826146908 at timestep 170
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 2300, 'bsearch': 3100, 'cap': 2400, 'chmod': 1500, 'matrix': 2800, 'memcpy': 3500, 'vecmath': 2500, 'zero': 4000}
+72.539076659417 at timestep 171
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 2000, 'bsearch': 2900, 'cap': 2400, 'chmod': 1700, 'matrix': 3000, 'memcpy': 3500, 'vecmath': 2700, 'zero': 3900}
+72.90186316160477 at timestep 172
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 1900, 'bsearch': 3000, 'cap': 2400, 'chmod': 1800, 'matrix': 3000, 'memcpy': 3600, 'vecmath': 2800, 'zero': 3700}
+70.21017252351788 at timestep 173
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 1800, 'bsearch': 3100, 'cap': 2100, 'chmod': 1900, 'matrix': 3400, 'memcpy': 3600, 'vecmath': 2900, 'zero': 3300}
+68.91633957716215 at timestep 174
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 1800, 'bsearch': 3200, 'cap': 2000, 'chmod': 1900, 'matrix': 3700, 'memcpy': 3600, 'vecmath': 2900, 'zero': 3100}
+68.43669719207784 at timestep 175
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 1800, 'bsearch': 3100, 'cap': 2000, 'chmod': 1900, 'matrix': 3800, 'memcpy': 3600, 'vecmath': 2700, 'zero': 3200}
+69.07720831895637 at timestep 176
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 1900, 'bsearch': 3300, 'cap': 2100, 'chmod': 1800, 'matrix': 3600, 'memcpy': 3500, 'vecmath': 2600, 'zero': 3400}
+71.68955787876163 at timestep 177
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 2100, 'bsearch': 3400, 'cap': 1700, 'chmod': 1800, 'matrix': 3700, 'memcpy': 3500, 'vecmath': 2500, 'zero': 3500}
+72.52373071704969 at timestep 178
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 2200, 'bsearch': 3800, 'cap': 1500, 'chmod': 1800, 'matrix': 3600, 'memcpy': 3600, 'vecmath': 2400, 'zero': 3300}
+70.66104492451868 at timestep 179
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 2500, 'bsearch': 3800, 'cap': 1600, 'chmod': 1800, 'matrix': 3600, 'memcpy': 3600, 'vecmath': 2400, 'zero': 2800}
+70.09070596143533 at timestep 180
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 3200, 'bsearch': 4100, 'cap': 1500, 'chmod': 1800, 'matrix': 3200, 'memcpy': 3400, 'vecmath': 2500, 'zero': 2500}
+73.60624118766492 at timestep 181
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 3500, 'bsearch': 4100, 'cap': 1400, 'chmod': 1800, 'matrix': 3200, 'memcpy': 3400, 'vecmath': 2400, 'zero': 2400}
+74.8397748986602 at timestep 182
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 4000, 'bsearch': 4400, 'cap': 1300, 'chmod': 1700, 'matrix': 2900, 'memcpy': 3300, 'vecmath': 2400, 'zero': 2300}
+77.6234083464321 at timestep 183
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 4200, 'bsearch': 4300, 'cap': 1300, 'chmod': 1700, 'matrix': 2900, 'memcpy': 3300, 'vecmath': 2300, 'zero': 2200}
+77.56248741994072 at timestep 184
+Creating configuration for window size of 1
+{'affinity': 1600, 'atomic': 4400, 'bsearch': 4300, 'cap': 1300, 'chmod': 1700, 'matrix': 2900, 'memcpy': 3100, 'vecmath': 2300, 'zero': 2400}
+80.72375029612681 at timestep 185
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 4500, 'bsearch': 4500, 'cap': 1100, 'chmod': 1700, 'matrix': 2800, 'memcpy': 3300, 'vecmath': 2200, 'zero': 2200}
+77.82249677267419 at timestep 186
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 4300, 'bsearch': 4600, 'cap': 1200, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2200, 'zero': 2500}
+79.70820084473823 at timestep 187
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 4300, 'bsearch': 4700, 'cap': 1100, 'chmod': 1700, 'matrix': 2600, 'memcpy': 3300, 'vecmath': 2300, 'zero': 2000}
+77.05339870060274 at timestep 188
+Creating configuration for window size of 1
+{'affinity': 2100, 'atomic': 4300, 'bsearch': 4600, 'cap': 1100, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3400, 'vecmath': 2300, 'zero': 2000}
+75.1886675414038 at timestep 189
+Creating configuration for window size of 1
+{'affinity': 2100, 'atomic': 4100, 'bsearch': 4700, 'cap': 1100, 'chmod': 1700, 'matrix': 2800, 'memcpy': 3300, 'vecmath': 2300, 'zero': 1900}
+76.91667686101312 at timestep 190
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 4100, 'bsearch': 4700, 'cap': 1200, 'chmod': 1600, 'matrix': 2700, 'memcpy': 3200, 'vecmath': 2300, 'zero': 2200}
+78.1550329630303 at timestep 191
+Creating configuration for window size of 1
+{'affinity': 2000, 'atomic': 3900, 'bsearch': 4600, 'cap': 1300, 'chmod': 1600, 'matrix': 2600, 'memcpy': 3100, 'vecmath': 2200, 'zero': 2700}
+80.60594809365914 at timestep 192
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 4000, 'bsearch': 4500, 'cap': 1400, 'chmod': 1400, 'matrix': 2700, 'memcpy': 2900, 'vecmath': 2400, 'zero': 2800}
+85.43545937468754 at timestep 193
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 3900, 'bsearch': 4300, 'cap': 1600, 'chmod': 1500, 'matrix': 2500, 'memcpy': 2800, 'vecmath': 2400, 'zero': 3200}
+87.56794433096687 at timestep 194
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 3800, 'bsearch': 4100, 'cap': 1900, 'chmod': 1400, 'matrix': 2400, 'memcpy': 2800, 'vecmath': 2300, 'zero': 3500}
+88.76088884580616 at timestep 195
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 3900, 'bsearch': 4500, 'cap': 2200, 'chmod': 1500, 'matrix': 2500, 'memcpy': 1500, 'vecmath': 2500, 'zero': 3600}
+83.21161094128098 at timestep 196
+Creating configuration for window size of 1
+{'affinity': 1900, 'atomic': 4300, 'bsearch': 4800, 'cap': 1700, 'chmod': 1600, 'matrix': 2800, 'memcpy': 1700, 'vecmath': 2800, 'zero': 2400}
+77.72749586215336 at timestep 197
+Creating configuration for window size of 1
+{'affinity': 1700, 'atomic': 4100, 'bsearch': 4600, 'cap': 1800, 'chmod': 1400, 'matrix': 2700, 'memcpy': 1700, 'vecmath': 3000, 'zero': 3000}
+81.71806894737162 at timestep 198
+Creating configuration for window size of 1
+{'affinity': 1600, 'atomic': 4400, 'bsearch': 4600, 'cap': 1500, 'chmod': 1400, 'matrix': 2700, 'memcpy': 1700, 'vecmath': 3100, 'zero': 3000}
+81.17733358426332 at timestep 199
+Simulation took 15170.181715036491 total seconds, with 199 Checkpoints
+With checkpoints, the total duration would be 18155.18171503649
+Simulating simulation for static window of size 2
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 3900, 'bsearch': 4500, 'cap': 1200, 'chmod': 1000, 'matrix': 4000, 'memcpy': 2900, 'vecmath': 2300, 'zero': 2300}
+85.86734320409413 at timestep 0
+101.67361109551088 at timestep 1
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4100, 'bsearch': 4000, 'cap': 1400, 'chmod': 1000, 'matrix': 3700, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3300}
+92.62056464248315 at timestep 2
+109.3555682631365 at timestep 3
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 3900, 'bsearch': 4300, 'cap': 1800, 'chmod': 1000, 'matrix': 3500, 'memcpy': 2700, 'vecmath': 2100, 'zero': 2900}
+90.03521792337392 at timestep 4
+98.40774441808857 at timestep 5
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4000, 'bsearch': 4000, 'cap': 1800, 'chmod': 1000, 'matrix': 3600, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3100}
+94.20554204632053 at timestep 6
+99.4681985927886 at timestep 7
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4000, 'bsearch': 3800, 'cap': 1900, 'chmod': 1200, 'matrix': 3300, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3300}
+94.41751770642941 at timestep 8
+95.11583271752535 at timestep 9
+Creating configuration for window size of 2
+{'affinity': 1600, 'atomic': 3700, 'bsearch': 3800, 'cap': 1800, 'chmod': 1200, 'matrix': 3500, 'memcpy': 2900, 'vecmath': 2100, 'zero': 3400}
+85.37638866492865 at timestep 10
+94.67029812337594 at timestep 11
+Creating configuration for window size of 2
+{'affinity': 1300, 'atomic': 4500, 'bsearch': 3800, 'cap': 1500, 'chmod': 1400, 'matrix': 3400, 'memcpy': 3000, 'vecmath': 2200, 'zero': 2900}
+84.33188878365188 at timestep 12
+87.40467195839697 at timestep 13
+Creating configuration for window size of 2
+{'affinity': 1000, 'atomic': 4800, 'bsearch': 3900, 'cap': 1500, 'chmod': 1400, 'matrix': 3500, 'memcpy': 3100, 'vecmath': 2100, 'zero': 2700}
+81.584971180614 at timestep 14
+84.35829093840623 at timestep 15
+Creating configuration for window size of 2
+{'affinity': 1000, 'atomic': 4800, 'bsearch': 3900, 'cap': 1500, 'chmod': 1500, 'matrix': 3500, 'memcpy': 3100, 'vecmath': 2000, 'zero': 2700}
+80.58001339625231 at timestep 16
+80.58001339625231 at timestep 17
+Creating configuration for window size of 2
+{'affinity': 1000, 'atomic': 4900, 'bsearch': 3900, 'cap': 1400, 'chmod': 1500, 'matrix': 3600, 'memcpy': 3300, 'vecmath': 2000, 'zero': 2400}
+76.34376793428979 at timestep 18
+75.69651070340116 at timestep 19
+Creating configuration for window size of 2
+{'affinity': 1300, 'atomic': 5000, 'bsearch': 3700, 'cap': 1400, 'chmod': 1400, 'matrix': 3600, 'memcpy': 3400, 'vecmath': 2000, 'zero': 2200}
+73.39171394471346 at timestep 20
+77.94274872951627 at timestep 21
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 5000, 'bsearch': 3400, 'cap': 1400, 'chmod': 1200, 'matrix': 3700, 'memcpy': 3400, 'vecmath': 2000, 'zero': 2100}
+73.23479826146908 at timestep 22
+83.83566436305203 at timestep 23
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 4700, 'bsearch': 2900, 'cap': 1400, 'chmod': 1000, 'matrix': 3900, 'memcpy': 3300, 'vecmath': 2000, 'zero': 2900}
+79.14220549372025 at timestep 24
+82.25783081207027 at timestep 25
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 4100, 'bsearch': 2900, 'cap': 1600, 'chmod': 1100, 'matrix': 3600, 'memcpy': 3300, 'vecmath': 2200, 'zero': 3200}
+75.69651070340116 at timestep 26
+80.34190474616976 at timestep 27
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 3300, 'bsearch': 2800, 'cap': 2100, 'chmod': 1100, 'matrix': 3700, 'memcpy': 3500, 'vecmath': 2300, 'zero': 3300}
+76.85905632566515 at timestep 28
+80.46974400913926 at timestep 29
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 3200, 'bsearch': 3000, 'cap': 1800, 'chmod': 1100, 'matrix': 3600, 'memcpy': 3600, 'vecmath': 2500, 'zero': 3200}
+70.87420785187955 at timestep 30
+71.48071919570934 at timestep 31
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 2400, 'bsearch': 3200, 'cap': 2000, 'chmod': 1100, 'matrix': 3600, 'memcpy': 3700, 'vecmath': 2500, 'zero': 3500}
+66.62976886908686 at timestep 32
+66.134036282897 at timestep 33
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 2500, 'bsearch': 3100, 'cap': 1900, 'chmod': 1100, 'matrix': 3200, 'memcpy': 3800, 'vecmath': 2400, 'zero': 4000}
+64.90501210837799 at timestep 34
+73.81055816438389 at timestep 35
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 2600, 'bsearch': 3500, 'cap': 1700, 'chmod': 1400, 'matrix': 3200, 'memcpy': 3900, 'vecmath': 2400, 'zero': 3300}
+63.83456393765315 at timestep 36
+77.85189378323415 at timestep 37
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4100, 'bsearch': 3700, 'cap': 1600, 'chmod': 1300, 'matrix': 3000, 'memcpy': 3500, 'vecmath': 2100, 'zero': 2900}
+72.81928079829656 at timestep 38
+75.86827792679689 at timestep 39
+Creating configuration for window size of 2
+{'affinity': 1700, 'atomic': 4700, 'bsearch': 3800, 'cap': 1500, 'chmod': 1100, 'matrix': 2900, 'memcpy': 3400, 'vecmath': 2100, 'zero': 2800}
+74.1817762200139 at timestep 40
+80.79719380528489 at timestep 41
+Creating configuration for window size of 2
+{'affinity': 1700, 'atomic': 5000, 'bsearch': 4100, 'cap': 1300, 'chmod': 1200, 'matrix': 2700, 'memcpy': 3500, 'vecmath': 2100, 'zero': 2400}
+72.97430417120967 at timestep 42
+80.7638254657401 at timestep 43
+Creating configuration for window size of 2
+{'affinity': 2200, 'atomic': 4800, 'bsearch': 4100, 'cap': 1300, 'chmod': 1200, 'matrix': 2500, 'memcpy': 3500, 'vecmath': 2100, 'zero': 2300}
+71.85769729218141 at timestep 44
+78.91084651751595 at timestep 45
+Creating configuration for window size of 2
+{'affinity': 2200, 'atomic': 4500, 'bsearch': 4300, 'cap': 1300, 'chmod': 1200, 'matrix': 3000, 'memcpy': 3500, 'vecmath': 2200, 'zero': 1800}
+70.80024728133822 at timestep 46
+91.01637324690523 at timestep 47
+Creating configuration for window size of 2
+{'affinity': 2100, 'atomic': 4300, 'bsearch': 4200, 'cap': 1500, 'chmod': 1000, 'matrix': 2600, 'memcpy': 3300, 'vecmath': 2400, 'zero': 2600}
+75.69651070340116 at timestep 48
+82.44690752396932 at timestep 49
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 4400, 'bsearch': 3900, 'cap': 1700, 'chmod': 1000, 'matrix': 2200, 'memcpy': 3200, 'vecmath': 2500, 'zero': 3100}
+78.95735395265072 at timestep 50
+98.74457608764189 at timestep 51
+Creating configuration for window size of 2
+{'affinity': 2100, 'atomic': 4300, 'bsearch': 4000, 'cap': 2200, 'chmod': 1000, 'matrix': 2100, 'memcpy': 1900, 'vecmath': 3100, 'zero': 3300}
+77.7466973146979 at timestep 52
+82.84521176044682 at timestep 53
+Creating configuration for window size of 2
+{'affinity': 2100, 'atomic': 4800, 'bsearch': 4000, 'cap': 1900, 'chmod': 1000, 'matrix': 2100, 'memcpy': 1900, 'vecmath': 3100, 'zero': 3100}
+75.61447772670823 at timestep 54
+80.05027791810569 at timestep 55
+Creating configuration for window size of 2
+{'affinity': 2100, 'atomic': 4500, 'bsearch': 4100, 'cap': 1700, 'chmod': 1000, 'matrix': 2300, 'memcpy': 1900, 'vecmath': 3000, 'zero': 3400}
+74.34930156236247 at timestep 56
+81.22255481006593 at timestep 57
+Creating configuration for window size of 2
+{'affinity': 2200, 'atomic': 4100, 'bsearch': 4000, 'cap': 1800, 'chmod': 1000, 'matrix': 2200, 'memcpy': 1800, 'vecmath': 3000, 'zero': 3900}
+71.11881414224166 at timestep 58
+88.28298648253605 at timestep 59
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 4800, 'bsearch': 4100, 'cap': 1700, 'chmod': 1100, 'matrix': 2900, 'memcpy': 1600, 'vecmath': 2600, 'zero': 3200}
+72.22038298442752 at timestep 60
+86.84686130877434 at timestep 61
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 5000, 'bsearch': 4100, 'cap': 1500, 'chmod': 1100, 'matrix': 3600, 'memcpy': 1500, 'vecmath': 2600, 'zero': 2800}
+73.69760516373897 at timestep 62
+73.1124426687819 at timestep 63
+Creating configuration for window size of 2
+{'affinity': 1500, 'atomic': 5300, 'bsearch': 3800, 'cap': 1500, 'chmod': 1000, 'matrix': 3800, 'memcpy': 1500, 'vecmath': 2600, 'zero': 3000}
+69.72956226061437 at timestep 64
+72.99517646275187 at timestep 65
+Creating configuration for window size of 2
+{'affinity': 1100, 'atomic': 5500, 'bsearch': 3800, 'cap': 1400, 'chmod': 1100, 'matrix': 4000, 'memcpy': 1600, 'vecmath': 2900, 'zero': 2600}
+67.70951035739988 at timestep 66
+67.70951035739988 at timestep 67
+Creating configuration for window size of 2
+{'affinity': 1000, 'atomic': 6100, 'bsearch': 3700, 'cap': 1300, 'chmod': 1100, 'matrix': 4000, 'memcpy': 1600, 'vecmath': 2900, 'zero': 2300}
+65.90672556326247 at timestep 68
+69.48104440312318 at timestep 69
+Creating configuration for window size of 2
+{'affinity': 1100, 'atomic': 6000, 'bsearch': 3500, 'cap': 1200, 'chmod': 1000, 'matrix': 4200, 'memcpy': 1500, 'vecmath': 3400, 'zero': 2100}
+66.4351550738017 at timestep 70
+94.79132066367798 at timestep 71
+Creating configuration for window size of 2
+{'affinity': 1400, 'atomic': 5100, 'bsearch': 3100, 'cap': 1500, 'chmod': 1000, 'matrix': 4000, 'memcpy': 1400, 'vecmath': 3300, 'zero': 3200}
+71.41202779524515 at timestep 72
+72.9625308767621 at timestep 73
+Creating configuration for window size of 2
+{'affinity': 1600, 'atomic': 4900, 'bsearch': 2900, 'cap': 2000, 'chmod': 1000, 'matrix': 3800, 'memcpy': 1300, 'vecmath': 3100, 'zero': 3400}
+77.31442678649222 at timestep 74
+89.2643022520622 at timestep 75
+Creating configuration for window size of 2
+{'affinity': 1700, 'atomic': 4800, 'bsearch': 2800, 'cap': 2200, 'chmod': 1000, 'matrix': 3800, 'memcpy': 1300, 'vecmath': 3000, 'zero': 3400}
+79.40803093650722 at timestep 76
+80.88164004833232 at timestep 77
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4200, 'bsearch': 3000, 'cap': 2200, 'chmod': 1300, 'matrix': 4100, 'memcpy': 1300, 'vecmath': 2800, 'zero': 3300}
+84.21914383069405 at timestep 78
+91.15959967108112 at timestep 79
+Creating configuration for window size of 2
+{'affinity': 1700, 'atomic': 3600, 'bsearch': 3100, 'cap': 2100, 'chmod': 1300, 'matrix': 4300, 'memcpy': 1300, 'vecmath': 3000, 'zero': 3600}
+83.74000032255317 at timestep 80
+90.67780552290209 at timestep 81
+Creating configuration for window size of 2
+{'affinity': 1700, 'atomic': 3000, 'bsearch': 3500, 'cap': 1800, 'chmod': 1500, 'matrix': 4600, 'memcpy': 1300, 'vecmath': 3100, 'zero': 3500}
+80.59615879153742 at timestep 82
+82.44297849755941 at timestep 83
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 2100, 'bsearch': 4300, 'cap': 1600, 'chmod': 1900, 'matrix': 4700, 'memcpy': 1500, 'vecmath': 3200, 'zero': 2700}
+69.97612053569252 at timestep 84
+69.96851769674623 at timestep 85
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 2300, 'bsearch': 4300, 'cap': 1600, 'chmod': 1800, 'matrix': 4400, 'memcpy': 1400, 'vecmath': 3100, 'zero': 3100}
+70.36475335871536 at timestep 86
+80.49819471657014 at timestep 87
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 3600, 'bsearch': 4400, 'cap': 1400, 'chmod': 1800, 'matrix': 3900, 'memcpy': 1400, 'vecmath': 2900, 'zero': 2600}
+72.5804018664256 at timestep 88
+76.71031789120872 at timestep 89
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 4100, 'bsearch': 4700, 'cap': 1400, 'chmod': 1600, 'matrix': 3700, 'memcpy': 1400, 'vecmath': 2900, 'zero': 2300}
+71.22553148106472 at timestep 90
+76.69471654874292 at timestep 91
+Creating configuration for window size of 2
+{'affinity': 2100, 'atomic': 4100, 'bsearch': 4800, 'cap': 1300, 'chmod': 1600, 'matrix': 3800, 'memcpy': 1300, 'vecmath': 2800, 'zero': 2200}
+73.81028746748034 at timestep 92
+84.7540130028427 at timestep 93
+Creating configuration for window size of 2
+{'affinity': 2200, 'atomic': 4300, 'bsearch': 4800, 'cap': 1200, 'chmod': 1500, 'matrix': 4000, 'memcpy': 1400, 'vecmath': 2700, 'zero': 1900}
+73.8606653178866 at timestep 94
+90.89805390177678 at timestep 95
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 4300, 'bsearch': 4600, 'cap': 1500, 'chmod': 1200, 'matrix': 4000, 'memcpy': 1300, 'vecmath': 2400, 'zero': 2700}
+82.09840815273317 at timestep 96
+88.5105043031027 at timestep 97
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 4500, 'bsearch': 4300, 'cap': 1700, 'chmod': 1100, 'matrix': 3900, 'memcpy': 1200, 'vecmath': 2400, 'zero': 3000}
+84.58989462993922 at timestep 98
+97.32913592659474 at timestep 99
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 4500, 'bsearch': 4300, 'cap': 1900, 'chmod': 1100, 'matrix': 3700, 'memcpy': 1200, 'vecmath': 2300, 'zero': 3100}
+87.52566588705461 at timestep 100
+95.43566685958368 at timestep 101
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 4300, 'bsearch': 4400, 'cap': 1800, 'chmod': 1400, 'matrix': 3900, 'memcpy': 1200, 'vecmath': 2400, 'zero': 2700}
+86.68976650115788 at timestep 102
+105.27065405194206 at timestep 103
+Creating configuration for window size of 2
+{'affinity': 1700, 'atomic': 4400, 'bsearch': 4300, 'cap': 1900, 'chmod': 1500, 'matrix': 3600, 'memcpy': 1100, 'vecmath': 2200, 'zero': 3300}
+94.20385320514114 at timestep 104
+93.88672122517028 at timestep 105
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 4100, 'bsearch': 4200, 'cap': 1600, 'chmod': 1600, 'matrix': 3900, 'memcpy': 1200, 'vecmath': 2300, 'zero': 3200}
+84.47091220952291 at timestep 106
+87.01550083319964 at timestep 107
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 4600, 'bsearch': 4500, 'cap': 1400, 'chmod': 1700, 'matrix': 3800, 'memcpy': 1300, 'vecmath': 2300, 'zero': 2400}
+78.35259049557268 at timestep 108
+84.12873612344248 at timestep 109
+Creating configuration for window size of 2
+{'affinity': 1700, 'atomic': 4800, 'bsearch': 4800, 'cap': 1300, 'chmod': 1700, 'matrix': 3700, 'memcpy': 1300, 'vecmath': 2400, 'zero': 2300}
+77.7665070419768 at timestep 110
+77.7665070419768 at timestep 111
+Creating configuration for window size of 2
+{'affinity': 1600, 'atomic': 5000, 'bsearch': 4700, 'cap': 1300, 'chmod': 1800, 'matrix': 3500, 'memcpy': 1400, 'vecmath': 2400, 'zero': 2300}
+74.23803176102913 at timestep 112
+80.29264539905597 at timestep 113
+Creating configuration for window size of 2
+{'affinity': 1000, 'atomic': 5100, 'bsearch': 4700, 'cap': 1400, 'chmod': 1700, 'matrix': 3600, 'memcpy': 1500, 'vecmath': 2300, 'zero': 2700}
+71.11627166993863 at timestep 114
+75.30980742599998 at timestep 115
+Creating configuration for window size of 2
+{'affinity': 1000, 'atomic': 5100, 'bsearch': 4700, 'cap': 1300, 'chmod': 1600, 'matrix': 3800, 'memcpy': 1500, 'vecmath': 2500, 'zero': 2500}
+70.9430788143921 at timestep 116
+71.56433255016971 at timestep 117
+Creating configuration for window size of 2
+{'affinity': 1000, 'atomic': 5500, 'bsearch': 4500, 'cap': 1200, 'chmod': 1600, 'matrix': 4000, 'memcpy': 1500, 'vecmath': 2600, 'zero': 2100}
+67.70951035739988 at timestep 118
+83.58821874921703 at timestep 119
+Creating configuration for window size of 2
+{'affinity': 1200, 'atomic': 5000, 'bsearch': 4000, 'cap': 1500, 'chmod': 1400, 'matrix': 3900, 'memcpy': 1400, 'vecmath': 2400, 'zero': 3200}
+72.87134544054668 at timestep 120
+81.00415700767239 at timestep 121
+Creating configuration for window size of 2
+{'affinity': 1500, 'atomic': 4900, 'bsearch': 3500, 'cap': 1700, 'chmod': 1300, 'matrix': 4100, 'memcpy': 1300, 'vecmath': 2400, 'zero': 3300}
+75.26430253966049 at timestep 122
+106.18964329094491 at timestep 123
+Creating configuration for window size of 2
+{'affinity': 1700, 'atomic': 4800, 'bsearch': 3000, 'cap': 2000, 'chmod': 1500, 'matrix': 4000, 'memcpy': 1300, 'vecmath': 2500, 'zero': 3200}
+77.56926878943457 at timestep 124
+82.16850389380626 at timestep 125
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4400, 'bsearch': 3200, 'cap': 2100, 'chmod': 1700, 'matrix': 4300, 'memcpy': 1300, 'vecmath': 2500, 'zero': 2700}
+79.2954547815896 at timestep 126
+84.8304141678815 at timestep 127
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 3900, 'bsearch': 3300, 'cap': 1900, 'chmod': 1700, 'matrix': 4300, 'memcpy': 1300, 'vecmath': 2800, 'zero': 3000}
+76.25754277928036 at timestep 128
+79.78288301381744 at timestep 129
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 3600, 'bsearch': 3600, 'cap': 1700, 'chmod': 1800, 'matrix': 4000, 'memcpy': 1400, 'vecmath': 2700, 'zero': 3300}
+74.52315418466713 at timestep 130
+75.37822800061276 at timestep 131
+Creating configuration for window size of 2
+{'affinity': 2200, 'atomic': 2000, 'bsearch': 4400, 'cap': 1600, 'chmod': 2000, 'matrix': 4200, 'memcpy': 1500, 'vecmath': 3300, 'zero': 2800}
+63.154683264714485 at timestep 132
+68.61955851086273 at timestep 133
+Creating configuration for window size of 2
+{'affinity': 2200, 'atomic': 2500, 'bsearch': 4600, 'cap': 1500, 'chmod': 2000, 'matrix': 4000, 'memcpy': 1500, 'vecmath': 3000, 'zero': 2700}
+64.34850518078746 at timestep 134
+70.97033273550858 at timestep 135
+Creating configuration for window size of 2
+{'affinity': 2200, 'atomic': 2900, 'bsearch': 5000, 'cap': 1400, 'chmod': 1900, 'matrix': 3900, 'memcpy': 1500, 'vecmath': 2700, 'zero': 2500}
+65.4177148378251 at timestep 136
+79.0410102907426 at timestep 137
+Creating configuration for window size of 2
+{'affinity': 2100, 'atomic': 4100, 'bsearch': 5000, 'cap': 1300, 'chmod': 1900, 'matrix': 3400, 'memcpy': 1500, 'vecmath': 2500, 'zero': 2200}
+69.82022380280432 at timestep 138
+69.54130271405317 at timestep 139
+Creating configuration for window size of 2
+{'affinity': 2300, 'atomic': 4300, 'bsearch': 5300, 'cap': 1100, 'chmod': 1800, 'matrix': 3100, 'memcpy': 1500, 'vecmath': 2400, 'zero': 2200}
+69.50611914854477 at timestep 140
+72.82820965199764 at timestep 141
+Creating configuration for window size of 2
+{'affinity': 2100, 'atomic': 4400, 'bsearch': 5000, 'cap': 1100, 'chmod': 1700, 'matrix': 2400, 'memcpy': 2900, 'vecmath': 2400, 'zero': 2000}
+71.80766430406139 at timestep 142
+84.65339242059238 at timestep 143
+Creating configuration for window size of 2
+{'affinity': 1700, 'atomic': 4400, 'bsearch': 4900, 'cap': 1300, 'chmod': 1600, 'matrix': 2200, 'memcpy': 2700, 'vecmath': 2400, 'zero': 2800}
+80.38898876077208 at timestep 144
+86.09124900400425 at timestep 145
+Creating configuration for window size of 2
+{'affinity': 1700, 'atomic': 4500, 'bsearch': 4400, 'cap': 1600, 'chmod': 1500, 'matrix': 2200, 'memcpy': 2900, 'vecmath': 2200, 'zero': 3000}
+83.26676347450389 at timestep 146
+117.03897130482203 at timestep 147
+Creating configuration for window size of 2
+{'affinity': 1600, 'atomic': 4300, 'bsearch': 4300, 'cap': 1800, 'chmod': 1500, 'matrix': 2400, 'memcpy': 2900, 'vecmath': 2100, 'zero': 3100}
+86.30566176206857 at timestep 148
+91.33805043975565 at timestep 149
+Creating configuration for window size of 2
+{'affinity': 1500, 'atomic': 4300, 'bsearch': 4500, 'cap': 1700, 'chmod': 1600, 'matrix': 2600, 'memcpy': 2900, 'vecmath': 2200, 'zero': 2700}
+86.50884518114059 at timestep 150
+88.05565392224705 at timestep 151
+Creating configuration for window size of 2
+{'affinity': 1300, 'atomic': 4200, 'bsearch': 4700, 'cap': 1700, 'chmod': 1600, 'matrix': 2400, 'memcpy': 2900, 'vecmath': 2200, 'zero': 3000}
+85.23516183637491 at timestep 152
+89.00278702722834 at timestep 153
+Creating configuration for window size of 2
+{'affinity': 1100, 'atomic': 4400, 'bsearch': 4500, 'cap': 1500, 'chmod': 1600, 'matrix': 2400, 'memcpy': 3100, 'vecmath': 2300, 'zero': 3100}
+81.92321320040563 at timestep 154
+81.63023870517566 at timestep 155
+Creating configuration for window size of 2
+{'affinity': 1000, 'atomic': 4700, 'bsearch': 4600, 'cap': 1400, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2200, 'zero': 2700}
+80.13571119557345 at timestep 156
+83.14008580626573 at timestep 157
+Creating configuration for window size of 2
+{'affinity': 1000, 'atomic': 4700, 'bsearch': 4900, 'cap': 1400, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2000, 'zero': 2600}
+80.46188312874017 at timestep 158
+79.11140416371055 at timestep 159
+Creating configuration for window size of 2
+{'affinity': 1000, 'atomic': 4700, 'bsearch': 4800, 'cap': 1500, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2100, 'zero': 2500}
+78.73778184410753 at timestep 160
+79.51007344979317 at timestep 161
+Creating configuration for window size of 2
+{'affinity': 1000, 'atomic': 4900, 'bsearch': 4900, 'cap': 1200, 'chmod': 1800, 'matrix': 2600, 'memcpy': 3400, 'vecmath': 2100, 'zero': 2100}
+73.66281647749447 at timestep 162
+74.07196279935691 at timestep 163
+Creating configuration for window size of 2
+{'affinity': 1300, 'atomic': 4600, 'bsearch': 4800, 'cap': 1200, 'chmod': 1700, 'matrix': 2800, 'memcpy': 3500, 'vecmath': 2100, 'zero': 2000}
+72.21936177650342 at timestep 164
+77.45412518595715 at timestep 165
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4200, 'bsearch': 4600, 'cap': 1100, 'chmod': 1600, 'matrix': 2900, 'memcpy': 3500, 'vecmath': 2300, 'zero': 2000}
+72.17864342208851 at timestep 166
+99.07903042130033 at timestep 167
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 3800, 'bsearch': 3900, 'cap': 1400, 'chmod': 1500, 'matrix': 2800, 'memcpy': 3400, 'vecmath': 2200, 'zero': 3100}
+74.1817941856244 at timestep 168
+79.77343520695808 at timestep 169
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 2300, 'bsearch': 3900, 'cap': 1900, 'chmod': 1500, 'matrix': 2800, 'memcpy': 3400, 'vecmath': 2500, 'zero': 3800}
+77.69502791393714 at timestep 170
+95.11583271752535 at timestep 171
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 1900, 'bsearch': 3100, 'cap': 2400, 'chmod': 1700, 'matrix': 3000, 'memcpy': 3400, 'vecmath': 2700, 'zero': 3900}
+73.23479826146908 at timestep 172
+73.23479826146908 at timestep 173
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 1900, 'bsearch': 3300, 'cap': 2100, 'chmod': 1800, 'matrix': 3300, 'memcpy': 3600, 'vecmath': 2800, 'zero': 3300}
+70.4416562282846 at timestep 174
+79.94175578560257 at timestep 175
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 2000, 'bsearch': 3200, 'cap': 1900, 'chmod': 1800, 'matrix': 3800, 'memcpy': 3500, 'vecmath': 2700, 'zero': 3200}
+70.80024728133822 at timestep 176
+81.30563206863506 at timestep 177
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 2300, 'bsearch': 3400, 'cap': 1700, 'chmod': 1800, 'matrix': 3700, 'memcpy': 3400, 'vecmath': 2400, 'zero': 3500}
+73.24487117876618 at timestep 178
+79.15042265175386 at timestep 179
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 2500, 'bsearch': 3800, 'cap': 1600, 'chmod': 1800, 'matrix': 3600, 'memcpy': 3600, 'vecmath': 2400, 'zero': 2800}
+70.09070596143533 at timestep 180
+84.43495514315798 at timestep 181
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 3800, 'bsearch': 4100, 'cap': 1400, 'chmod': 1700, 'matrix': 3100, 'memcpy': 3300, 'vecmath': 2400, 'zero': 2400}
+75.69651070340116 at timestep 182
+84.27002754913488 at timestep 183
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4300, 'bsearch': 4200, 'cap': 1300, 'chmod': 1700, 'matrix': 2900, 'memcpy': 3300, 'vecmath': 2300, 'zero': 2200}
+77.61097273194666 at timestep 184
+86.79266430578289 at timestep 185
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4500, 'bsearch': 4500, 'cap': 1100, 'chmod': 1700, 'matrix': 2800, 'memcpy': 3200, 'vecmath': 2200, 'zero': 2200}
+78.1550329630303 at timestep 186
+91.909399464766 at timestep 187
+Creating configuration for window size of 2
+{'affinity': 2100, 'atomic': 4300, 'bsearch': 4700, 'cap': 1100, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3300, 'vecmath': 2300, 'zero': 2000}
+77.08896431478603 at timestep 188
+75.69651070340116 at timestep 189
+Creating configuration for window size of 2
+{'affinity': 2100, 'atomic': 4100, 'bsearch': 4600, 'cap': 1200, 'chmod': 1700, 'matrix': 2800, 'memcpy': 3300, 'vecmath': 2300, 'zero': 1900}
+77.25395874698587 at timestep 190
+97.95398486095299 at timestep 191
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 3900, 'bsearch': 4500, 'cap': 1400, 'chmod': 1500, 'matrix': 2600, 'memcpy': 3100, 'vecmath': 2200, 'zero': 2900}
+81.67342374848326 at timestep 192
+92.310599595987 at timestep 193
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 3900, 'bsearch': 4200, 'cap': 1700, 'chmod': 1400, 'matrix': 2500, 'memcpy': 2800, 'vecmath': 2400, 'zero': 3300}
+89.15695802278455 at timestep 194
+96.68371443406888 at timestep 195
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 3800, 'bsearch': 4500, 'cap': 2200, 'chmod': 1500, 'matrix': 2500, 'memcpy': 1600, 'vecmath': 2500, 'zero': 3600}
+83.31960896972033 at timestep 196
+93.63372727349359 at timestep 197
+Creating configuration for window size of 2
+{'affinity': 1700, 'atomic': 4200, 'bsearch': 4500, 'cap': 1800, 'chmod': 1400, 'matrix': 2700, 'memcpy': 1700, 'vecmath': 3000, 'zero': 3000}
+82.07453967447567 at timestep 198
+84.41427382804704 at timestep 199
+Simulation took 16073.443707360526 total seconds, with 99 Checkpoints
+With checkpoints, the total duration would be 17558.443707360526
+Simulating simulation for static window of size 3
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 3900, 'bsearch': 4500, 'cap': 1200, 'chmod': 1000, 'matrix': 4000, 'memcpy': 2900, 'vecmath': 2300, 'zero': 2300}
+85.86734320409413 at timestep 0
+101.67361109551088 at timestep 1
+135.89579860854687 at timestep 2
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 4000, 'bsearch': 3900, 'cap': 1600, 'chmod': 1000, 'matrix': 3600, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3400}
+92.23596919386934 at timestep 3
+100.70262547086881 at timestep 4
+95.96457336325192 at timestep 5
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 4100, 'bsearch': 3900, 'cap': 1800, 'chmod': 1000, 'matrix': 3600, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3100}
+97.21598798869529 at timestep 6
+99.4681985927886 at timestep 7
+100.49024221617944 at timestep 8
+Creating configuration for window size of 3
+{'affinity': 1700, 'atomic': 3800, 'bsearch': 3700, 'cap': 2000, 'chmod': 1100, 'matrix': 3300, 'memcpy': 2800, 'vecmath': 2200, 'zero': 3400}
+92.2955240563958 at timestep 9
+91.38744756119014 at timestep 10
+102.41210199132654 at timestep 11
+Creating configuration for window size of 3
+{'affinity': 1300, 'atomic': 4500, 'bsearch': 3800, 'cap': 1600, 'chmod': 1400, 'matrix': 3400, 'memcpy': 2900, 'vecmath': 2200, 'zero': 2900}
+85.23516183637491 at timestep 12
+87.40467195839697 at timestep 13
+87.69522268129023 at timestep 14
+Creating configuration for window size of 3
+{'affinity': 1000, 'atomic': 4700, 'bsearch': 4100, 'cap': 1600, 'chmod': 1500, 'matrix': 3600, 'memcpy': 3100, 'vecmath': 2100, 'zero': 2300}
+81.13914989954495 at timestep 15
+92.97820443037902 at timestep 16
+82.94328385390197 at timestep 17
+Creating configuration for window size of 3
+{'affinity': 1000, 'atomic': 4900, 'bsearch': 3900, 'cap': 1400, 'chmod': 1500, 'matrix': 3600, 'memcpy': 3300, 'vecmath': 2000, 'zero': 2400}
+76.34376793428979 at timestep 18
+75.69651070340116 at timestep 19
+79.83942996853169 at timestep 20
+Creating configuration for window size of 3
+{'affinity': 1500, 'atomic': 5000, 'bsearch': 3500, 'cap': 1300, 'chmod': 1400, 'matrix': 3700, 'memcpy': 3400, 'vecmath': 2100, 'zero': 2100}
+74.65397866001302 at timestep 21
+80.23643037015785 at timestep 22
+84.68040505610526 at timestep 23
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 4700, 'bsearch': 3100, 'cap': 1400, 'chmod': 1000, 'matrix': 3800, 'memcpy': 3200, 'vecmath': 2000, 'zero': 2900}
+79.14220549372025 at timestep 24
+82.25783081207027 at timestep 25
+88.2698651983198 at timestep 26
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 3700, 'bsearch': 2900, 'cap': 1700, 'chmod': 1100, 'matrix': 3700, 'memcpy': 3400, 'vecmath': 2200, 'zero': 3400}
+74.48739556125072 at timestep 27
+96.70092975340788 at timestep 28
+86.26955922349127 at timestep 29
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 3100, 'bsearch': 3300, 'cap': 1800, 'chmod': 1100, 'matrix': 3600, 'memcpy': 3500, 'vecmath': 2500, 'zero': 3200}
+70.88925238338928 at timestep 30
+71.48071919570934 at timestep 31
+75.4472348728803 at timestep 32
+Creating configuration for window size of 3
+{'affinity': 2100, 'atomic': 2100, 'bsearch': 3500, 'cap': 2000, 'chmod': 1100, 'matrix': 3500, 'memcpy': 3800, 'vecmath': 2500, 'zero': 3400}
+63.96307955279495 at timestep 33
+80.7496520462931 at timestep 34
+78.62891053214592 at timestep 35
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 3400, 'bsearch': 3500, 'cap': 1700, 'chmod': 1400, 'matrix': 3000, 'memcpy': 3700, 'vecmath': 2300, 'zero': 3100}
+67.81443324024737 at timestep 36
+81.69936644737365 at timestep 37
+76.78590518943163 at timestep 38
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 4600, 'bsearch': 3800, 'cap': 1500, 'chmod': 1200, 'matrix': 2700, 'memcpy': 3300, 'vecmath': 2100, 'zero': 3000}
+75.69651070340116 at timestep 39
+77.03940404557254 at timestep 40
+84.12873612344248 at timestep 41
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 5000, 'bsearch': 4100, 'cap': 1300, 'chmod': 1200, 'matrix': 2700, 'memcpy': 3400, 'vecmath': 2100, 'zero': 2400}
+73.23479826146908 at timestep 42
+75.62169564657562 at timestep 43
+84.86660635956476 at timestep 44
+Creating configuration for window size of 3
+{'affinity': 2200, 'atomic': 4700, 'bsearch': 4300, 'cap': 1300, 'chmod': 1200, 'matrix': 2700, 'memcpy': 3400, 'vecmath': 2100, 'zero': 2100}
+73.23479826146908 at timestep 45
+75.22939288192121 at timestep 46
+76.46928816725207 at timestep 47
+Creating configuration for window size of 3
+{'affinity': 2100, 'atomic': 4300, 'bsearch': 4200, 'cap': 1600, 'chmod': 1000, 'matrix': 2600, 'memcpy': 3300, 'vecmath': 2400, 'zero': 2500}
+75.69651070340116 at timestep 48
+82.44690752396932 at timestep 49
+99.98769034620723 at timestep 50
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 4100, 'bsearch': 3600, 'cap': 2100, 'chmod': 1000, 'matrix': 2200, 'memcpy': 2900, 'vecmath': 2700, 'zero': 3500}
+85.23516183637491 at timestep 51
+88.2344826327506 at timestep 52
+86.75171777232548 at timestep 53
+Creating configuration for window size of 3
+{'affinity': 2100, 'atomic': 4800, 'bsearch': 4000, 'cap': 1900, 'chmod': 1000, 'matrix': 2100, 'memcpy': 1900, 'vecmath': 3100, 'zero': 3100}
+75.61447772670823 at timestep 54
+80.05027791810569 at timestep 55
+83.21037537195261 at timestep 56
+Creating configuration for window size of 3
+{'affinity': 2200, 'atomic': 4100, 'bsearch': 4100, 'cap': 1700, 'chmod': 1000, 'matrix': 2400, 'memcpy': 1900, 'vecmath': 3000, 'zero': 3600}
+75.98750713423817 at timestep 57
+77.95960079943593 at timestep 58
+77.54117093620678 at timestep 59
+Creating configuration for window size of 3
+{'affinity': 2000, 'atomic': 4800, 'bsearch': 4100, 'cap': 1700, 'chmod': 1100, 'matrix': 2900, 'memcpy': 1600, 'vecmath': 2600, 'zero': 3200}
+72.22038298442752 at timestep 60
+86.84686130877434 at timestep 61
+95.2581756185601 at timestep 62
+Creating configuration for window size of 3
+{'affinity': 1700, 'atomic': 5100, 'bsearch': 4400, 'cap': 1500, 'chmod': 1000, 'matrix': 3500, 'memcpy': 1500, 'vecmath': 2600, 'zero': 2700}
+71.11627166993863 at timestep 63
+77.90664832927247 at timestep 64
+80.97667107482273 at timestep 65
+Creating configuration for window size of 3
+{'affinity': 1100, 'atomic': 5400, 'bsearch': 4100, 'cap': 1400, 'chmod': 1100, 'matrix': 4000, 'memcpy': 1500, 'vecmath': 2900, 'zero': 2500}
+68.68704044423089 at timestep 66
+68.15640674338881 at timestep 67
+68.15640674338881 at timestep 68
+Creating configuration for window size of 3
+{'affinity': 1000, 'atomic': 5500, 'bsearch': 3900, 'cap': 1300, 'chmod': 1000, 'matrix': 3900, 'memcpy': 1500, 'vecmath': 3200, 'zero': 2700}
+67.70951035739988 at timestep 69
+72.17501789644568 at timestep 70
+75.26625378189141 at timestep 71
+Creating configuration for window size of 3
+{'affinity': 1500, 'atomic': 4900, 'bsearch': 3400, 'cap': 1500, 'chmod': 1000, 'matrix': 3900, 'memcpy': 1400, 'vecmath': 3200, 'zero': 3200}
+75.1025871486776 at timestep 72
+75.37569532526851 at timestep 73
+100.49629592048825 at timestep 74
+Creating configuration for window size of 3
+{'affinity': 1500, 'atomic': 4700, 'bsearch': 2800, 'cap': 2200, 'chmod': 1000, 'matrix': 3700, 'memcpy': 1300, 'vecmath': 3100, 'zero': 3700}
+81.25762053046954 at timestep 75
+83.58431353493584 at timestep 76
+82.81031572127729 at timestep 77
+Creating configuration for window size of 3
+{'affinity': 1700, 'atomic': 4200, 'bsearch': 3100, 'cap': 2200, 'chmod': 1300, 'matrix': 4100, 'memcpy': 1300, 'vecmath': 2800, 'zero': 3300}
+84.21914383069405 at timestep 78
+91.15959967108112 at timestep 79
+92.82746636380743 at timestep 80
+Creating configuration for window size of 3
+{'affinity': 1600, 'atomic': 3300, 'bsearch': 3800, 'cap': 1700, 'chmod': 1500, 'matrix': 4400, 'memcpy': 1300, 'vecmath': 3000, 'zero': 3400}
+84.52298919246229 at timestep 81
+85.68675741861831 at timestep 82
+88.51847373588909 at timestep 83
+Creating configuration for window size of 3
+{'affinity': 2000, 'atomic': 2100, 'bsearch': 4300, 'cap': 1600, 'chmod': 1900, 'matrix': 4700, 'memcpy': 1500, 'vecmath': 3200, 'zero': 2700}
+69.97612053569252 at timestep 84
+69.96851769674623 at timestep 85
+80.16444160632017 at timestep 86
+Creating configuration for window size of 3
+{'affinity': 2000, 'atomic': 3500, 'bsearch': 4300, 'cap': 1400, 'chmod': 1800, 'matrix': 4000, 'memcpy': 1400, 'vecmath': 2900, 'zero': 2700}
+74.86509403329657 at timestep 87
+73.31142215804654 at timestep 88
+78.75454044257823 at timestep 89
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 4100, 'bsearch': 4700, 'cap': 1400, 'chmod': 1600, 'matrix': 3700, 'memcpy': 1400, 'vecmath': 2900, 'zero': 2300}
+71.22553148106472 at timestep 90
+76.69471654874292 at timestep 91
+81.96949261887515 at timestep 92
+Creating configuration for window size of 3
+{'affinity': 2100, 'atomic': 4600, 'bsearch': 4600, 'cap': 1200, 'chmod': 1500, 'matrix': 3800, 'memcpy': 1400, 'vecmath': 2700, 'zero': 2100}
+73.89285667166166 at timestep 93
+80.09836760725476 at timestep 94
+85.23769156177595 at timestep 95
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 4300, 'bsearch': 4700, 'cap': 1600, 'chmod': 1200, 'matrix': 4000, 'memcpy': 1200, 'vecmath': 2400, 'zero': 2700}
+82.45460591569493 at timestep 96
+88.5105043031027 at timestep 97
+95.06253841986316 at timestep 98
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 4300, 'bsearch': 4100, 'cap': 2000, 'chmod': 1100, 'matrix': 3800, 'memcpy': 1200, 'vecmath': 2300, 'zero': 3300}
+87.03903324737446 at timestep 99
+92.05552272913032 at timestep 100
+95.43566685958368 at timestep 101
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 4200, 'bsearch': 4500, 'cap': 1800, 'chmod': 1400, 'matrix': 3900, 'memcpy': 1200, 'vecmath': 2400, 'zero': 2700}
+87.78729868596689 at timestep 102
+105.27065405194206 at timestep 103
+113.33840504591637 at timestep 104
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 4500, 'bsearch': 4200, 'cap': 1800, 'chmod': 1500, 'matrix': 3600, 'memcpy': 1200, 'vecmath': 2300, 'zero': 3100}
+91.0870160220748 at timestep 105
+93.18974797269603 at timestep 106
+89.53859710893975 at timestep 107
+Creating configuration for window size of 3
+{'affinity': 2000, 'atomic': 4600, 'bsearch': 4500, 'cap': 1400, 'chmod': 1700, 'matrix': 3800, 'memcpy': 1300, 'vecmath': 2300, 'zero': 2400}
+78.35259049557268 at timestep 108
+84.12873612344248 at timestep 109
+84.12873612344248 at timestep 110
+Creating configuration for window size of 3
+{'affinity': 1600, 'atomic': 4900, 'bsearch': 4900, 'cap': 1300, 'chmod': 1700, 'matrix': 3500, 'memcpy': 1300, 'vecmath': 2400, 'zero': 2400}
+76.0127029973128 at timestep 111
+75.9301835657531 at timestep 112
+77.2109370869973 at timestep 113
+Creating configuration for window size of 3
+{'affinity': 1000, 'atomic': 5100, 'bsearch': 4800, 'cap': 1400, 'chmod': 1700, 'matrix': 3600, 'memcpy': 1500, 'vecmath': 2300, 'zero': 2600}
+71.32947291069482 at timestep 114
+75.30980742599998 at timestep 115
+73.0655826759327 at timestep 116
+Creating configuration for window size of 3
+{'affinity': 1000, 'atomic': 5500, 'bsearch': 4500, 'cap': 1200, 'chmod': 1700, 'matrix': 3700, 'memcpy': 1500, 'vecmath': 2700, 'zero': 2200}
+67.62158659913342 at timestep 117
+73.34931839535372 at timestep 118
+77.86716918788917 at timestep 119
+Creating configuration for window size of 3
+{'affinity': 1200, 'atomic': 5000, 'bsearch': 4000, 'cap': 1500, 'chmod': 1400, 'matrix': 3900, 'memcpy': 1400, 'vecmath': 2400, 'zero': 3200}
+72.87134544054668 at timestep 120
+81.00415700767239 at timestep 121
+84.21162046096947 at timestep 122
+Creating configuration for window size of 3
+{'affinity': 1500, 'atomic': 4800, 'bsearch': 3000, 'cap': 2200, 'chmod': 1400, 'matrix': 3900, 'memcpy': 1200, 'vecmath': 2300, 'zero': 3700}
+80.14929188061721 at timestep 123
+81.18377671248571 at timestep 124
+89.03931667435661 at timestep 125
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 4300, 'bsearch': 3700, 'cap': 2100, 'chmod': 1600, 'matrix': 4100, 'memcpy': 1300, 'vecmath': 2500, 'zero': 2600}
+81.58271399928262 at timestep 126
+88.15974783932899 at timestep 127
+87.81895223482478 at timestep 128
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 3600, 'bsearch': 3800, 'cap': 1700, 'chmod': 1700, 'matrix': 4200, 'memcpy': 1300, 'vecmath': 2800, 'zero': 3100}
+77.50821601355817 at timestep 129
+77.8821822149381 at timestep 130
+75.08007879260987 at timestep 131
+Creating configuration for window size of 3
+{'affinity': 2200, 'atomic': 1900, 'bsearch': 4800, 'cap': 1600, 'chmod': 2000, 'matrix': 4100, 'memcpy': 1600, 'vecmath': 3200, 'zero': 2600}
+65.44534285377824 at timestep 132
+69.29006849387773 at timestep 133
+76.05796685433887 at timestep 134
+Creating configuration for window size of 3
+{'affinity': 2100, 'atomic': 3100, 'bsearch': 4900, 'cap': 1400, 'chmod': 1900, 'matrix': 3900, 'memcpy': 1500, 'vecmath': 2800, 'zero': 2400}
+66.36371960050805 at timestep 135
+67.03111415774477 at timestep 136
+75.9475650888297 at timestep 137
+Creating configuration for window size of 3
+{'affinity': 2100, 'atomic': 4100, 'bsearch': 5000, 'cap': 1300, 'chmod': 1900, 'matrix': 3400, 'memcpy': 1500, 'vecmath': 2500, 'zero': 2200}
+69.82022380280432 at timestep 138
+69.54130271405317 at timestep 139
+75.11000735011245 at timestep 140
+Creating configuration for window size of 3
+{'affinity': 2300, 'atomic': 5000, 'bsearch': 5200, 'cap': 1100, 'chmod': 1800, 'matrix': 2700, 'memcpy': 1500, 'vecmath': 2300, 'zero': 2100}
+68.3905433833696 at timestep 141
+157.11873684509388 at timestep 142
+155.7637638283219 at timestep 143
+Creating configuration for window size of 3
+{'affinity': 1700, 'atomic': 4400, 'bsearch': 4900, 'cap': 1400, 'chmod': 1600, 'matrix': 2200, 'memcpy': 2700, 'vecmath': 2300, 'zero': 2800}
+80.38898876077208 at timestep 144
+86.09124900400425 at timestep 145
+87.98875898314184 at timestep 146
+Creating configuration for window size of 3
+{'affinity': 1600, 'atomic': 4500, 'bsearch': 4100, 'cap': 2000, 'chmod': 1400, 'matrix': 2300, 'memcpy': 2700, 'vecmath': 2000, 'zero': 3400}
+90.07029486632693 at timestep 147
+92.84141020436137 at timestep 148
+96.75408475677321 at timestep 149
+Creating configuration for window size of 3
+{'affinity': 1500, 'atomic': 4200, 'bsearch': 4600, 'cap': 1700, 'chmod': 1600, 'matrix': 2600, 'memcpy': 2900, 'vecmath': 2200, 'zero': 2700}
+86.4133319401401 at timestep 150
+89.01630684264356 at timestep 151
+93.48683781669756 at timestep 152
+Creating configuration for window size of 3
+{'affinity': 1300, 'atomic': 4300, 'bsearch': 4500, 'cap': 1700, 'chmod': 1600, 'matrix': 2500, 'memcpy': 3000, 'vecmath': 2300, 'zero': 2800}
+83.17356222264185 at timestep 153
+92.03403653045514 at timestep 154
+82.94110035896304 at timestep 155
+Creating configuration for window size of 3
+{'affinity': 1000, 'atomic': 4600, 'bsearch': 4700, 'cap': 1400, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2200, 'zero': 2700}
+79.76733549997864 at timestep 156
+81.07885913769626 at timestep 157
+83.52608851400929 at timestep 158
+Creating configuration for window size of 3
+{'affinity': 1000, 'atomic': 4800, 'bsearch': 4900, 'cap': 1500, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2000, 'zero': 2400}
+78.1550329630303 at timestep 159
+81.69316284442185 at timestep 160
+78.64382996810754 at timestep 161
+Creating configuration for window size of 3
+{'affinity': 1200, 'atomic': 4800, 'bsearch': 4900, 'cap': 1200, 'chmod': 1800, 'matrix': 2600, 'memcpy': 3400, 'vecmath': 2000, 'zero': 2100}
+74.2947539331132 at timestep 162
+74.07196279935691 at timestep 163
+75.65271325186221 at timestep 164
+Creating configuration for window size of 3
+{'affinity': 1500, 'atomic': 4700, 'bsearch': 4500, 'cap': 1000, 'chmod': 1700, 'matrix': 3100, 'memcpy': 3500, 'vecmath': 2100, 'zero': 1900}
+72.26294573312575 at timestep 165
+79.74277666452016 at timestep 166
+108.09009086901823 at timestep 167
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 3700, 'bsearch': 4000, 'cap': 1500, 'chmod': 1500, 'matrix': 2800, 'memcpy': 3300, 'vecmath': 2200, 'zero': 3100}
+75.69651070340116 at timestep 168
+77.08596880540519 at timestep 169
+90.10565674420262 at timestep 170
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 2100, 'bsearch': 3500, 'cap': 2400, 'chmod': 1500, 'matrix': 2800, 'memcpy': 3400, 'vecmath': 2500, 'zero': 3900}
+74.91187637467979 at timestep 171
+80.8206676012967 at timestep 172
+85.42442381474254 at timestep 173
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 1900, 'bsearch': 3400, 'cap': 2100, 'chmod': 1800, 'matrix': 3300, 'memcpy': 3500, 'vecmath': 2800, 'zero': 3300}
+70.80024728133822 at timestep 174
+79.94175578560257 at timestep 175
+84.2432053803402 at timestep 176
+Creating configuration for window size of 3
+{'affinity': 1700, 'atomic': 2400, 'bsearch': 3500, 'cap': 2100, 'chmod': 1800, 'matrix': 3400, 'memcpy': 3400, 'vecmath': 2500, 'zero': 3200}
+74.84912329286497 at timestep 177
+82.34262911319225 at timestep 178
+76.39971681191473 at timestep 179
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 3400, 'bsearch': 3800, 'cap': 1500, 'chmod': 1800, 'matrix': 3400, 'memcpy': 3400, 'vecmath': 2300, 'zero': 2600}
+74.14478199513012 at timestep 180
+80.96384595157254 at timestep 181
+82.20730403147061 at timestep 182
+Creating configuration for window size of 3
+{'affinity': 1700, 'atomic': 4200, 'bsearch': 4400, 'cap': 1300, 'chmod': 1700, 'matrix': 2900, 'memcpy': 3200, 'vecmath': 2300, 'zero': 2300}
+78.1550329630303 at timestep 183
+79.81066765267653 at timestep 184
+85.62810603260252 at timestep 185
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 4500, 'bsearch': 4500, 'cap': 1100, 'chmod': 1700, 'matrix': 2800, 'memcpy': 3200, 'vecmath': 2200, 'zero': 2200}
+78.1550329630303 at timestep 186
+91.909399464766 at timestep 187
+84.954242710254 at timestep 188
+Creating configuration for window size of 3
+{'affinity': 2100, 'atomic': 4300, 'bsearch': 4600, 'cap': 1200, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3300, 'vecmath': 2300, 'zero': 2000}
+75.69651070340116 at timestep 189
+84.997438823523 at timestep 190
+89.75426295760293 at timestep 191
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 3900, 'bsearch': 4400, 'cap': 1500, 'chmod': 1500, 'matrix': 2600, 'memcpy': 3100, 'vecmath': 2200, 'zero': 2900}
+82.798187543933 at timestep 192
+92.310599595987 at timestep 193
+97.85242910607366 at timestep 194
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 3800, 'bsearch': 4000, 'cap': 2000, 'chmod': 1400, 'matrix': 2400, 'memcpy': 2800, 'vecmath': 2400, 'zero': 3400}
+89.2643022520622 at timestep 195
+94.20163814742348 at timestep 196
+95.53287442418298 at timestep 197
+Creating configuration for window size of 3
+{'affinity': 1700, 'atomic': 4100, 'bsearch': 4600, 'cap': 1800, 'chmod': 1400, 'matrix': 2700, 'memcpy': 1700, 'vecmath': 3000, 'zero': 3000}
+81.71806894737162 at timestep 198
+87.3795858358333 at timestep 199
+Simulation took 16605.158566128135 total seconds, with 66 Checkpoints
+With checkpoints, the total duration would be 17595.158566128135
+Simulating simulation for static window of size 4
+Creating configuration for window size of 4
+{'affinity': 1900, 'atomic': 3800, 'bsearch': 4500, 'cap': 1300, 'chmod': 1000, 'matrix': 4000, 'memcpy': 2900, 'vecmath': 2300, 'zero': 2300}
+86.18497538296879 at timestep 0
+101.67361109551088 at timestep 1
+135.89579860854687 at timestep 2
+135.94628617581475 at timestep 3
+Creating configuration for window size of 4
+{'affinity': 1800, 'atomic': 3900, 'bsearch': 4300, 'cap': 1800, 'chmod': 1000, 'matrix': 3500, 'memcpy': 2700, 'vecmath': 2100, 'zero': 2900}
+90.03521792337392 at timestep 4
+98.40774441808857 at timestep 5
+100.4136708212747 at timestep 6
+101.43037775164397 at timestep 7
+Creating configuration for window size of 4
+{'affinity': 1800, 'atomic': 4000, 'bsearch': 3800, 'cap': 1900, 'chmod': 1200, 'matrix': 3300, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3300}
+94.41751770642941 at timestep 8
+95.11583271752535 at timestep 9
+92.8815368988731 at timestep 10
+94.67029812337594 at timestep 11
+Creating configuration for window size of 4
+{'affinity': 1300, 'atomic': 4500, 'bsearch': 3800, 'cap': 1700, 'chmod': 1300, 'matrix': 3400, 'memcpy': 3000, 'vecmath': 2200, 'zero': 2800}
+86.96663513390425 at timestep 12
+87.40467195839697 at timestep 13
+87.69522268129023 at timestep 14
+88.0214361831703 at timestep 15
+Creating configuration for window size of 4
+{'affinity': 1000, 'atomic': 4700, 'bsearch': 4000, 'cap': 1600, 'chmod': 1500, 'matrix': 3500, 'memcpy': 3100, 'vecmath': 2000, 'zero': 2600}
+80.83441307373046 at timestep 16
+80.79719380528489 at timestep 17
+80.79719380528489 at timestep 18
+80.79719380528489 at timestep 19
+Creating configuration for window size of 4
+{'affinity': 1400, 'atomic': 4900, 'bsearch': 3800, 'cap': 1300, 'chmod': 1400, 'matrix': 3600, 'memcpy': 3400, 'vecmath': 2000, 'zero': 2200}
+75.1025871486776 at timestep 20
+77.94274872951627 at timestep 21
+86.73564556671062 at timestep 22
+91.61985945777185 at timestep 23
+Creating configuration for window size of 4
+{'affinity': 1800, 'atomic': 4600, 'bsearch': 3300, 'cap': 1400, 'chmod': 1000, 'matrix': 3800, 'memcpy': 3200, 'vecmath': 2000, 'zero': 2900}
+81.65165757178288 at timestep 24
+82.25783081207027 at timestep 25
+88.2698651983198 at timestep 26
+94.92647460552038 at timestep 27
+Creating configuration for window size of 4
+{'affinity': 1900, 'atomic': 3200, 'bsearch': 3200, 'cap': 2000, 'chmod': 1100, 'matrix': 3600, 'memcpy': 3400, 'vecmath': 2300, 'zero': 3300}
+78.86623754364936 at timestep 28
+80.46974400913926 at timestep 29
+77.46707539683065 at timestep 30
+73.23479826146908 at timestep 31
+Creating configuration for window size of 4
+{'affinity': 2000, 'atomic': 2300, 'bsearch': 3500, 'cap': 2000, 'chmod': 1100, 'matrix': 3500, 'memcpy': 3700, 'vecmath': 2400, 'zero': 3500}
+67.99153376910364 at timestep 32
+66.92779920409586 at timestep 33
+77.5118398710063 at timestep 34
+75.4622581710682 at timestep 35
+Creating configuration for window size of 4
+{'affinity': 1800, 'atomic': 3800, 'bsearch': 3900, 'cap': 1600, 'chmod': 1300, 'matrix': 2900, 'memcpy': 3500, 'vecmath': 2300, 'zero': 2900}
+71.83349630210525 at timestep 36
+88.28969023351625 at timestep 37
+73.07717189689124 at timestep 38
+84.37604814351337 at timestep 39
+Creating configuration for window size of 4
+{'affinity': 1700, 'atomic': 4800, 'bsearch': 3900, 'cap': 1500, 'chmod': 1100, 'matrix': 2800, 'memcpy': 3300, 'vecmath': 2100, 'zero': 2800}
+75.69651070340116 at timestep 40
+77.7665070419768 at timestep 41
+77.38993542491029 at timestep 42
+80.7638254657401 at timestep 43
+Creating configuration for window size of 4
+{'affinity': 2200, 'atomic': 4600, 'bsearch': 4400, 'cap': 1200, 'chmod': 1200, 'matrix': 2500, 'memcpy': 3400, 'vecmath': 2200, 'zero': 2300}
+74.8052456931186 at timestep 44
+78.91084651751595 at timestep 45
+82.09251549824376 at timestep 46
+79.19755236587275 at timestep 47
+Creating configuration for window size of 4
+{'affinity': 2000, 'atomic': 4300, 'bsearch': 4300, 'cap': 1700, 'chmod': 1000, 'matrix': 2600, 'memcpy': 3300, 'vecmath': 2300, 'zero': 2500}
+77.84192220369977 at timestep 48
+84.33130288901786 at timestep 49
+99.98769034620723 at timestep 50
+122.11133285864295 at timestep 51
+Creating configuration for window size of 4
+{'affinity': 2000, 'atomic': 4300, 'bsearch': 4100, 'cap': 2200, 'chmod': 1000, 'matrix': 2100, 'memcpy': 1900, 'vecmath': 3100, 'zero': 3300}
+77.84192220369977 at timestep 52
+82.84521176044682 at timestep 53
+84.65877697422215 at timestep 54
+84.87021792011045 at timestep 55
+Creating configuration for window size of 4
+{'affinity': 2100, 'atomic': 4500, 'bsearch': 4400, 'cap': 1700, 'chmod': 1000, 'matrix': 2300, 'memcpy': 1800, 'vecmath': 2900, 'zero': 3300}
+76.67769643006643 at timestep 56
+84.60583559604828 at timestep 57
+88.02967663050045 at timestep 58
+82.44044594627867 at timestep 59
+Creating configuration for window size of 4
+{'affinity': 2000, 'atomic': 4800, 'bsearch': 4200, 'cap': 1700, 'chmod': 1100, 'matrix': 2900, 'memcpy': 1600, 'vecmath': 2500, 'zero': 3200}
+73.29461994049677 at timestep 60
+86.84686130877434 at timestep 61
+95.2581756185601 at timestep 62
+86.26581728249766 at timestep 63
+Creating configuration for window size of 4
+{'affinity': 1500, 'atomic': 5200, 'bsearch': 4100, 'cap': 1500, 'chmod': 1000, 'matrix': 3800, 'memcpy': 1500, 'vecmath': 2600, 'zero': 2800}
+72.48305920071634 at timestep 64
+73.77703904278447 at timestep 65
+73.2983344956249 at timestep 66
+72.40098513504515 at timestep 67
+Creating configuration for window size of 4
+{'affinity': 1100, 'atomic': 5400, 'bsearch': 4500, 'cap': 1300, 'chmod': 1000, 'matrix': 3900, 'memcpy': 1500, 'vecmath': 2900, 'zero': 2400}
+68.15640674338881 at timestep 68
+68.15640674338881 at timestep 69
+73.93183069420705 at timestep 70
+78.81060714475021 at timestep 71
+Creating configuration for window size of 4
+{'affinity': 1500, 'atomic': 4900, 'bsearch': 3500, 'cap': 1500, 'chmod': 1000, 'matrix': 3900, 'memcpy': 1400, 'vecmath': 3100, 'zero': 3200}
+75.1025871486776 at timestep 72
+77.06094950925404 at timestep 73
+100.49629592048825 at timestep 74
+119.51165606415614 at timestep 75
+Creating configuration for window size of 4
+{'affinity': 1800, 'atomic': 4500, 'bsearch': 3300, 'cap': 2200, 'chmod': 1000, 'matrix': 3700, 'memcpy': 1300, 'vecmath': 2900, 'zero': 3300}
+85.20570154186055 at timestep 76
+84.2552590518025 at timestep 77
+95.88310293620493 at timestep 78
+102.87582326276453 at timestep 79
+Creating configuration for window size of 4
+{'affinity': 1700, 'atomic': 3500, 'bsearch': 3600, 'cap': 2100, 'chmod': 1300, 'matrix': 4200, 'memcpy': 1200, 'vecmath': 2900, 'zero': 3500}
+86.28514954538339 at timestep 80
+90.67780552290209 at timestep 81
+92.52385688802985 at timestep 82
+95.58808947666998 at timestep 83
+Creating configuration for window size of 4
+{'affinity': 2000, 'atomic': 2200, 'bsearch': 4600, 'cap': 1600, 'chmod': 1800, 'matrix': 4600, 'memcpy': 1400, 'vecmath': 3200, 'zero': 2600}
+71.48618255620904 at timestep 84
+72.25735933052336 at timestep 85
+83.11010122837025 at timestep 86
+82.91702712501579 at timestep 87
+Creating configuration for window size of 4
+{'affinity': 2000, 'atomic': 3800, 'bsearch': 4500, 'cap': 1400, 'chmod': 1700, 'matrix': 3900, 'memcpy': 1400, 'vecmath': 2800, 'zero': 2500}
+74.88882472323095 at timestep 88
+78.1308177303886 at timestep 89
+74.85015067865015 at timestep 90
+80.99113633512684 at timestep 91
+Creating configuration for window size of 4
+{'affinity': 2100, 'atomic': 4100, 'bsearch': 4800, 'cap': 1300, 'chmod': 1600, 'matrix': 3800, 'memcpy': 1400, 'vecmath': 2700, 'zero': 2200}
+73.50949659604171 at timestep 92
+84.7540130028427 at timestep 93
+80.09836760725476 at timestep 94
+89.60370501957331 at timestep 95
+Creating configuration for window size of 4
+{'affinity': 1900, 'atomic': 4300, 'bsearch': 4800, 'cap': 1700, 'chmod': 1200, 'matrix': 3900, 'memcpy': 1200, 'vecmath': 2400, 'zero': 2600}
+82.96508856018738 at timestep 96
+88.5105043031027 at timestep 97
+99.23333311820257 at timestep 98
+113.59584373628184 at timestep 99
+Creating configuration for window size of 4
+{'affinity': 1800, 'atomic': 4400, 'bsearch': 4600, 'cap': 2000, 'chmod': 1100, 'matrix': 3600, 'memcpy': 1200, 'vecmath': 2300, 'zero': 3000}
+89.07319247919112 at timestep 100
+95.43566685958368 at timestep 101
+108.02133411755764 at timestep 102
+121.62765031190416 at timestep 103
+Creating configuration for window size of 4
+{'affinity': 1700, 'atomic': 4300, 'bsearch': 4600, 'cap': 1900, 'chmod': 1400, 'matrix': 3600, 'memcpy': 1100, 'vecmath': 2200, 'zero': 3200}
+96.36981470597189 at timestep 104
+95.2693832554188 at timestep 105
+94.85007632047785 at timestep 106
+94.85007632047785 at timestep 107
+Creating configuration for window size of 4
+{'affinity': 2000, 'atomic': 4500, 'bsearch': 4800, 'cap': 1400, 'chmod': 1700, 'matrix': 3700, 'memcpy': 1300, 'vecmath': 2300, 'zero': 2300}
+81.42093837625782 at timestep 108
+87.69522268129023 at timestep 109
+87.69522268129023 at timestep 110
+87.69522268129023 at timestep 111
+Creating configuration for window size of 4
+{'affinity': 1600, 'atomic': 5000, 'bsearch': 4800, 'cap': 1300, 'chmod': 1800, 'matrix': 3500, 'memcpy': 1400, 'vecmath': 2300, 'zero': 2300}
+74.56901256319767 at timestep 112
+80.29264539905597 at timestep 113
+81.63728732500815 at timestep 114
+75.30980742599998 at timestep 115
+Creating configuration for window size of 4
+{'affinity': 1000, 'atomic': 4900, 'bsearch': 5100, 'cap': 1300, 'chmod': 1600, 'matrix': 3700, 'memcpy': 1500, 'vecmath': 2400, 'zero': 2500}
+73.70792087497111 at timestep 116
+74.63066346151415 at timestep 117
+75.1025871486776 at timestep 118
+75.1025871486776 at timestep 119
+Creating configuration for window size of 4
+{'affinity': 1300, 'atomic': 4900, 'bsearch': 4300, 'cap': 1600, 'chmod': 1300, 'matrix': 3900, 'memcpy': 1300, 'vecmath': 2300, 'zero': 3100}
+75.1025871486776 at timestep 120
+81.00415700767239 at timestep 121
+81.41051281910951 at timestep 122
+114.21469200502251 at timestep 123
+Creating configuration for window size of 4
+{'affinity': 1800, 'atomic': 4600, 'bsearch': 3600, 'cap': 2000, 'chmod': 1400, 'matrix': 3900, 'memcpy': 1300, 'vecmath': 2400, 'zero': 3000}
+83.33450899488433 at timestep 124
+89.03931667435661 at timestep 125
+93.03015817412233 at timestep 126
+94.85007632047785 at timestep 127
+Creating configuration for window size of 4
+{'affinity': 1800, 'atomic': 3800, 'bsearch': 3800, 'cap': 1800, 'chmod': 1700, 'matrix': 4100, 'memcpy': 1300, 'vecmath': 2800, 'zero': 2900}
+79.35202590715103 at timestep 128
+82.70921317299145 at timestep 129
+83.91613924518853 at timestep 130
+75.08007879260987 at timestep 131
+Creating configuration for window size of 4
+{'affinity': 2100, 'atomic': 1900, 'bsearch': 5200, 'cap': 1600, 'chmod': 2000, 'matrix': 4000, 'memcpy': 1500, 'vecmath': 3100, 'zero': 2600}
+65.67930867553886 at timestep 132
+69.29006849387773 at timestep 133
+76.05796685433887 at timestep 134
+80.19798940347347 at timestep 135
+Creating configuration for window size of 4
+{'affinity': 2100, 'atomic': 3600, 'bsearch': 4900, 'cap': 1400, 'chmod': 1900, 'matrix': 3700, 'memcpy': 1500, 'vecmath': 2600, 'zero': 2300}
+69.27540418540514 at timestep 136
+70.83362775503309 at timestep 137
+72.50608469710133 at timestep 138
+81.69038880302561 at timestep 139
+Creating configuration for window size of 4
+{'affinity': 2200, 'atomic': 4300, 'bsearch': 5400, 'cap': 1200, 'chmod': 1800, 'matrix': 3100, 'memcpy': 1500, 'vecmath': 2300, 'zero': 2200}
+68.26937324376907 at timestep 140
+72.82820965199764 at timestep 141
+157.11873684509388 at timestep 142
+155.7637638283219 at timestep 143
+Creating configuration for window size of 4
+{'affinity': 1700, 'atomic': 4400, 'bsearch': 4800, 'cap': 1500, 'chmod': 1600, 'matrix': 2200, 'memcpy': 2700, 'vecmath': 2300, 'zero': 2800}
+80.76143840550472 at timestep 144
+86.09124900400425 at timestep 145
+87.98875898314184 at timestep 146
+125.79566484007633 at timestep 147
+Creating configuration for window size of 4
+{'affinity': 1600, 'atomic': 4200, 'bsearch': 4500, 'cap': 1800, 'chmod': 1500, 'matrix': 2500, 'memcpy': 2800, 'vecmath': 2200, 'zero': 2900}
+92.1661129647147 at timestep 148
+89.02297814126639 at timestep 149
+87.56794433096687 at timestep 150
+89.01630684264356 at timestep 151
+Creating configuration for window size of 4
+{'affinity': 1400, 'atomic': 4200, 'bsearch': 4800, 'cap': 1700, 'chmod': 1600, 'matrix': 2400, 'memcpy': 2900, 'vecmath': 2200, 'zero': 2800}
+89.86196216518783 at timestep 152
+89.00278702722834 at timestep 153
+92.03403653045514 at timestep 154
+85.23516183637491 at timestep 155
+Creating configuration for window size of 4
+{'affinity': 1100, 'atomic': 4600, 'bsearch': 4800, 'cap': 1300, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3100, 'vecmath': 2200, 'zero': 2700}
+81.97889926509325 at timestep 156
+82.74783395209721 at timestep 157
+86.09487586359549 at timestep 158
+85.63895953089965 at timestep 159
+Creating configuration for window size of 4
+{'affinity': 1100, 'atomic': 4700, 'bsearch': 4800, 'cap': 1500, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2000, 'zero': 2500}
+78.75007185493097 at timestep 160
+79.51007344979317 at timestep 161
+78.1550329630303 at timestep 162
+78.1550329630303 at timestep 163
+Creating configuration for window size of 4
+{'affinity': 1500, 'atomic': 4700, 'bsearch': 4800, 'cap': 1200, 'chmod': 1700, 'matrix': 2700, 'memcpy': 3400, 'vecmath': 2000, 'zero': 2000}
+73.23479826146908 at timestep 164
+80.28441605773261 at timestep 165
+84.05560256681797 at timestep 166
+99.07903042130033 at timestep 167
+Creating configuration for window size of 4
+{'affinity': 1800, 'atomic': 3700, 'bsearch': 4200, 'cap': 1500, 'chmod': 1500, 'matrix': 2700, 'memcpy': 3300, 'vecmath': 2200, 'zero': 3100}
+75.69651070340116 at timestep 168
+79.9047745610131 at timestep 169
+90.10565674420262 at timestep 170
+125.79566484007633 at timestep 171
+Creating configuration for window size of 4
+{'affinity': 1800, 'atomic': 1900, 'bsearch': 3600, 'cap': 2300, 'chmod': 1600, 'matrix': 2900, 'memcpy': 3300, 'vecmath': 2700, 'zero': 3900}
+75.69651070340116 at timestep 172
+78.95895616763084 at timestep 173
+80.91935325480499 at timestep 174
+92.16248295937575 at timestep 175
+Creating configuration for window size of 4
+{'affinity': 1800, 'atomic': 2600, 'bsearch': 3700, 'cap': 1800, 'chmod': 1700, 'matrix': 3700, 'memcpy': 3400, 'vecmath': 2500, 'zero': 2800}
+78.46263781465566 at timestep 176
+87.67119715544702 at timestep 177
+94.05344887903304 at timestep 178
+82.37212109969933 at timestep 179
+Creating configuration for window size of 4
+{'affinity': 1800, 'atomic': 3800, 'bsearch': 4100, 'cap': 1400, 'chmod': 1700, 'matrix': 3300, 'memcpy': 3300, 'vecmath': 2200, 'zero': 2400}
+80.56060898400023 at timestep 180
+85.5039584818559 at timestep 181
+84.10092716523887 at timestep 182
+84.27002754913488 at timestep 183
+Creating configuration for window size of 4
+{'affinity': 1900, 'atomic': 4400, 'bsearch': 4300, 'cap': 1200, 'chmod': 1700, 'matrix': 2800, 'memcpy': 3200, 'vecmath': 2300, 'zero': 2200}
+79.90516787893041 at timestep 184
+86.79266430578289 at timestep 185
+81.97067217024978 at timestep 186
+91.909399464766 at timestep 187
+Creating configuration for window size of 4
+{'affinity': 2000, 'atomic': 4300, 'bsearch': 4700, 'cap': 1200, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3300, 'vecmath': 2300, 'zero': 2000}
+77.08896431478603 at timestep 188
+77.84192220369977 at timestep 189
+84.997438823523 at timestep 190
+89.75426295760293 at timestep 191
+Creating configuration for window size of 4
+{'affinity': 1900, 'atomic': 3900, 'bsearch': 4400, 'cap': 1600, 'chmod': 1500, 'matrix': 2500, 'memcpy': 3000, 'vecmath': 2200, 'zero': 3000}
+82.94110035896304 at timestep 192
+92.47985209831401 at timestep 193
+94.94706120926074 at timestep 194
+104.60506391847942 at timestep 195
+Creating configuration for window size of 4
+{'affinity': 1800, 'atomic': 3800, 'bsearch': 4500, 'cap': 2200, 'chmod': 1500, 'matrix': 2500, 'memcpy': 1600, 'vecmath': 2500, 'zero': 3600}
+83.31960896972033 at timestep 196
+93.63372727349359 at timestep 197
+96.81859174856167 at timestep 198
+98.5752761971721 at timestep 199
+Simulation took 17225.269872316352 total seconds, with 49 Checkpoints
+With checkpoints, the total duration would be 17960.269872316352
+Simulating simulation for static window of size 5
+Creating configuration for window size of 5
+{'affinity': 1900, 'atomic': 3800, 'bsearch': 4600, 'cap': 1300, 'chmod': 1000, 'matrix': 4000, 'memcpy': 2900, 'vecmath': 2300, 'zero': 2200}
+87.1868225405098 at timestep 0
+108.08420781026976 at timestep 1
+144.79999990018987 at timestep 2
+144.86018749982358 at timestep 3
+127.24609045983823 at timestep 4
+Creating configuration for window size of 5
+{'affinity': 1800, 'atomic': 4200, 'bsearch': 4000, 'cap': 1800, 'chmod': 1000, 'matrix': 3600, 'memcpy': 2700, 'vecmath': 2100, 'zero': 2800}
+92.99650113871752 at timestep 5
+104.23923328750968 at timestep 6
+105.21395712855825 at timestep 7
+109.71759341086306 at timestep 8
+109.71759341086306 at timestep 9
+Creating configuration for window size of 5
+{'affinity': 1700, 'atomic': 3600, 'bsearch': 3800, 'cap': 2000, 'chmod': 1200, 'matrix': 3400, 'memcpy': 2900, 'vecmath': 2100, 'zero': 3300}
+87.48666520643624 at timestep 10
+94.67029812337594 at timestep 11
+108.33203987677165 at timestep 12
+117.56889916961326 at timestep 13
+120.21212512342096 at timestep 14
+Creating configuration for window size of 5
+{'affinity': 1000, 'atomic': 4700, 'bsearch': 4100, 'cap': 1600, 'chmod': 1500, 'matrix': 3600, 'memcpy': 3100, 'vecmath': 2100, 'zero': 2300}
+81.13914989954495 at timestep 15
+92.97820443037902 at timestep 16
+82.94328385390197 at timestep 17
+80.79719380528489 at timestep 18
+80.79719380528489 at timestep 19
+Creating configuration for window size of 5
+{'affinity': 1400, 'atomic': 4900, 'bsearch': 3800, 'cap': 1400, 'chmod': 1400, 'matrix': 3600, 'memcpy': 3300, 'vecmath': 2000, 'zero': 2200}
+75.69651070340116 at timestep 20
+77.94274872951627 at timestep 21
+86.73564556671062 at timestep 22
+91.61985945777185 at timestep 23
+101.93228045532499 at timestep 24
+Creating configuration for window size of 5
+{'affinity': 1900, 'atomic': 4200, 'bsearch': 3500, 'cap': 1500, 'chmod': 1200, 'matrix': 3600, 'memcpy': 3300, 'vecmath': 2200, 'zero': 2600}
+79.15804928431382 at timestep 25
+92.21965422379859 at timestep 26
+102.2540019655149 at timestep 27
+113.35562338852849 at timestep 28
+100.97383194771872 at timestep 29
+Creating configuration for window size of 5
+{'affinity': 1900, 'atomic': 2800, 'bsearch': 3800, 'cap': 1800, 'chmod': 1100, 'matrix': 3500, 'memcpy': 3500, 'vecmath': 2400, 'zero': 3200}
+74.7347997243234 at timestep 30
+71.48071919570934 at timestep 31
+75.4472348728803 at timestep 32
+72.17572990865513 at timestep 33
+87.59608868783243 at timestep 34
+Creating configuration for window size of 5
+{'affinity': 1800, 'atomic': 3400, 'bsearch': 3700, 'cap': 1700, 'chmod': 1200, 'matrix': 2800, 'memcpy': 3500, 'vecmath': 2200, 'zero': 3700}
+71.34355605273069 at timestep 35
+74.45029904744523 at timestep 36
+75.42386044375829 at timestep 37
+77.35003965015338 at timestep 38
+98.88327992643406 at timestep 39
+Creating configuration for window size of 5
+{'affinity': 1700, 'atomic': 4800, 'bsearch': 4000, 'cap': 1500, 'chmod': 1100, 'matrix': 2800, 'memcpy': 3300, 'vecmath': 2100, 'zero': 2700}
+75.92491829069718 at timestep 40
+77.7665070419768 at timestep 41
+77.38993542491029 at timestep 42
+80.7638254657401 at timestep 43
+90.71498435033824 at timestep 44
+Creating configuration for window size of 5
+{'affinity': 2100, 'atomic': 4600, 'bsearch': 4500, 'cap': 1400, 'chmod': 1200, 'matrix': 2700, 'memcpy': 3400, 'vecmath': 2100, 'zero': 2000}
+74.31088521637376 at timestep 45
+75.22939288192121 at timestep 46
+76.46928816725207 at timestep 47
+102.89833605151165 at timestep 48
+97.45856295010302 at timestep 49
+Creating configuration for window size of 5
+{'affinity': 1900, 'atomic': 4400, 'bsearch': 4300, 'cap': 1900, 'chmod': 1000, 'matrix': 2100, 'memcpy': 3000, 'vecmath': 2500, 'zero': 2900}
+84.92538973507015 at timestep 50
+105.49667675145047 at timestep 51
+95.36331927702201 at timestep 52
+97.0985499647565 at timestep 53
+92.74189900674891 at timestep 54
+Creating configuration for window size of 5
+{'affinity': 2000, 'atomic': 4700, 'bsearch': 4700, 'cap': 1800, 'chmod': 1000, 'matrix': 2100, 'memcpy': 1800, 'vecmath': 2900, 'zero': 3000}
+83.21835215641741 at timestep 55
+86.5708046107102 at timestep 56
+95.2733510679407 at timestep 57
+98.71112795378109 at timestep 58
+95.19841441335933 at timestep 59
+Creating configuration for window size of 5
+{'affinity': 1900, 'atomic': 4800, 'bsearch': 4600, 'cap': 1600, 'chmod': 1100, 'matrix': 3000, 'memcpy': 1500, 'vecmath': 2500, 'zero': 3000}
+77.3085946305562 at timestep 60
+84.05806004556518 at timestep 61
+92.14025628089202 at timestep 62
+83.49875644146915 at timestep 63
+94.56118791743167 at timestep 64
+Creating configuration for window size of 5
+{'affinity': 1400, 'atomic': 5000, 'bsearch': 4400, 'cap': 1400, 'chmod': 1000, 'matrix': 3800, 'memcpy': 1500, 'vecmath': 2700, 'zero': 2800}
+73.77703904278447 at timestep 65
+73.25757830955752 at timestep 66
+72.87134544054668 at timestep 67
+72.87134544054668 at timestep 68
+72.87134544054668 at timestep 69
+Creating configuration for window size of 5
+{'affinity': 1200, 'atomic': 5200, 'bsearch': 4300, 'cap': 1400, 'chmod': 1000, 'matrix': 4000, 'memcpy': 1500, 'vecmath': 3200, 'zero': 2200}
+69.79116933798905 at timestep 70
+88.35632705812093 at timestep 71
+99.3040161603795 at timestep 72
+97.86425556716189 at timestep 73
+133.3149283055267 at timestep 74
+Creating configuration for window size of 5
+{'affinity': 1700, 'atomic': 4500, 'bsearch': 3500, 'cap': 2100, 'chmod': 1000, 'matrix': 3600, 'memcpy': 1200, 'vecmath': 2900, 'zero': 3500}
+87.69522268129023 at timestep 75
+86.60805469496418 at timestep 76
+86.51084759426766 at timestep 77
+99.99604582618565 at timestep 78
+107.07861429560465 at timestep 79
+Creating configuration for window size of 5
+{'affinity': 1600, 'atomic': 3400, 'bsearch': 3900, 'cap': 2100, 'chmod': 1300, 'matrix': 4200, 'memcpy': 1200, 'vecmath': 2800, 'zero': 3500}
+89.2514129840652 at timestep 80
+90.67780552290209 at timestep 81
+92.52385688802985 at timestep 82
+95.58808947666998 at timestep 83
+100.21003229364106 at timestep 84
+Creating configuration for window size of 5
+{'affinity': 2000, 'atomic': 2900, 'bsearch': 4600, 'cap': 1500, 'chmod': 1800, 'matrix': 4400, 'memcpy': 1400, 'vecmath': 2900, 'zero': 2500}
+75.03299859918711 at timestep 85
+86.58209514570906 at timestep 86
+78.61210105974192 at timestep 87
+74.97780402004756 at timestep 88
+87.05040477744585 at timestep 89
+Creating configuration for window size of 5
+{'affinity': 1900, 'atomic': 4200, 'bsearch': 4800, 'cap': 1300, 'chmod': 1600, 'matrix': 3700, 'memcpy': 1400, 'vecmath': 2800, 'zero': 2300}
+73.33700350251968 at timestep 90
+76.69471654874292 at timestep 91
+81.96949261887515 at timestep 92
+82.45460591569493 at timestep 93
+83.62158673648267 at timestep 94
+Creating configuration for window size of 5
+{'affinity': 2000, 'atomic': 4500, 'bsearch': 4800, 'cap': 1600, 'chmod': 1300, 'matrix': 4000, 'memcpy': 1300, 'vecmath': 2400, 'zero': 2100}
+80.38560464075911 at timestep 95
+108.84837640716349 at timestep 96
+89.7187122254025 at timestep 97
+131.50143692539467 at timestep 98
+150.98361368789753 at timestep 99
+Creating configuration for window size of 5
+{'affinity': 1800, 'atomic': 4400, 'bsearch': 4600, 'cap': 2000, 'chmod': 1100, 'matrix': 3600, 'memcpy': 1200, 'vecmath': 2300, 'zero': 3000}
+89.07319247919112 at timestep 100
+95.43566685958368 at timestep 101
+108.02133411755764 at timestep 102
+121.62765031190416 at timestep 103
+122.08456378722558 at timestep 104
+Creating configuration for window size of 5
+{'affinity': 1800, 'atomic': 4500, 'bsearch': 4400, 'cap': 1800, 'chmod': 1500, 'matrix': 3600, 'memcpy': 1100, 'vecmath': 2200, 'zero': 3100}
+92.51103445496025 at timestep 105
+93.18974797269603 at timestep 106
+90.73613472073575 at timestep 107
+90.89994212782193 at timestep 108
+91.64083883856608 at timestep 109
+Creating configuration for window size of 5
+{'affinity': 1700, 'atomic': 4800, 'bsearch': 5100, 'cap': 1300, 'chmod': 1700, 'matrix': 3600, 'memcpy': 1300, 'vecmath': 2300, 'zero': 2200}
+79.2390341524697 at timestep 110
+81.03457132527429 at timestep 111
+78.77912441812181 at timestep 112
+85.39375487523819 at timestep 113
+86.8198962652497 at timestep 114
+Creating configuration for window size of 5
+{'affinity': 1000, 'atomic': 5200, 'bsearch': 4900, 'cap': 1300, 'chmod': 1600, 'matrix': 3700, 'memcpy': 1500, 'vecmath': 2500, 'zero': 2300}
+69.79116933798905 at timestep 115
+72.89130717494194 at timestep 116
+70.35564125391745 at timestep 117
+73.34931839535372 at timestep 118
+74.65868297126714 at timestep 119
+Creating configuration for window size of 5
+{'affinity': 1300, 'atomic': 4900, 'bsearch': 4300, 'cap': 1700, 'chmod': 1300, 'matrix': 3800, 'memcpy': 1300, 'vecmath': 2300, 'zero': 3100}
+75.1025871486776 at timestep 120
+84.41355036935656 at timestep 121
+84.54261740959872 at timestep 122
+106.18964329094491 at timestep 123
+91.97782269299624 at timestep 124
+Creating configuration for window size of 5
+{'affinity': 1800, 'atomic': 4400, 'bsearch': 4000, 'cap': 2100, 'chmod': 1600, 'matrix': 3800, 'memcpy': 1300, 'vecmath': 2400, 'zero': 2600}
+84.39343985443381 at timestep 125
+90.3875170798589 at timestep 126
+88.15974783932899 at timestep 127
+89.71182667932855 at timestep 128
+92.70552220499297 at timestep 129
+Creating configuration for window size of 5
+{'affinity': 1800, 'atomic': 3500, 'bsearch': 4300, 'cap': 1700, 'chmod': 1700, 'matrix': 3900, 'memcpy': 1300, 'vecmath': 2600, 'zero': 3200}
+77.1495815651354 at timestep 130
+78.33891460150261 at timestep 131
+77.56607649647167 at timestep 132
+81.09474318011056 at timestep 133
+78.26713048877956 at timestep 134
+Creating configuration for window size of 5
+{'affinity': 2100, 'atomic': 3600, 'bsearch': 5100, 'cap': 1400, 'chmod': 1800, 'matrix': 3700, 'memcpy': 1400, 'vecmath': 2600, 'zero': 2300}
+71.49089838354028 at timestep 135
+69.92859859839506 at timestep 136
+70.19870012376927 at timestep 137
+72.50608469710133 at timestep 138
+81.69038880302561 at timestep 139
+Creating configuration for window size of 5
+{'affinity': 2200, 'atomic': 4300, 'bsearch': 5400, 'cap': 1200, 'chmod': 1800, 'matrix': 3100, 'memcpy': 1500, 'vecmath': 2300, 'zero': 2200}
+68.26937324376907 at timestep 140
+72.82820965199764 at timestep 141
+157.11873684509388 at timestep 142
+155.7637638283219 at timestep 143
+165.796429461027 at timestep 144
+Creating configuration for window size of 5
+{'affinity': 1700, 'atomic': 4600, 'bsearch': 4800, 'cap': 1600, 'chmod': 1400, 'matrix': 2400, 'memcpy': 2900, 'vecmath': 2300, 'zero': 2300}
+81.46656516470873 at timestep 145
+108.28693749690719 at timestep 146
+135.94628617581475 at timestep 147
+122.05118524250592 at timestep 148
+117.47651523803543 at timestep 149
+Creating configuration for window size of 5
+{'affinity': 1500, 'atomic': 4300, 'bsearch': 4700, 'cap': 1700, 'chmod': 1600, 'matrix': 2600, 'memcpy': 2900, 'vecmath': 2200, 'zero': 2500}
+90.55831350283366 at timestep 150
+95.80984526178936 at timestep 151
+102.15375297274966 at timestep 152
+91.90945572430543 at timestep 153
+104.85458695430552 at timestep 154
+Creating configuration for window size of 5
+{'affinity': 1200, 'atomic': 4200, 'bsearch': 5000, 'cap': 1400, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2300, 'zero': 2500}
+84.1227883619172 at timestep 155
+89.24522258565942 at timestep 156
+92.55106446440166 at timestep 157
+95.53006441625679 at timestep 158
+93.69892145602684 at timestep 159
+Creating configuration for window size of 5
+{'affinity': 1100, 'atomic': 4700, 'bsearch': 5000, 'cap': 1400, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2000, 'zero': 2400}
+81.69316284442185 at timestep 160
+78.64382996810754 at timestep 161
+78.1550329630303 at timestep 162
+78.1550329630303 at timestep 163
+79.28084863270062 at timestep 164
+Creating configuration for window size of 5
+{'affinity': 1600, 'atomic': 4600, 'bsearch': 4700, 'cap': 1200, 'chmod': 1600, 'matrix': 2900, 'memcpy': 3300, 'vecmath': 2100, 'zero': 2000}
+75.69651070340116 at timestep 165
+77.11585636665501 at timestep 166
+99.07903042130033 at timestep 167
+115.13614145541897 at timestep 168
+132.00601390937095 at timestep 169
+Creating configuration for window size of 5
+{'affinity': 1900, 'atomic': 2200, 'bsearch': 4400, 'cap': 2000, 'chmod': 1400, 'matrix': 2700, 'memcpy': 3300, 'vecmath': 2400, 'zero': 3700}
+79.95471690715279 at timestep 170
+89.12948107719423 at timestep 171
+89.12948107719423 at timestep 172
+92.6066522783561 at timestep 173
+94.85007632047785 at timestep 174
+Creating configuration for window size of 5
+{'affinity': 1600, 'atomic': 2600, 'bsearch': 4100, 'cap': 1900, 'chmod': 1700, 'matrix': 3500, 'memcpy': 3300, 'vecmath': 2600, 'zero': 2700}
+77.59774906874475 at timestep 175
+83.23663176181216 at timestep 176
+90.32960383210386 at timestep 177
+97.9799581587327 at timestep 178
+85.36204927057989 at timestep 179
+Creating configuration for window size of 5
+{'affinity': 1800, 'atomic': 3800, 'bsearch': 4100, 'cap': 1400, 'chmod': 1700, 'matrix': 3300, 'memcpy': 3300, 'vecmath': 2200, 'zero': 2400}
+80.56060898400023 at timestep 180
+85.5039584818559 at timestep 181
+84.10092716523887 at timestep 182
+84.27002754913488 at timestep 183
+90.56907793258314 at timestep 184
+Creating configuration for window size of 5
+{'affinity': 1800, 'atomic': 4400, 'bsearch': 4600, 'cap': 1200, 'chmod': 1600, 'matrix': 2800, 'memcpy': 3100, 'vecmath': 2200, 'zero': 2300}
+82.05070969829353 at timestep 185
+80.58001339625231 at timestep 186
+86.43496310628716 at timestep 187
+84.954242710254 at timestep 188
+87.7848811440506 at timestep 189
+Creating configuration for window size of 5
+{'affinity': 2000, 'atomic': 4100, 'bsearch': 4600, 'cap': 1500, 'chmod': 1600, 'matrix': 2700, 'memcpy': 3200, 'vecmath': 2300, 'zero': 2000}
+78.1550329630303 at timestep 190
+89.75426295760293 at timestep 191
+115.13277417149092 at timestep 192
+130.30958484269914 at timestep 193
+158.11285485188463 at timestep 194
+Creating configuration for window size of 5
+{'affinity': 1800, 'atomic': 3800, 'bsearch': 4100, 'cap': 2000, 'chmod': 1400, 'matrix': 2400, 'memcpy': 2700, 'vecmath': 2400, 'zero': 3400}
+90.07241397453438 at timestep 195
+91.40747553410506 at timestep 196
+93.63372727349359 at timestep 197
+101.5693120885306 at timestep 198
+101.26364614473434 at timestep 199
+Simulation took 18339.186684725195 total seconds, with 39 Checkpoints
+With checkpoints, the total duration would be 18924.186684725195
+Simulating simulation for static window of size 6
+Creating configuration for window size of 6
+{'affinity': 1900, 'atomic': 3800, 'bsearch': 4600, 'cap': 1300, 'chmod': 1000, 'matrix': 4000, 'memcpy': 2900, 'vecmath': 2300, 'zero': 2200}
+87.1868225405098 at timestep 0
+108.08420781026976 at timestep 1
+144.79999990018987 at timestep 2
+144.86018749982358 at timestep 3
+127.24609045983823 at timestep 4
+123.82341114994115 at timestep 5
+Creating configuration for window size of 6
+{'affinity': 1800, 'atomic': 4000, 'bsearch': 3900, 'cap': 1900, 'chmod': 1000, 'matrix': 3600, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3100}
+97.21598798869529 at timestep 6
+97.50374525282588 at timestep 7
+100.49024221617944 at timestep 8
+99.84090104964189 at timestep 9
+98.6582441006003 at timestep 10
+110.73960612724446 at timestep 11
+Creating configuration for window size of 6
+{'affinity': 1300, 'atomic': 4400, 'bsearch': 3900, 'cap': 1800, 'chmod': 1300, 'matrix': 3400, 'memcpy': 2900, 'vecmath': 2200, 'zero': 2800}
+86.96663513390425 at timestep 12
+88.56590022949295 at timestep 13
+91.4307421636688 at timestep 14
+91.4307421636688 at timestep 15
+91.4307421636688 at timestep 16
+91.4307421636688 at timestep 17
+Creating configuration for window size of 6
+{'affinity': 1200, 'atomic': 4800, 'bsearch': 4000, 'cap': 1400, 'chmod': 1400, 'matrix': 3600, 'memcpy': 3300, 'vecmath': 2000, 'zero': 2300}
+77.82945052212114 at timestep 18
+77.7665070419768 at timestep 19
+77.7665070419768 at timestep 20
+81.42464694521252 at timestep 21
+102.08893655751386 at timestep 22
+108.13632205603989 at timestep 23
+Creating configuration for window size of 6
+{'affinity': 1800, 'atomic': 4500, 'bsearch': 3600, 'cap': 1400, 'chmod': 1000, 'matrix': 3800, 'memcpy': 3100, 'vecmath': 2000, 'zero': 2800}
+84.38791642347124 at timestep 24
+82.25783081207027 at timestep 25
+88.2698651983198 at timestep 26
+94.92647460552038 at timestep 27
+122.94280317842927 at timestep 28
+110.00051701450064 at timestep 29
+Creating configuration for window size of 6
+{'affinity': 1900, 'atomic': 2700, 'bsearch': 4100, 'cap': 1700, 'chmod': 1000, 'matrix': 3500, 'memcpy': 3500, 'vecmath': 2400, 'zero': 3200}
+75.95632124333555 at timestep 30
+77.3957369475979 at timestep 31
+81.0545264178104 at timestep 32
+78.17008724271892 at timestep 33
+87.59608868783243 at timestep 34
+85.3553155244641 at timestep 35
+Creating configuration for window size of 6
+{'affinity': 1800, 'atomic': 4000, 'bsearch': 4100, 'cap': 1600, 'chmod': 1300, 'matrix': 2800, 'memcpy': 3400, 'vecmath': 2200, 'zero': 2800}
+73.97265409780815 at timestep 36
+91.76310955369456 at timestep 37
+75.53685820338296 at timestep 38
+78.31344006929378 at timestep 39
+89.25897264440756 at timestep 40
+106.74492303530374 at timestep 41
+Creating configuration for window size of 6
+{'affinity': 1900, 'atomic': 4800, 'bsearch': 4500, 'cap': 1200, 'chmod': 1200, 'matrix': 2700, 'memcpy': 3300, 'vecmath': 2100, 'zero': 2300}
+76.50668681233084 at timestep 42
+75.69651070340116 at timestep 43
+79.80000625144217 at timestep 44
+82.45460591569493 at timestep 45
+82.45460591569493 at timestep 46
+82.45460591569493 at timestep 47
+Creating configuration for window size of 6
+{'affinity': 2000, 'atomic': 4200, 'bsearch': 4500, 'cap': 1800, 'chmod': 1000, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2300, 'zero': 2500}
+78.1550329630303 at timestep 48
+85.10059402560154 at timestep 49
+99.98769034620723 at timestep 50
+122.11133285864295 at timestep 51
+107.60200621353809 at timestep 52
+115.22454222422715 at timestep 53
+Creating configuration for window size of 6
+{'affinity': 2000, 'atomic': 4800, 'bsearch': 4600, 'cap': 1800, 'chmod': 1000, 'matrix': 2100, 'memcpy': 1900, 'vecmath': 2900, 'zero': 2900}
+81.26947888150696 at timestep 54
+86.41220850446128 at timestep 55
+89.98895498517496 at timestep 56
+98.9464331752052 at timestep 57
+102.28950991713543 at timestep 58
+95.19841441335933 at timestep 59
+Creating configuration for window size of 6
+{'affinity': 1900, 'atomic': 4700, 'bsearch': 4700, 'cap': 1600, 'chmod': 1100, 'matrix': 3000, 'memcpy': 1500, 'vecmath': 2500, 'zero': 3000}
+77.3085946305562 at timestep 60
+84.05806004556518 at timestep 61
+92.14025628089202 at timestep 62
+83.49875644146915 at timestep 63
+94.56118791743167 at timestep 64
+98.57677645773572 at timestep 65
+Creating configuration for window size of 6
+{'affinity': 1000, 'atomic': 5200, 'bsearch': 4500, 'cap': 1400, 'chmod': 1100, 'matrix': 3900, 'memcpy': 1500, 'vecmath': 2800, 'zero': 2600}
+70.27253792000047 at timestep 66
+69.79116933798905 at timestep 67
+69.79116933798905 at timestep 68
+69.79116933798905 at timestep 69
+76.27357938186665 at timestep 70
+75.26625378189141 at timestep 71
+Creating configuration for window size of 6
+{'affinity': 1600, 'atomic': 4700, 'bsearch': 4000, 'cap': 1800, 'chmod': 1000, 'matrix': 3700, 'memcpy': 1300, 'vecmath': 2900, 'zero': 3000}
+80.87279959266486 at timestep 72
+82.12871349976061 at timestep 73
+90.9723375106132 at timestep 74
+103.19027916590372 at timestep 75
+101.73734107876281 at timestep 76
+94.90994042008138 at timestep 77
+Creating configuration for window size of 6
+{'affinity': 1700, 'atomic': 4000, 'bsearch': 3900, 'cap': 2100, 'chmod': 1200, 'matrix': 4000, 'memcpy': 1200, 'vecmath': 2700, 'zero': 3200}
+90.4805289132101 at timestep 78
+94.70836442544555 at timestep 79
+96.36981470597189 at timestep 80
+98.20537188035425 at timestep 81
+100.2642521540621 at timestep 82
+103.69498017705466 at timestep 83
+Creating configuration for window size of 6
+{'affinity': 2000, 'atomic': 2300, 'bsearch': 4700, 'cap': 1600, 'chmod': 1800, 'matrix': 4500, 'memcpy': 1400, 'vecmath': 3100, 'zero': 2600}
+72.45312884681971 at timestep 84
+72.25735933052336 at timestep 85
+83.11010122837025 at timestep 86
+80.49819471657014 at timestep 87
+84.65185922758825 at timestep 88
+101.03517842661266 at timestep 89
+Creating configuration for window size of 6
+{'affinity': 1900, 'atomic': 4200, 'bsearch': 5000, 'cap': 1300, 'chmod': 1600, 'matrix': 3600, 'memcpy': 1400, 'vecmath': 2800, 'zero': 2200}
+74.30313083080708 at timestep 90
+76.69471654874292 at timestep 91
+81.96949261887515 at timestep 92
+82.45460591569493 at timestep 93
+87.35645493930033 at timestep 94
+92.8725458352518 at timestep 95
+Creating configuration for window size of 6
+{'affinity': 1900, 'atomic': 4200, 'bsearch': 4800, 'cap': 1800, 'chmod': 1200, 'matrix': 3900, 'memcpy': 1200, 'vecmath': 2400, 'zero': 2600}
+83.49787501039545 at timestep 96
+91.6453737934229 at timestep 97
+99.23333311820257 at timestep 98
+113.59584373628184 at timestep 99
+103.40680708689156 at timestep 100
+94.36423793956324 at timestep 101
+Creating configuration for window size of 6
+{'affinity': 1800, 'atomic': 4200, 'bsearch': 4700, 'cap': 1800, 'chmod': 1400, 'matrix': 3900, 'memcpy': 1200, 'vecmath': 2400, 'zero': 2600}
+90.01619944867561 at timestep 102
+109.97589038840066 at timestep 103
+117.52552566111562 at timestep 104
+110.69961637560226 at timestep 105
+104.96449510061805 at timestep 106
+104.17631732621555 at timestep 107
+Creating configuration for window size of 6
+{'affinity': 2000, 'atomic': 4400, 'bsearch': 5000, 'cap': 1400, 'chmod': 1600, 'matrix': 3700, 'memcpy': 1300, 'vecmath': 2300, 'zero': 2300}
+81.42093837625782 at timestep 108
+91.4307421636688 at timestep 109
+91.4307421636688 at timestep 110
+91.4307421636688 at timestep 111
+91.4307421636688 at timestep 112
+91.4307421636688 at timestep 113
+Creating configuration for window size of 6
+{'affinity': 1000, 'atomic': 5000, 'bsearch': 5200, 'cap': 1400, 'chmod': 1600, 'matrix': 3500, 'memcpy': 1400, 'vecmath': 2300, 'zero': 2600}
+73.35557625506164 at timestep 114
+75.30980742599998 at timestep 115
+73.4294099487618 at timestep 116
+76.46695222030934 at timestep 117
+79.9000610950605 at timestep 118
+81.37055379243729 at timestep 119
+Creating configuration for window size of 6
+{'affinity': 1300, 'atomic': 4800, 'bsearch': 4500, 'cap': 1800, 'chmod': 1200, 'matrix': 3800, 'memcpy': 1300, 'vecmath': 2300, 'zero': 3000}
+79.53548593370283 at timestep 120
+84.41355036935656 at timestep 121
+84.66597626747118 at timestep 122
+103.19027916590372 at timestep 123
+93.88967641747732 at timestep 124
+104.80209901944592 at timestep 125
+Creating configuration for window size of 6
+{'affinity': 1800, 'atomic': 4100, 'bsearch': 4200, 'cap': 2100, 'chmod': 1600, 'matrix': 4100, 'memcpy': 1300, 'vecmath': 2400, 'zero': 2400}
+87.13688659047993 at timestep 126
+96.59399542268194 at timestep 127
+96.19818774434334 at timestep 128
+101.87810660228052 at timestep 129
+103.66658660839927 at timestep 130
+87.8769023241147 at timestep 131
+Creating configuration for window size of 6
+{'affinity': 2200, 'atomic': 1900, 'bsearch': 5500, 'cap': 1500, 'chmod': 2000, 'matrix': 3900, 'memcpy': 1500, 'vecmath': 3000, 'zero': 2500}
+68.31150356223374 at timestep 132
+69.29006849387773 at timestep 133
+76.05796685433887 at timestep 134
+80.19798940347347 at timestep 135
+82.93609346498408 at timestep 136
+106.12454658785819 at timestep 137
+Creating configuration for window size of 6
+{'affinity': 2000, 'atomic': 4300, 'bsearch': 5100, 'cap': 1300, 'chmod': 1800, 'matrix': 3400, 'memcpy': 1500, 'vecmath': 2400, 'zero': 2200}
+70.52808592661147 at timestep 138
+70.34312207482434 at timestep 139
+73.5165422756357 at timestep 140
+75.63970099254654 at timestep 141
+157.11873684509388 at timestep 142
+155.7637638283219 at timestep 143
+Creating configuration for window size of 6
+{'affinity': 1700, 'atomic': 4300, 'bsearch': 4800, 'cap': 1600, 'chmod': 1600, 'matrix': 2200, 'memcpy': 2700, 'vecmath': 2300, 'zero': 2800}
+81.00553576530923 at timestep 144
+87.23182657854834 at timestep 145
+87.98875898314184 at timestep 146
+117.03897130482203 at timestep 147
+95.87765669584505 at timestep 148
+93.19908274360183 at timestep 149
+Creating configuration for window size of 6
+{'affinity': 1600, 'atomic': 4200, 'bsearch': 4800, 'cap': 1700, 'chmod': 1600, 'matrix': 2600, 'memcpy': 2900, 'vecmath': 2200, 'zero': 2400}
+95.01383357089047 at timestep 150
+100.66097461417061 at timestep 151
+107.48003551809212 at timestep 152
+96.46607368308592 at timestep 153
+110.37594873866499 at timestep 154
+88.11350612170548 at timestep 155
+Creating configuration for window size of 6
+{'affinity': 1100, 'atomic': 4600, 'bsearch': 5000, 'cap': 1300, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3100, 'vecmath': 2200, 'zero': 2500}
+86.12139800881532 at timestep 156
+87.53455109963599 at timestep 157
+86.09487586359549 at timestep 158
+85.63895953089965 at timestep 159
+86.10173477532886 at timestep 160
+80.58001339625231 at timestep 161
+Creating configuration for window size of 6
+{'affinity': 1300, 'atomic': 4800, 'bsearch': 5000, 'cap': 1100, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3400, 'vecmath': 2000, 'zero': 2200}
+75.08007879260987 at timestep 162
+77.6379941690234 at timestep 163
+79.28084863270062 at timestep 164
+87.508263323342 at timestep 165
+93.4043999925113 at timestep 166
+96.70071338025042 at timestep 167
+Creating configuration for window size of 6
+{'affinity': 1800, 'atomic': 3500, 'bsearch': 4400, 'cap': 1600, 'chmod': 1400, 'matrix': 2700, 'memcpy': 3200, 'vecmath': 2200, 'zero': 3200}
+80.31468292393589 at timestep 168
+79.9047745610131 at timestep 169
+86.5648667334818 at timestep 170
+117.03897130482203 at timestep 171
+117.03897130482203 at timestep 172
+116.07268788879222 at timestep 173
+Creating configuration for window size of 6
+{'affinity': 1800, 'atomic': 2100, 'bsearch': 4100, 'cap': 2000, 'chmod': 1700, 'matrix': 3200, 'memcpy': 3400, 'vecmath': 2700, 'zero': 3000}
+77.33004862420943 at timestep 174
+83.04596490904324 at timestep 175
+87.59238729754716 at timestep 176
+80.81154427801422 at timestep 177
+89.20035660984338 at timestep 178
+79.88738756089725 at timestep 179
+Creating configuration for window size of 6
+{'affinity': 1700, 'atomic': 3800, 'bsearch': 4200, 'cap': 1400, 'chmod': 1700, 'matrix': 3300, 'memcpy': 3300, 'vecmath': 2200, 'zero': 2400}
+80.56060898400023 at timestep 180
+85.5039584818559 at timestep 181
+84.10092716523887 at timestep 182
+83.73690314613611 at timestep 183
+90.56907793258314 at timestep 184
+99.93767923173577 at timestep 185
+Creating configuration for window size of 6
+{'affinity': 1900, 'atomic': 4400, 'bsearch': 4600, 'cap': 1100, 'chmod': 1600, 'matrix': 2700, 'memcpy': 3200, 'vecmath': 2200, 'zero': 2300}
+79.8130077195283 at timestep 186
+86.43496310628716 at timestep 187
+80.54835712075662 at timestep 188
+82.45460591569493 at timestep 189
+82.45460591569493 at timestep 190
+83.40724392325326 at timestep 191
+Creating configuration for window size of 6
+{'affinity': 1800, 'atomic': 3800, 'bsearch': 4500, 'cap': 1800, 'chmod': 1500, 'matrix': 2500, 'memcpy': 2900, 'vecmath': 2200, 'zero': 3000}
+86.923272952814 at timestep 192
+92.92619942287332 at timestep 193
+94.94706120926074 at timestep 194
+103.19027916590372 at timestep 195
+103.19027916590372 at timestep 196
+101.17747776970633 at timestep 197
+Creating configuration for window size of 6
+{'affinity': 1700, 'atomic': 4100, 'bsearch': 4900, 'cap': 1700, 'chmod': 1400, 'matrix': 2700, 'memcpy': 1700, 'vecmath': 3000, 'zero': 2800}
+85.82779963620224 at timestep 198
+87.3795858358333 at timestep 199
+Simulation took 18204.001934835003 total seconds, with 33 Checkpoints
+With checkpoints, the total duration would be 18699.001934835003
+Simulating simulation for static window of size 7
+Creating configuration for window size of 7
+{'affinity': 1900, 'atomic': 3800, 'bsearch': 4600, 'cap': 1300, 'chmod': 1000, 'matrix': 4000, 'memcpy': 2900, 'vecmath': 2300, 'zero': 2200}
+87.1868225405098 at timestep 0
+108.08420781026976 at timestep 1
+144.79999990018987 at timestep 2
+144.86018749982358 at timestep 3
+127.24609045983823 at timestep 4
+123.82341114994115 at timestep 5
+140.49919768878965 at timestep 6
+Creating configuration for window size of 7
+{'affinity': 1700, 'atomic': 4100, 'bsearch': 4000, 'cap': 1900, 'chmod': 1000, 'matrix': 3500, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3100}
+94.79377871971123 at timestep 7
+100.49024221617944 at timestep 8
+99.84090104964189 at timestep 9
+98.6582441006003 at timestep 10
+110.73960612724446 at timestep 11
+109.03600301924378 at timestep 12
+106.14538591197504 at timestep 13
+Creating configuration for window size of 7
+{'affinity': 1100, 'atomic': 4600, 'bsearch': 4100, 'cap': 1700, 'chmod': 1400, 'matrix': 3400, 'memcpy': 3000, 'vecmath': 2100, 'zero': 2600}
+84.48307829899187 at timestep 14
+85.66390342651601 at timestep 15
+84.12873612344248 at timestep 16
+84.12873612344248 at timestep 17
+84.12873612344248 at timestep 18
+84.12873612344248 at timestep 19
+84.12873612344248 at timestep 20
+Creating configuration for window size of 7
+{'affinity': 1600, 'atomic': 4800, 'bsearch': 4000, 'cap': 1300, 'chmod': 1300, 'matrix': 3600, 'memcpy': 3200, 'vecmath': 2000, 'zero': 2200}
+78.1550329630303 at timestep 21
+78.1550329630303 at timestep 22
+83.4466615964811 at timestep 23
+94.8869745041571 at timestep 24
+89.27801062731211 at timestep 25
+113.80936393906636 at timestep 26
+127.00230320061081 at timestep 27
+Creating configuration for window size of 7
+{'affinity': 1900, 'atomic': 2900, 'bsearch': 3800, 'cap': 1900, 'chmod': 1100, 'matrix': 3600, 'memcpy': 3300, 'vecmath': 2200, 'zero': 3300}
+84.31286186973703 at timestep 28
+86.26955922349127 at timestep 29
+83.1123706608476 at timestep 30
+78.44500841470888 at timestep 31
+77.8078489492688 at timestep 32
+76.61442164571233 at timestep 33
+84.11948388091506 at timestep 34
+Creating configuration for window size of 7
+{'affinity': 1800, 'atomic': 3800, 'bsearch': 3900, 'cap': 1700, 'chmod': 1100, 'matrix': 2700, 'memcpy': 3300, 'vecmath': 2100, 'zero': 3600}
+75.69651070340116 at timestep 35
+80.4663044194696 at timestep 36
+76.83389611821984 at timestep 37
+83.55273432295746 at timestep 38
+84.37604814351337 at timestep 39
+97.02998949811233 at timestep 40
+113.7926917787549 at timestep 41
+Creating configuration for window size of 7
+{'affinity': 1900, 'atomic': 4800, 'bsearch': 4500, 'cap': 1200, 'chmod': 1200, 'matrix': 2700, 'memcpy': 3300, 'vecmath': 2100, 'zero': 2300}
+76.50668681233084 at timestep 42
+75.69651070340116 at timestep 43
+79.80000625144217 at timestep 44
+82.45460591569493 at timestep 45
+82.45460591569493 at timestep 46
+82.45460591569493 at timestep 47
+88.16064570782247 at timestep 48
+Creating configuration for window size of 7
+{'affinity': 1900, 'atomic': 4600, 'bsearch': 4600, 'cap': 1800, 'chmod': 1000, 'matrix': 2400, 'memcpy': 3100, 'vecmath': 2500, 'zero': 2100}
+82.45460591569493 at timestep 49
+126.32908205419324 at timestep 50
+155.04255492354037 at timestep 51
+136.20634854389922 at timestep 52
+146.1153186261251 at timestep 53
+119.81444564932697 at timestep 54
+128.94703117676073 at timestep 55
+Creating configuration for window size of 7
+{'affinity': 2100, 'atomic': 4400, 'bsearch': 4800, 'cap': 1600, 'chmod': 1000, 'matrix': 2300, 'memcpy': 1800, 'vecmath': 2800, 'zero': 3200}
+79.90463284345682 at timestep 56
+88.09268799203652 at timestep 57
+91.56648697394617 at timestep 58
+82.44044594627867 at timestep 59
+93.94784975974709 at timestep 60
+112.68539353202345 at timestep 61
+123.29609804334874 at timestep 62
+Creating configuration for window size of 7
+{'affinity': 1600, 'atomic': 5000, 'bsearch': 5000, 'cap': 1400, 'chmod': 1000, 'matrix': 3500, 'memcpy': 1500, 'vecmath': 2500, 'zero': 2500}
+75.3853539146469 at timestep 63
+80.3073031588417 at timestep 64
+81.87401061526784 at timestep 65
+83.38943767731797 at timestep 66
+82.38304357203191 at timestep 67
+78.14264247049597 at timestep 68
+79.04124471125233 at timestep 69
+Creating configuration for window size of 7
+{'affinity': 1400, 'atomic': 5000, 'bsearch': 4500, 'cap': 1600, 'chmod': 1000, 'matrix': 3800, 'memcpy': 1400, 'vecmath': 3200, 'zero': 2100}
+75.25060079699442 at timestep 70
+94.79132066367798 at timestep 71
+106.39792137689001 at timestep 72
+104.87618553371476 at timestep 73
+142.47328407673467 at timestep 74
+155.57117019809132 at timestep 75
+144.31454442244487 at timestep 76
+Creating configuration for window size of 7
+{'affinity': 1600, 'atomic': 4200, 'bsearch': 4100, 'cap': 2100, 'chmod': 1000, 'matrix': 3700, 'memcpy': 1300, 'vecmath': 2700, 'zero': 3300}
+87.2516504267759 at timestep 77
+95.88310293620493 at timestep 78
+102.87582326276453 at timestep 79
+102.07531924353945 at timestep 80
+115.11201039740578 at timestep 81
+117.68966452374373 at timestep 82
+122.03944427861524 at timestep 83
+Creating configuration for window size of 7
+{'affinity': 1900, 'atomic': 2600, 'bsearch': 4600, 'cap': 1500, 'chmod': 1800, 'matrix': 4500, 'memcpy': 1400, 'vecmath': 3100, 'zero': 2600}
+73.5342066997955 at timestep 84
+72.25735933052336 at timestep 85
+83.11010122837025 at timestep 86
+75.65094463109858 at timestep 87
+78.94382112880558 at timestep 88
+92.81734126512265 at timestep 89
+97.40164509006046 at timestep 90
+Creating configuration for window size of 7
+{'affinity': 1900, 'atomic': 4400, 'bsearch': 5200, 'cap': 1200, 'chmod': 1500, 'matrix': 3500, 'memcpy': 1300, 'vecmath': 2800, 'zero': 2200}
+77.21560532079934 at timestep 91
+83.31107766760293 at timestep 92
+82.45460591569493 at timestep 93
+91.25952502862819 at timestep 94
+96.99024913207766 at timestep 95
+101.62417592371077 at timestep 96
+95.25831550658906 at timestep 97
+Creating configuration for window size of 7
+{'affinity': 1800, 'atomic': 4300, 'bsearch': 4800, 'cap': 2000, 'chmod': 1000, 'matrix': 3800, 'memcpy': 1200, 'vecmath': 2300, 'zero': 2800}
+91.32525272870996 at timestep 98
+104.76696486776845 at timestep 99
+94.98433246908829 at timestep 100
+103.06390765411251 at timestep 101
+116.99012252785522 at timestep 102
+132.50920272893552 at timestep 103
+133.0417583783468 at timestep 104
+Creating configuration for window size of 7
+{'affinity': 1800, 'atomic': 4400, 'bsearch': 4600, 'cap': 1700, 'chmod': 1500, 'matrix': 3600, 'memcpy': 1100, 'vecmath': 2200, 'zero': 3100}
+92.86930909520207 at timestep 105
+93.18974797269603 at timestep 106
+90.73613472073575 at timestep 107
+90.89994212782193 at timestep 108
+91.64083883856608 at timestep 109
+91.4307421636688 at timestep 110
+91.4307421636688 at timestep 111
+Creating configuration for window size of 7
+{'affinity': 1500, 'atomic': 4900, 'bsearch': 5200, 'cap': 1300, 'chmod': 1700, 'matrix': 3400, 'memcpy': 1400, 'vecmath': 2300, 'zero': 2300}
+77.16074185630427 at timestep 112
+80.29264539905597 at timestep 113
+81.63728732500815 at timestep 114
+75.30980742599998 at timestep 115
+76.45020054319376 at timestep 116
+76.46695222030934 at timestep 117
+83.32966151047833 at timestep 118
+Creating configuration for window size of 7
+{'affinity': 1200, 'atomic': 4900, 'bsearch': 4700, 'cap': 1800, 'chmod': 1400, 'matrix': 3800, 'memcpy': 1300, 'vecmath': 2400, 'zero': 2500}
+75.1025871486776 at timestep 119
+92.63320436469041 at timestep 120
+84.41355036935656 at timestep 121
+104.0860314086871 at timestep 122
+122.52510973528337 at timestep 123
+99.83127684734364 at timestep 124
+103.31858794841119 at timestep 125
+Creating configuration for window size of 7
+{'affinity': 1800, 'atomic': 4100, 'bsearch': 4400, 'cap': 2000, 'chmod': 1600, 'matrix': 4000, 'memcpy': 1300, 'vecmath': 2400, 'zero': 2400}
+87.13688659047993 at timestep 126
+96.59399542268194 at timestep 127
+96.19818774434334 at timestep 128
+101.87810660228052 at timestep 129
+103.66658660839927 at timestep 130
+87.8769023241147 at timestep 131
+85.38380146637778 at timestep 132
+Creating configuration for window size of 7
+{'affinity': 2300, 'atomic': 2400, 'bsearch': 5300, 'cap': 1500, 'chmod': 1900, 'matrix': 3900, 'memcpy': 1500, 'vecmath': 2800, 'zero': 2400}
+68.2683020348055 at timestep 133
+70.37826582486147 at timestep 134
+68.23019344024647 at timestep 135
+70.42836707859546 at timestep 136
+87.69952066650386 at timestep 137
+98.06046631742414 at timestep 138
+111.17522964323078 at timestep 139
+Creating configuration for window size of 7
+{'affinity': 2200, 'atomic': 4300, 'bsearch': 5400, 'cap': 1200, 'chmod': 1800, 'matrix': 3100, 'memcpy': 1500, 'vecmath': 2300, 'zero': 2200}
+68.26937324376907 at timestep 140
+72.82820965199764 at timestep 141
+157.11873684509388 at timestep 142
+155.7637638283219 at timestep 143
+165.796429461027 at timestep 144
+175.653721421999 at timestep 145
+178.69342106826036 at timestep 146
+Creating configuration for window size of 7
+{'affinity': 1500, 'atomic': 4400, 'bsearch': 4400, 'cap': 2000, 'chmod': 1400, 'matrix': 2400, 'memcpy': 2600, 'vecmath': 2000, 'zero': 3300}
+92.87937225856939 at timestep 147
+93.09800223678009 at timestep 148
+95.8486369298691 at timestep 149
+94.66199764956919 at timestep 150
+94.85007632047785 at timestep 151
+97.5830218821858 at timestep 152
+104.43244058172465 at timestep 153
+Creating configuration for window size of 7
+{'affinity': 1300, 'atomic': 4200, 'bsearch': 5000, 'cap': 1400, 'chmod': 1600, 'matrix': 2400, 'memcpy': 3100, 'vecmath': 2200, 'zero': 2800}
+92.03403653045514 at timestep 154
+83.03996259008692 at timestep 155
+89.24522258565942 at timestep 156
+92.55106446440166 at timestep 157
+95.53006441625679 at timestep 158
+93.69892145602684 at timestep 159
+89.03224742180277 at timestep 160
+Creating configuration for window size of 7
+{'affinity': 1200, 'atomic': 4700, 'bsearch': 5000, 'cap': 1300, 'chmod': 1700, 'matrix': 2400, 'memcpy': 3200, 'vecmath': 2100, 'zero': 2400}
+78.25604175031793 at timestep 161
+79.00750974086573 at timestep 162
+81.91891675368483 at timestep 163
+83.63569232750599 at timestep 164
+92.21616279807915 at timestep 165
+101.41979527089849 at timestep 166
+105.09870856786226 at timestep 167
+Creating configuration for window size of 7
+{'affinity': 1700, 'atomic': 3400, 'bsearch': 4800, 'cap': 1700, 'chmod': 1400, 'matrix': 2600, 'memcpy': 3100, 'vecmath': 2200, 'zero': 3100}
+82.88242344633171 at timestep 168
+83.19131341218728 at timestep 169
+90.10565674420262 at timestep 170
+109.03229199612294 at timestep 171
+109.03229199612294 at timestep 172
+108.05743355710105 at timestep 173
+94.85007632047785 at timestep 174
+Creating configuration for window size of 7
+{'affinity': 1600, 'atomic': 2700, 'bsearch': 4100, 'cap': 1800, 'chmod': 1700, 'matrix': 3500, 'memcpy': 3300, 'vecmath': 2600, 'zero': 2700}
+78.45589729107489 at timestep 175
+83.23663176181216 at timestep 176
+90.32960383210386 at timestep 177
+97.9799581587327 at timestep 178
+85.36204927057989 at timestep 179
+83.26859845280642 at timestep 180
+82.2657843885532 at timestep 181
+Creating configuration for window size of 7
+{'affinity': 1700, 'atomic': 4000, 'bsearch': 4600, 'cap': 1400, 'chmod': 1700, 'matrix': 2900, 'memcpy': 3200, 'vecmath': 2300, 'zero': 2200}
+80.74935698719172 at timestep 182
+79.1535746069027 at timestep 183
+83.29596206957291 at timestep 184
+92.0585396525027 at timestep 185
+90.94210121523275 at timestep 186
+91.909399464766 at timestep 187
+90.81002550628142 at timestep 188
+Creating configuration for window size of 7
+{'affinity': 2000, 'atomic': 4200, 'bsearch': 4600, 'cap': 1600, 'chmod': 1600, 'matrix': 2400, 'memcpy': 3200, 'vecmath': 2200, 'zero': 2200}
+78.26789002916948 at timestep 189
+89.60004363538579 at timestep 190
+88.98340259303846 at timestep 191
+99.55530876382679 at timestep 192
+113.26784662948263 at timestep 193
+137.60470441556453 at timestep 194
+144.86018749982358 at timestep 195
+Creating configuration for window size of 7
+{'affinity': 1800, 'atomic': 3800, 'bsearch': 4700, 'cap': 2100, 'chmod': 1400, 'matrix': 2500, 'memcpy': 1600, 'vecmath': 2500, 'zero': 3600}
+83.74000032255317 at timestep 196
+93.63372727349359 at timestep 197
+96.81859174856167 at timestep 198
+98.5752761971721 at timestep 199
+Simulation took 19297.93150488486 total seconds, with 28 Checkpoints
+With checkpoints, the total duration would be 19717.93150488486
+Simulating simulation for static window of size 8
+Creating configuration for window size of 8
+{'affinity': 1900, 'atomic': 3800, 'bsearch': 4600, 'cap': 1300, 'chmod': 1000, 'matrix': 4000, 'memcpy': 2900, 'vecmath': 2300, 'zero': 2200}
+87.1868225405098 at timestep 0
+108.08420781026976 at timestep 1
+144.79999990018987 at timestep 2
+144.86018749982358 at timestep 3
+127.24609045983823 at timestep 4
+123.82341114994115 at timestep 5
+140.49919768878965 at timestep 6
+143.606387543431 at timestep 7
+Creating configuration for window size of 8
+{'affinity': 1800, 'atomic': 4000, 'bsearch': 3900, 'cap': 1900, 'chmod': 1100, 'matrix': 3300, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3300}
+93.07478062220186 at timestep 8
+95.11583271752535 at timestep 9
+92.8815368988731 at timestep 10
+102.41210199132654 at timestep 11
+100.87200993338625 at timestep 12
+102.66972779595795 at timestep 13
+106.74492303530374 at timestep 14
+106.74492303530374 at timestep 15
+Creating configuration for window size of 8
+{'affinity': 1200, 'atomic': 4700, 'bsearch': 4100, 'cap': 1600, 'chmod': 1500, 'matrix': 3400, 'memcpy': 3000, 'vecmath': 1900, 'zero': 2600}
+83.36895114632838 at timestep 16
+83.04816218052937 at timestep 17
+83.08597359685307 at timestep 18
+82.94110035896304 at timestep 19
+82.94110035896304 at timestep 20
+84.88154419194119 at timestep 21
+102.08893655751386 at timestep 22
+108.13632205603989 at timestep 23
+Creating configuration for window size of 8
+{'affinity': 1800, 'atomic': 4400, 'bsearch': 3800, 'cap': 1400, 'chmod': 1000, 'matrix': 3700, 'memcpy': 3100, 'vecmath': 2000, 'zero': 2800}
+87.33653232907494 at timestep 24
+82.25783081207027 at timestep 25
+88.2698651983198 at timestep 26
+94.92647460552038 at timestep 27
+122.94280317842927 at timestep 28
+110.00051701450064 at timestep 29
+97.78020043621514 at timestep 30
+99.51904698924345 at timestep 31
+Creating configuration for window size of 8
+{'affinity': 2000, 'atomic': 2400, 'bsearch': 3800, 'cap': 1900, 'chmod': 1000, 'matrix': 3400, 'memcpy': 3600, 'vecmath': 2400, 'zero': 3500}
+70.61085395698024 at timestep 32
+68.42320940711282 at timestep 33
+77.5118398710063 at timestep 34
+79.95891788330846 at timestep 35
+86.95781665029239 at timestep 36
+83.12901006962095 at timestep 37
+97.5700723055568 at timestep 38
+121.88817487431054 at timestep 39
+Creating configuration for window size of 8
+{'affinity': 1800, 'atomic': 4700, 'bsearch': 4400, 'cap': 1400, 'chmod': 1000, 'matrix': 2800, 'memcpy': 3200, 'vecmath': 2000, 'zero': 2700}
+80.2524198038936 at timestep 40
+80.79719380528489 at timestep 41
+83.71343890191304 at timestep 42
+82.88235740433649 at timestep 43
+84.86660635956476 at timestep 44
+87.7848811440506 at timestep 45
+87.7848811440506 at timestep 46
+87.7848811440506 at timestep 47
+Creating configuration for window size of 8
+{'affinity': 2000, 'atomic': 4200, 'bsearch': 4500, 'cap': 1800, 'chmod': 1000, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2300, 'zero': 2500}
+78.1550329630303 at timestep 48
+85.10059402560154 at timestep 49
+99.98769034620723 at timestep 50
+122.11133285864295 at timestep 51
+107.60200621353809 at timestep 52
+115.22454222422715 at timestep 53
+102.97616256271463 at timestep 54
+105.2452466853309 at timestep 55
+Creating configuration for window size of 8
+{'affinity': 2100, 'atomic': 4300, 'bsearch': 5000, 'cap': 1600, 'chmod': 1000, 'matrix': 2300, 'memcpy': 1800, 'vecmath': 2700, 'zero': 3200}
+80.4953371939096 at timestep 56
+88.09268799203652 at timestep 57
+91.56648697394617 at timestep 58
+82.44044594627867 at timestep 59
+93.94784975974709 at timestep 60
+112.68539353202345 at timestep 61
+123.29609804334874 at timestep 62
+111.95903689367604 at timestep 63
+Creating configuration for window size of 8
+{'affinity': 1400, 'atomic': 5000, 'bsearch': 4700, 'cap': 1400, 'chmod': 1000, 'matrix': 3700, 'memcpy': 1500, 'vecmath': 2500, 'zero': 2800}
+75.28521809941707 at timestep 64
+76.41202802376793 at timestep 65
+76.72329544435011 at timestep 66
+75.5971341534354 at timestep 67
+73.17911464799117 at timestep 68
+78.55707443375069 at timestep 69
+85.55583712126626 at timestep 70
+83.97335602893428 at timestep 71
+Creating configuration for window size of 8
+{'affinity': 1600, 'atomic': 4700, 'bsearch': 4000, 'cap': 1800, 'chmod': 1000, 'matrix': 3700, 'memcpy': 1300, 'vecmath': 2900, 'zero': 3000}
+80.87279959266486 at timestep 72
+82.12871349976061 at timestep 73
+90.9723375106132 at timestep 74
+103.19027916590372 at timestep 75
+101.73734107876281 at timestep 76
+94.90994042008138 at timestep 77
+98.83584808124381 at timestep 78
+102.87582326276453 at timestep 79
+Creating configuration for window size of 8
+{'affinity': 1600, 'atomic': 3300, 'bsearch': 4100, 'cap': 2100, 'chmod': 1300, 'matrix': 4200, 'memcpy': 1200, 'vecmath': 2700, 'zero': 3500}
+92.11960472222371 at timestep 80
+91.92228247844261 at timestep 81
+92.52385688802985 at timestep 82
+95.58808947666998 at timestep 83
+100.21003229364106 at timestep 84
+101.89646458292938 at timestep 85
+103.03592059262652 at timestep 86
+102.58771817916703 at timestep 87
+Creating configuration for window size of 8
+{'affinity': 2000, 'atomic': 4000, 'bsearch': 4800, 'cap': 1300, 'chmod': 1700, 'matrix': 3700, 'memcpy': 1400, 'vecmath': 2700, 'zero': 2400}
+78.7537585891898 at timestep 88
+81.73608470596189 at timestep 89
+73.8559122406984 at timestep 90
+74.85431299039473 at timestep 91
+77.40802674995744 at timestep 92
+88.00864137948003 at timestep 93
+83.62158673648267 at timestep 94
+93.04027948438663 at timestep 95
+Creating configuration for window size of 8
+{'affinity': 1900, 'atomic': 4100, 'bsearch': 5000, 'cap': 1900, 'chmod': 1100, 'matrix': 3900, 'memcpy': 1200, 'vecmath': 2400, 'zero': 2500}
+86.42609041179307 at timestep 96
+95.01095685650567 at timestep 97
+103.97796525823397 at timestep 98
+118.97143781463474 at timestep 99
+108.44035497806671 at timestep 100
+97.89796593357288 at timestep 101
+108.02133411755764 at timestep 102
+121.62765031190416 at timestep 103
+Creating configuration for window size of 8
+{'affinity': 1700, 'atomic': 4300, 'bsearch': 4900, 'cap': 1800, 'chmod': 1400, 'matrix': 3500, 'memcpy': 1100, 'vecmath': 2100, 'zero': 3200}
+97.99708696079146 at timestep 104
+99.7724130477958 at timestep 105
+97.3182481441384 at timestep 106
+94.85007632047785 at timestep 107
+94.85007632047785 at timestep 108
+95.2693832554188 at timestep 109
+95.2693832554188 at timestep 110
+95.2693832554188 at timestep 111
+Creating configuration for window size of 8
+{'affinity': 1500, 'atomic': 4900, 'bsearch': 5200, 'cap': 1300, 'chmod': 1700, 'matrix': 3400, 'memcpy': 1400, 'vecmath': 2300, 'zero': 2300}
+77.16074185630427 at timestep 112
+80.29264539905597 at timestep 113
+81.63728732500815 at timestep 114
+75.30980742599998 at timestep 115
+76.45020054319376 at timestep 116
+76.46695222030934 at timestep 117
+83.32966151047833 at timestep 118
+84.88712178615434 at timestep 119
+Creating configuration for window size of 8
+{'affinity': 1400, 'atomic': 4700, 'bsearch': 4800, 'cap': 1900, 'chmod': 1200, 'matrix': 3700, 'memcpy': 1200, 'vecmath': 2200, 'zero': 2900}
+80.79719380528489 at timestep 120
+88.0910910371866 at timestep 121
+88.22427887743574 at timestep 122
+106.41693627713302 at timestep 123
+93.88967641747732 at timestep 124
+104.80209901944592 at timestep 125
+109.81006753740195 at timestep 126
+112.09835047009727 at timestep 127
+Creating configuration for window size of 8
+{'affinity': 1700, 'atomic': 3600, 'bsearch': 4800, 'cap': 1700, 'chmod': 1700, 'matrix': 4000, 'memcpy': 1300, 'vecmath': 2600, 'zero': 2600}
+87.81895223482478 at timestep 128
+92.70552220499297 at timestep 129
+94.24513629337562 at timestep 130
+80.61397859082341 at timestep 131
+79.47410158820276 at timestep 132
+86.63702573549307 at timestep 133
+83.5963224103736 at timestep 134
+81.93760913046503 at timestep 135
+Creating configuration for window size of 8
+{'affinity': 2100, 'atomic': 4000, 'bsearch': 5100, 'cap': 1200, 'chmod': 1800, 'matrix': 3600, 'memcpy': 1400, 'vecmath': 2500, 'zero': 2300}
+75.02645186787011 at timestep 136
+72.42752915250952 at timestep 137
+70.67622735663714 at timestep 138
+70.36918947900882 at timestep 139
+73.2177358052494 at timestep 140
+80.64690623974475 at timestep 141
+171.61875226593924 at timestep 142
+170.11653111963656 at timestep 143
+Creating configuration for window size of 8
+{'affinity': 1600, 'atomic': 4200, 'bsearch': 5100, 'cap': 1700, 'chmod': 1500, 'matrix': 2200, 'memcpy': 2700, 'vecmath': 2300, 'zero': 2700}
+83.57235782911992 at timestep 144
+90.25006308148869 at timestep 145
+89.48256436145977 at timestep 146
+113.33840504591637 at timestep 147
+99.91121799011277 at timestep 148
+96.37301722655452 at timestep 149
+100.62533721488211 at timestep 150
+96.5595623299172 at timestep 151
+Creating configuration for window size of 8
+{'affinity': 1500, 'atomic': 4100, 'bsearch': 5100, 'cap': 1600, 'chmod': 1500, 'matrix': 2400, 'memcpy': 2900, 'vecmath': 2200, 'zero': 2700}
+93.48683781669756 at timestep 152
+89.00278702722834 at timestep 153
+95.82330088747466 at timestep 154
+87.49361981931581 at timestep 155
+92.46966503323185 at timestep 156
+95.97174316842096 at timestep 157
+99.1382822188801 at timestep 158
+97.19075794383966 at timestep 159
+Creating configuration for window size of 8
+{'affinity': 1200, 'atomic': 4600, 'bsearch': 5100, 'cap': 1400, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3100, 'vecmath': 2000, 'zero': 2400}
+81.69316284442185 at timestep 160
+80.58001339625231 at timestep 161
+80.58001339625231 at timestep 162
+80.58001339625231 at timestep 163
+80.58001339625231 at timestep 164
+87.508263323342 at timestep 165
+101.41979527089849 at timestep 166
+105.09870856786226 at timestep 167
+Creating configuration for window size of 8
+{'affinity': 1700, 'atomic': 3300, 'bsearch': 4900, 'cap': 1800, 'chmod': 1300, 'matrix': 2600, 'memcpy': 3100, 'vecmath': 2200, 'zero': 3100}
+85.3794162631603 at timestep 168
+83.19131341218728 at timestep 169
+90.10565674420262 at timestep 170
+101.73734107876281 at timestep 171
+101.73734107876281 at timestep 172
+100.76017718807873 at timestep 173
+103.03592059262652 at timestep 174
+103.03592059262652 at timestep 175
+Creating configuration for window size of 8
+{'affinity': 1600, 'atomic': 3600, 'bsearch': 4200, 'cap': 1700, 'chmod': 1600, 'matrix': 3500, 'memcpy': 3000, 'vecmath': 2300, 'zero': 2500}
+87.6925911560402 at timestep 176
+98.47313516619036 at timestep 177
+107.32138344004774 at timestep 178
+92.65145748181936 at timestep 179
+83.26859845280642 at timestep 180
+82.94110035896304 at timestep 181
+85.06793060793517 at timestep 182
+89.9282173961965 at timestep 183
+Creating configuration for window size of 8
+{'affinity': 1900, 'atomic': 4200, 'bsearch': 4700, 'cap': 1200, 'chmod': 1700, 'matrix': 2700, 'memcpy': 3100, 'vecmath': 2300, 'zero': 2200}
+80.69566013972283 at timestep 184
+86.79266430578289 at timestep 185
+84.60298833023819 at timestep 186
+91.909399464766 at timestep 187
+80.58001339625231 at timestep 188
+82.45460591569493 at timestep 189
+82.45460591569493 at timestep 190
+82.45460591569493 at timestep 191
+Creating configuration for window size of 8
+{'affinity': 1800, 'atomic': 3800, 'bsearch': 4600, 'cap': 1800, 'chmod': 1500, 'matrix': 2500, 'memcpy': 2800, 'vecmath': 2200, 'zero': 3000}
+87.56794433096687 at timestep 192
+92.92619942287332 at timestep 193
+94.94706120926074 at timestep 194
+103.19027916590372 at timestep 195
+103.19027916590372 at timestep 196
+101.17747776970633 at timestep 197
+114.3456744420611 at timestep 198
+114.01205438432333 at timestep 199
+Simulation took 18789.039119324418 total seconds, with 24 Checkpoints
+With checkpoints, the total duration would be 19149.039119324418
+Simulating simulation for static window of size 9
+Creating configuration for window size of 9
+{'affinity': 1900, 'atomic': 3800, 'bsearch': 4600, 'cap': 1400, 'chmod': 1200, 'matrix': 4000, 'memcpy': 2800, 'vecmath': 2200, 'zero': 2100}
+93.5460924099372 at timestep 0
+115.66542551828424 at timestep 1
+155.48521290212204 at timestep 2
+155.57117019809132 at timestep 3
+134.97949456109686 at timestep 4
+132.31461755782988 at timestep 5
+150.35889422427434 at timestep 6
+151.4972057804943 at timestep 7
+155.57117019809132 at timestep 8
+Creating configuration for window size of 9
+{'affinity': 1700, 'atomic': 3700, 'bsearch': 3900, 'cap': 2000, 'chmod': 1100, 'matrix': 3300, 'memcpy': 2700, 'vecmath': 2200, 'zero': 3400}
+91.01886092386869 at timestep 9
+91.38744756119014 at timestep 10
+102.41210199132654 at timestep 11
+103.98865977443305 at timestep 12
+113.9107216552728 at timestep 13
+117.08009042554362 at timestep 14
+117.08009042554362 at timestep 15
+117.08009042554362 at timestep 16
+117.08009042554362 at timestep 17
+Creating configuration for window size of 9
+{'affinity': 1300, 'atomic': 4800, 'bsearch': 4100, 'cap': 1400, 'chmod': 1400, 'matrix': 3500, 'memcpy': 3200, 'vecmath': 1900, 'zero': 2400}
+79.67021166678363 at timestep 18
+78.1550329630303 at timestep 19
+78.1550329630303 at timestep 20
+81.3652829512109 at timestep 21
+94.00458138879172 at timestep 22
+99.42033172399248 at timestep 23
+110.76633933046699 at timestep 24
+113.32927188106807 at timestep 25
+122.51406186210882 at timestep 26
+Creating configuration for window size of 9
+{'affinity': 1800, 'atomic': 3000, 'bsearch': 4000, 'cap': 1700, 'chmod': 1100, 'matrix': 3600, 'memcpy': 3300, 'vecmath': 2100, 'zero': 3400}
+91.41923739151851 at timestep 27
+96.70092975340788 at timestep 28
+93.18494594966411 at timestep 29
+89.83913089133144 at timestep 30
+84.86916824215231 at timestep 31
+84.18806249940438 at timestep 32
+82.91037735662893 at timestep 33
+80.7496520462931 at timestep 34
+78.62891053214592 at timestep 35
+Creating configuration for window size of 9
+{'affinity': 1800, 'atomic': 4100, 'bsearch': 4100, 'cap': 1500, 'chmod': 1300, 'matrix': 2800, 'memcpy': 3400, 'vecmath': 2200, 'zero': 2800}
+74.36233677125246 at timestep 36
+91.76310955369456 at timestep 37
+76.08025140559735 at timestep 38
+78.31344006929378 at timestep 39
+85.95639968504742 at timestep 40
+102.99238500639562 at timestep 41
+95.95743309425288 at timestep 42
+90.22502371908752 at timestep 43
+86.19996195558384 at timestep 44
+Creating configuration for window size of 9
+{'affinity': 2000, 'atomic': 4400, 'bsearch': 4800, 'cap': 1700, 'chmod': 1100, 'matrix': 2700, 'memcpy': 3200, 'vecmath': 2100, 'zero': 2000}
+78.1550329630303 at timestep 45
+78.1550329630303 at timestep 46
+78.1550329630303 at timestep 47
+102.89833605151165 at timestep 48
+97.45856295010302 at timestep 49
+135.76308188155002 at timestep 50
+167.55338636761377 at timestep 51
+146.21953813032394 at timestep 52
+156.96687845912822 at timestep 53
+Creating configuration for window size of 9
+{'affinity': 2000, 'atomic': 4700, 'bsearch': 5100, 'cap': 1800, 'chmod': 1000, 'matrix': 2000, 'memcpy': 1800, 'vecmath': 2800, 'zero': 2800}
+84.17526040306278 at timestep 54
+89.74584111942889 at timestep 55
+93.57647624194725 at timestep 56
+102.80622854874697 at timestep 57
+106.02467352811752 at timestep 58
+103.31635160712892 at timestep 59
+117.29564935156469 at timestep 60
+139.7703990412951 at timestep 61
+152.3570467489753 at timestep 62
+Creating configuration for window size of 9
+{'affinity': 1600, 'atomic': 5000, 'bsearch': 4900, 'cap': 1400, 'chmod': 1000, 'matrix': 3500, 'memcpy': 1500, 'vecmath': 2500, 'zero': 2600}
+74.45970422237146 at timestep 63
+77.90664832927247 at timestep 64
+80.97667107482273 at timestep 65
+83.38943767731797 at timestep 66
+82.38304357203191 at timestep 67
+78.14264247049597 at timestep 68
+79.04124471125233 at timestep 69
+85.71232682981497 at timestep 70
+86.96847942493382 at timestep 71
+Creating configuration for window size of 9
+{'affinity': 1600, 'atomic': 4600, 'bsearch': 4300, 'cap': 2000, 'chmod': 1000, 'matrix': 3600, 'memcpy': 1200, 'vecmath': 2800, 'zero': 2900}
+84.48660539531984 at timestep 72
+85.71650700125198 at timestep 73
+94.5930411338762 at timestep 74
+106.41693627713302 at timestep 75
+95.83214615759465 at timestep 76
+98.58537365559565 at timestep 77
+99.99604582618565 at timestep 78
+107.07861429560465 at timestep 79
+106.41693627713302 at timestep 80
+Creating configuration for window size of 9
+{'affinity': 1600, 'atomic': 3300, 'bsearch': 4300, 'cap': 1700, 'chmod': 1400, 'matrix': 4300, 'memcpy': 1300, 'vecmath': 2800, 'zero': 3300}
+89.02370505994789 at timestep 81
+86.95497764446476 at timestep 82
+88.51847373588909 at timestep 83
+92.30571906402726 at timestep 84
+93.82305778213241 at timestep 85
+94.85007632047785 at timestep 86
+94.44588340523397 at timestep 87
+92.5482111122094 at timestep 88
+88.5137924612195 at timestep 89
+Creating configuration for window size of 9
+{'affinity': 1900, 'atomic': 4200, 'bsearch': 5100, 'cap': 1300, 'chmod': 1600, 'matrix': 3600, 'memcpy': 1300, 'vecmath': 2800, 'zero': 2200}
+74.30313083080708 at timestep 90
+76.69471654874292 at timestep 91
+81.96949261887515 at timestep 92
+82.45460591569493 at timestep 93
+87.35645493930033 at timestep 94
+92.8725458352518 at timestep 95
+101.62417592371077 at timestep 96
+91.6453737934229 at timestep 97
+123.05817067353775 at timestep 98
+Creating configuration for window size of 9
+{'affinity': 1800, 'atomic': 4100, 'bsearch': 5000, 'cap': 2000, 'chmod': 1000, 'matrix': 3600, 'memcpy': 1100, 'vecmath': 2300, 'zero': 3100}
+93.7266078352238 at timestep 99
+97.87615371785634 at timestep 100
+103.06390765411251 at timestep 101
+116.99012252785522 at timestep 102
+132.50920272893552 at timestep 103
+133.0417583783468 at timestep 104
+133.0417583783468 at timestep 105
+133.0417583783468 at timestep 106
+133.0417583783468 at timestep 107
+Creating configuration for window size of 9
+{'affinity': 2000, 'atomic': 4300, 'bsearch': 5400, 'cap': 1300, 'chmod': 1700, 'matrix': 3600, 'memcpy': 1300, 'vecmath': 2200, 'zero': 2200}
+86.40063587145123 at timestep 108
+95.2693832554188 at timestep 109
+95.2693832554188 at timestep 110
+95.2693832554188 at timestep 111
+95.2693832554188 at timestep 112
+95.2693832554188 at timestep 113
+95.2693832554188 at timestep 114
+95.2693832554188 at timestep 115
+86.43443401987591 at timestep 116
+Creating configuration for window size of 9
+{'affinity': 1400, 'atomic': 4700, 'bsearch': 5300, 'cap': 1600, 'chmod': 1500, 'matrix': 3500, 'memcpy': 1400, 'vecmath': 2500, 'zero': 2100}
+78.63947242447146 at timestep 117
+80.79719380528489 at timestep 118
+83.58821874921703 at timestep 119
+116.8261065388273 at timestep 120
+96.08139835559159 at timestep 121
+131.641643345036 at timestep 122
+155.57117019809132 at timestep 123
+125.94427786772134 at timestep 124
+107.7852393286071 at timestep 125
+Creating configuration for window size of 9
+{'affinity': 1800, 'atomic': 4000, 'bsearch': 4800, 'cap': 2000, 'chmod': 1600, 'matrix': 3900, 'memcpy': 1200, 'vecmath': 2300, 'zero': 2400}
+90.48480808995345 at timestep 126
+96.59399542268194 at timestep 127
+96.19818774434334 at timestep 128
+101.87810660228052 at timestep 129
+103.66658660839927 at timestep 130
+91.41958639849001 at timestep 131
+90.57625344162803 at timestep 132
+86.17622900613475 at timestep 133
+84.83116214697692 at timestep 134
+Creating configuration for window size of 9
+{'affinity': 2100, 'atomic': 3900, 'bsearch': 5000, 'cap': 1300, 'chmod': 1800, 'matrix': 3700, 'memcpy': 1400, 'vecmath': 2500, 'zero': 2300}
+72.67171738439895 at timestep 135
+71.33416902851928 at timestep 136
+70.92111262237644 at timestep 137
+70.2147897489323 at timestep 138
+73.083193404801 at timestep 139
+75.11000735011245 at timestep 140
+83.9734649818015 at timestep 141
+171.61875226593924 at timestep 142
+170.11653111963656 at timestep 143
+Creating configuration for window size of 9
+{'affinity': 1600, 'atomic': 4200, 'bsearch': 5100, 'cap': 1700, 'chmod': 1500, 'matrix': 2200, 'memcpy': 2700, 'vecmath': 2300, 'zero': 2700}
+83.57235782911992 at timestep 144
+90.25006308148869 at timestep 145
+89.48256436145977 at timestep 146
+113.33840504591637 at timestep 147
+99.91121799011277 at timestep 148
+96.37301722655452 at timestep 149
+100.62533721488211 at timestep 150
+96.5595623299172 at timestep 151
+93.48683781669756 at timestep 152
+Creating configuration for window size of 9
+{'affinity': 1500, 'atomic': 4100, 'bsearch': 5200, 'cap': 1500, 'chmod': 1600, 'matrix': 2400, 'memcpy': 3000, 'vecmath': 2300, 'zero': 2400}
+96.46607368308592 at timestep 153
+110.37594873866499 at timestep 154
+88.11350612170548 at timestep 155
+92.46966503323185 at timestep 156
+95.97174316842096 at timestep 157
+99.1382822188801 at timestep 158
+97.19075794383966 at timestep 159
+92.24453017592761 at timestep 160
+93.68962959041689 at timestep 161
+Creating configuration for window size of 9
+{'affinity': 1400, 'atomic': 4600, 'bsearch': 5100, 'cap': 1100, 'chmod': 1700, 'matrix': 2400, 'memcpy': 3100, 'vecmath': 2000, 'zero': 2600}
+80.58001339625231 at timestep 162
+81.91891675368483 at timestep 163
+83.63569232750599 at timestep 164
+92.21616279807915 at timestep 165
+88.09060275824856 at timestep 166
+89.16775358297787 at timestep 167
+99.96574153577211 at timestep 168
+102.33069809155543 at timestep 169
+125.15784440769649 at timestep 170
+Creating configuration for window size of 9
+{'affinity': 1800, 'atomic': 2000, 'bsearch': 4500, 'cap': 2300, 'chmod': 1400, 'matrix': 2600, 'memcpy': 3200, 'vecmath': 2400, 'zero': 3800}
+78.1550329630303 at timestep 171
+87.55446591666498 at timestep 172
+92.6066522783561 at timestep 173
+94.85007632047785 at timestep 174
+102.61112374604221 at timestep 175
+108.46184838401126 at timestep 176
+99.74610625236365 at timestep 177
+110.55057630469416 at timestep 178
+98.58970783303866 at timestep 179
+Creating configuration for window size of 9
+{'affinity': 1700, 'atomic': 4000, 'bsearch': 4700, 'cap': 1300, 'chmod': 1700, 'matrix': 3100, 'memcpy': 3100, 'vecmath': 2100, 'zero': 2300}
+84.93746568909128 at timestep 180
+92.37460984087984 at timestep 181
+90.8879671638471 at timestep 182
+90.50188302273668 at timestep 183
+89.85599552898894 at timestep 184
+92.0585396525027 at timestep 185
+90.94210121523275 at timestep 186
+88.3333428501923 at timestep 187
+90.81002550628142 at timestep 188
+Creating configuration for window size of 9
+{'affinity': 1900, 'atomic': 4100, 'bsearch': 4700, 'cap': 1700, 'chmod': 1600, 'matrix': 2300, 'memcpy': 3100, 'vecmath': 2200, 'zero': 2400}
+82.45460591569493 at timestep 189
+95.12095587934901 at timestep 190
+94.47402259841756 at timestep 191
+90.92509913936729 at timestep 192
+103.28718557833749 at timestep 193
+122.19539483797871 at timestep 194
+128.5833117472422 at timestep 195
+128.5833117472422 at timestep 196
+101.17747776970633 at timestep 197
+Creating configuration for window size of 9
+{'affinity': 1700, 'atomic': 4100, 'bsearch': 5000, 'cap': 1700, 'chmod': 1400, 'matrix': 2700, 'memcpy': 1700, 'vecmath': 2900, 'zero': 2800}
+85.82779963620224 at timestep 198
+87.3795858358333 at timestep 199
+Simulation took 19879.16246794105 total seconds, with 22 Checkpoints
+With checkpoints, the total duration would be 20209.16246794105
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 3900, 'bsearch': 4500, 'cap': 1200, 'chmod': 1000, 'matrix': 4000, 'memcpy': 2900, 'vecmath': 2300, 'zero': 2300}
+85.86734320409413 at timestep 0
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4200, 'bsearch': 4300, 'cap': 1200, 'chmod': 1000, 'matrix': 3900, 'memcpy': 2800, 'vecmath': 2200, 'zero': 2600}
+89.76429321721832 at timestep 1
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4100, 'bsearch': 4000, 'cap': 1400, 'chmod': 1000, 'matrix': 3700, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3300}
+92.62056464248315 at timestep 2
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 4000, 'bsearch': 3900, 'cap': 1600, 'chmod': 1000, 'matrix': 3600, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3400}
+92.23596919386934 at timestep 3
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 3900, 'bsearch': 4300, 'cap': 1800, 'chmod': 1000, 'matrix': 3500, 'memcpy': 2700, 'vecmath': 2100, 'zero': 2900}
+90.03521792337392 at timestep 4
+98.40774441808857 at timestep 5
+100.4136708212747 at timestep 6
+101.43037775164397 at timestep 7
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 4000, 'bsearch': 3800, 'cap': 1900, 'chmod': 1200, 'matrix': 3300, 'memcpy': 2600, 'vecmath': 2100, 'zero': 3300}
+94.41751770642941 at timestep 8
+95.11583271752535 at timestep 9
+92.8815368988731 at timestep 10
+Creating configuration for window size of 3
+{'affinity': 1500, 'atomic': 3500, 'bsearch': 3900, 'cap': 1700, 'chmod': 1400, 'matrix': 3500, 'memcpy': 2900, 'vecmath': 2200, 'zero': 3400}
+85.23516183637491 at timestep 11
+Creating configuration for window size of 2
+{'affinity': 1300, 'atomic': 4500, 'bsearch': 3800, 'cap': 1500, 'chmod': 1400, 'matrix': 3400, 'memcpy': 3000, 'vecmath': 2200, 'zero': 2900}
+84.33188878365188 at timestep 12
+87.40467195839697 at timestep 13
+87.69522268129023 at timestep 14
+Creating configuration for window size of 3
+{'affinity': 1000, 'atomic': 4700, 'bsearch': 4100, 'cap': 1600, 'chmod': 1500, 'matrix': 3600, 'memcpy': 3100, 'vecmath': 2100, 'zero': 2300}
+81.13914989954495 at timestep 15
+Creating configuration for window size of 3
+{'affinity': 1000, 'atomic': 4800, 'bsearch': 3900, 'cap': 1500, 'chmod': 1500, 'matrix': 3500, 'memcpy': 3100, 'vecmath': 2000, 'zero': 2700}
+80.58001339625231 at timestep 16
+80.58001339625231 at timestep 17
+80.58001339625231 at timestep 18
+80.58001339625231 at timestep 19
+Creating configuration for window size of 2
+{'affinity': 1300, 'atomic': 5000, 'bsearch': 3700, 'cap': 1400, 'chmod': 1400, 'matrix': 3600, 'memcpy': 3400, 'vecmath': 2000, 'zero': 2200}
+73.39171394471346 at timestep 20
+77.94274872951627 at timestep 21
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 5000, 'bsearch': 3400, 'cap': 1400, 'chmod': 1200, 'matrix': 3700, 'memcpy': 3400, 'vecmath': 2000, 'zero': 2100}
+73.23479826146908 at timestep 22
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 5000, 'bsearch': 3100, 'cap': 1200, 'chmod': 1200, 'matrix': 3900, 'memcpy': 3400, 'vecmath': 2000, 'zero': 2400}
+73.40241111422714 at timestep 23
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 4700, 'bsearch': 3100, 'cap': 1400, 'chmod': 1000, 'matrix': 3800, 'memcpy': 3200, 'vecmath': 2000, 'zero': 2900}
+79.14220549372025 at timestep 24
+82.25783081207027 at timestep 25
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 4100, 'bsearch': 2900, 'cap': 1600, 'chmod': 1100, 'matrix': 3600, 'memcpy': 3300, 'vecmath': 2200, 'zero': 3200}
+75.69651070340116 at timestep 26
+80.34190474616976 at timestep 27
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 3300, 'bsearch': 3100, 'cap': 2000, 'chmod': 1100, 'matrix': 3600, 'memcpy': 3400, 'vecmath': 2300, 'zero': 3300}
+77.37023878753052 at timestep 28
+80.46974400913926 at timestep 29
+77.46707539683065 at timestep 30
+73.23479826146908 at timestep 31
+73.23479826146908 at timestep 32
+73.23479826146908 at timestep 33
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 3000, 'bsearch': 3300, 'cap': 1900, 'chmod': 1000, 'matrix': 3000, 'memcpy': 3700, 'vecmath': 2300, 'zero': 3900}
+68.0138376664771 at timestep 34
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 2800, 'bsearch': 3500, 'cap': 1800, 'chmod': 1300, 'matrix': 3000, 'memcpy': 3700, 'vecmath': 2200, 'zero': 3800}
+67.29951246429003 at timestep 35
+72.86159824524775 at timestep 36
+75.25345924929981 at timestep 37
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4100, 'bsearch': 3700, 'cap': 1600, 'chmod': 1300, 'matrix': 3000, 'memcpy': 3500, 'vecmath': 2100, 'zero': 2900}
+72.81928079829656 at timestep 38
+75.86827792679689 at timestep 39
+Creating configuration for window size of 3
+{'affinity': 1700, 'atomic': 4800, 'bsearch': 3900, 'cap': 1500, 'chmod': 1100, 'matrix': 2800, 'memcpy': 3300, 'vecmath': 2100, 'zero': 2800}
+75.69651070340116 at timestep 40
+77.7665070419768 at timestep 41
+77.38993542491029 at timestep 42
+80.7638254657401 at timestep 43
+Creating configuration for window size of 2
+{'affinity': 2200, 'atomic': 4800, 'bsearch': 4100, 'cap': 1300, 'chmod': 1200, 'matrix': 2500, 'memcpy': 3500, 'vecmath': 2100, 'zero': 2300}
+71.85769729218141 at timestep 44
+78.91084651751595 at timestep 45
+Creating configuration for window size of 2
+{'affinity': 2200, 'atomic': 4500, 'bsearch': 4300, 'cap': 1300, 'chmod': 1200, 'matrix': 3000, 'memcpy': 3500, 'vecmath': 2200, 'zero': 1800}
+70.80024728133822 at timestep 46
+Creating configuration for window size of 3
+{'affinity': 2200, 'atomic': 4700, 'bsearch': 4400, 'cap': 1400, 'chmod': 1000, 'matrix': 2600, 'memcpy': 3400, 'vecmath': 2200, 'zero': 2100}
+73.31102611431596 at timestep 47
+Creating configuration for window size of 2
+{'affinity': 2100, 'atomic': 4300, 'bsearch': 4200, 'cap': 1500, 'chmod': 1000, 'matrix': 2600, 'memcpy': 3300, 'vecmath': 2400, 'zero': 2600}
+75.69651070340116 at timestep 48
+82.44690752396932 at timestep 49
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 4400, 'bsearch': 3900, 'cap': 1700, 'chmod': 1000, 'matrix': 2200, 'memcpy': 3200, 'vecmath': 2500, 'zero': 3100}
+78.95735395265072 at timestep 50
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 4100, 'bsearch': 3600, 'cap': 2100, 'chmod': 1000, 'matrix': 2200, 'memcpy': 2900, 'vecmath': 2700, 'zero': 3500}
+85.23516183637491 at timestep 51
+Creating configuration for window size of 2
+{'affinity': 2100, 'atomic': 4300, 'bsearch': 4000, 'cap': 2200, 'chmod': 1000, 'matrix': 2100, 'memcpy': 1900, 'vecmath': 3100, 'zero': 3300}
+77.7466973146979 at timestep 52
+82.84521176044682 at timestep 53
+Creating configuration for window size of 2
+{'affinity': 2100, 'atomic': 4800, 'bsearch': 4000, 'cap': 1900, 'chmod': 1000, 'matrix': 2100, 'memcpy': 1900, 'vecmath': 3100, 'zero': 3100}
+75.61447772670823 at timestep 54
+80.05027791810569 at timestep 55
+83.21037537195261 at timestep 56
+Creating configuration for window size of 2
+{'affinity': 2200, 'atomic': 4100, 'bsearch': 4000, 'cap': 1700, 'chmod': 1000, 'matrix': 2300, 'memcpy': 1900, 'vecmath': 3100, 'zero': 3700}
+73.53871109983166 at timestep 57
+74.89367020366805 at timestep 58
+Creating configuration for window size of 3
+{'affinity': 2200, 'atomic': 4000, 'bsearch': 4500, 'cap': 1700, 'chmod': 1000, 'matrix': 2700, 'memcpy': 1700, 'vecmath': 2700, 'zero': 3500}
+71.49428823285609 at timestep 59
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 4800, 'bsearch': 4100, 'cap': 1700, 'chmod': 1100, 'matrix': 2900, 'memcpy': 1600, 'vecmath': 2600, 'zero': 3200}
+72.22038298442752 at timestep 60
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 4900, 'bsearch': 4300, 'cap': 1600, 'chmod': 1000, 'matrix': 3400, 'memcpy': 1500, 'vecmath': 2500, 'zero': 2900}
+75.02805457337487 at timestep 61
+79.2548199926626 at timestep 62
+75.1025871486776 at timestep 63
+Creating configuration for window size of 3
+{'affinity': 1500, 'atomic': 5200, 'bsearch': 4000, 'cap': 1500, 'chmod': 1000, 'matrix': 3800, 'memcpy': 1500, 'vecmath': 2600, 'zero': 2900}
+70.43536120546537 at timestep 64
+72.99517646275187 at timestep 65
+73.2983344956249 at timestep 66
+72.40098513504515 at timestep 67
+69.85028775072013 at timestep 68
+Creating configuration for window size of 3
+{'affinity': 1000, 'atomic': 5500, 'bsearch': 3900, 'cap': 1300, 'chmod': 1000, 'matrix': 3900, 'memcpy': 1500, 'vecmath': 3200, 'zero': 2700}
+67.70951035739988 at timestep 69
+72.17501789644568 at timestep 70
+75.26625378189141 at timestep 71
+Creating configuration for window size of 2
+{'affinity': 1400, 'atomic': 5100, 'bsearch': 3100, 'cap': 1500, 'chmod': 1000, 'matrix': 4000, 'memcpy': 1400, 'vecmath': 3300, 'zero': 3200}
+71.41202779524515 at timestep 72
+72.9625308767621 at timestep 73
+Creating configuration for window size of 2
+{'affinity': 1600, 'atomic': 4900, 'bsearch': 2900, 'cap': 2000, 'chmod': 1000, 'matrix': 3800, 'memcpy': 1300, 'vecmath': 3100, 'zero': 3400}
+77.31442678649222 at timestep 74
+Creating configuration for window size of 2
+{'affinity': 1600, 'atomic': 4700, 'bsearch': 2700, 'cap': 2200, 'chmod': 1000, 'matrix': 3700, 'memcpy': 1300, 'vecmath': 3100, 'zero': 3700}
+81.25762053046954 at timestep 75
+82.90351905300447 at timestep 76
+82.81031572127729 at timestep 77
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4200, 'bsearch': 3000, 'cap': 2200, 'chmod': 1300, 'matrix': 4100, 'memcpy': 1300, 'vecmath': 2800, 'zero': 3300}
+84.21914383069405 at timestep 78
+91.15959967108112 at timestep 79
+92.82746636380743 at timestep 80
+90.67780552290209 at timestep 81
+Creating configuration for window size of 3
+{'affinity': 1700, 'atomic': 2900, 'bsearch': 3900, 'cap': 1700, 'chmod': 1500, 'matrix': 4500, 'memcpy': 1300, 'vecmath': 3000, 'zero': 3500}
+82.23019245894629 at timestep 82
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 2000, 'bsearch': 4000, 'cap': 1700, 'chmod': 1700, 'matrix': 4500, 'memcpy': 1400, 'vecmath': 3300, 'zero': 3400}
+73.59330315396974 at timestep 83
+72.92222340708993 at timestep 84
+74.1935838086958 at timestep 85
+75.42667928450645 at timestep 86
+Creating configuration for window size of 3
+{'affinity': 2000, 'atomic': 3500, 'bsearch': 4300, 'cap': 1400, 'chmod': 1800, 'matrix': 4000, 'memcpy': 1400, 'vecmath': 2900, 'zero': 2700}
+74.86509403329657 at timestep 87
+73.31142215804654 at timestep 88
+78.75454044257823 at timestep 89
+78.82974064204079 at timestep 90
+Creating configuration for window size of 3
+{'affinity': 2100, 'atomic': 4400, 'bsearch': 4800, 'cap': 1300, 'chmod': 1500, 'matrix': 3700, 'memcpy': 1300, 'vecmath': 2700, 'zero': 2200}
+73.45144843108514 at timestep 91
+76.39598830770846 at timestep 92
+77.25658273409383 at timestep 93
+83.62158673648267 at timestep 94
+Creating configuration for window size of 3
+{'affinity': 2000, 'atomic': 4600, 'bsearch': 4800, 'cap': 1300, 'chmod': 1400, 'matrix': 4000, 'memcpy': 1300, 'vecmath': 2500, 'zero': 2100}
+78.68294255902003 at timestep 95
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 4300, 'bsearch': 4700, 'cap': 1600, 'chmod': 1200, 'matrix': 4000, 'memcpy': 1200, 'vecmath': 2400, 'zero': 2700}
+82.45460591569493 at timestep 96
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 4700, 'bsearch': 4600, 'cap': 1600, 'chmod': 1100, 'matrix': 4000, 'memcpy': 1300, 'vecmath': 2500, 'zero': 2300}
+79.45319848494007 at timestep 97
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 4500, 'bsearch': 4300, 'cap': 1700, 'chmod': 1100, 'matrix': 3900, 'memcpy': 1200, 'vecmath': 2400, 'zero': 3000}
+84.58989462993922 at timestep 98
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 4300, 'bsearch': 4100, 'cap': 2000, 'chmod': 1100, 'matrix': 3800, 'memcpy': 1200, 'vecmath': 2300, 'zero': 3300}
+87.03903324737446 at timestep 99
+92.05552272913032 at timestep 100
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 4500, 'bsearch': 4500, 'cap': 1900, 'chmod': 1300, 'matrix': 3800, 'memcpy': 1200, 'vecmath': 2300, 'zero': 2600}
+87.02391508527852 at timestep 101
+92.02507660943549 at timestep 102
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4400, 'bsearch': 4200, 'cap': 2000, 'chmod': 1500, 'matrix': 3700, 'memcpy': 1100, 'vecmath': 2300, 'zero': 3000}
+93.52421664421257 at timestep 103
+103.19027916590372 at timestep 104
+94.22879232826386 at timestep 105
+89.78326325199629 at timestep 106
+90.73613472073575 at timestep 107
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 4600, 'bsearch': 4500, 'cap': 1400, 'chmod': 1700, 'matrix': 3800, 'memcpy': 1300, 'vecmath': 2300, 'zero': 2400}
+78.35259049557268 at timestep 108
+84.12873612344248 at timestep 109
+84.12873612344248 at timestep 110
+84.12873612344248 at timestep 111
+Creating configuration for window size of 2
+{'affinity': 1600, 'atomic': 5000, 'bsearch': 4700, 'cap': 1300, 'chmod': 1800, 'matrix': 3500, 'memcpy': 1400, 'vecmath': 2400, 'zero': 2300}
+74.23803176102913 at timestep 112
+80.29264539905597 at timestep 113
+Creating configuration for window size of 2
+{'affinity': 1000, 'atomic': 5100, 'bsearch': 4700, 'cap': 1400, 'chmod': 1700, 'matrix': 3600, 'memcpy': 1500, 'vecmath': 2300, 'zero': 2700}
+71.11627166993863 at timestep 114
+75.30980742599998 at timestep 115
+73.0655826759327 at timestep 116
+Creating configuration for window size of 2
+{'affinity': 1000, 'atomic': 5500, 'bsearch': 4500, 'cap': 1200, 'chmod': 1700, 'matrix': 3700, 'memcpy': 1500, 'vecmath': 2700, 'zero': 2200}
+67.62158659913342 at timestep 117
+73.34931839535372 at timestep 118
+Creating configuration for window size of 2
+{'affinity': 1000, 'atomic': 5400, 'bsearch': 4100, 'cap': 1400, 'chmod': 1600, 'matrix': 4000, 'memcpy': 1400, 'vecmath': 2500, 'zero': 2600}
+68.15640674338881 at timestep 119
+Creating configuration for window size of 2
+{'affinity': 1200, 'atomic': 5000, 'bsearch': 4000, 'cap': 1500, 'chmod': 1400, 'matrix': 3900, 'memcpy': 1400, 'vecmath': 2400, 'zero': 3200}
+72.87134544054668 at timestep 120
+Creating configuration for window size of 2
+{'affinity': 1400, 'atomic': 5100, 'bsearch': 3700, 'cap': 1600, 'chmod': 1400, 'matrix': 4400, 'memcpy': 1400, 'vecmath': 2500, 'zero': 2500}
+71.11627166993863 at timestep 121
+Creating configuration for window size of 2
+{'affinity': 1500, 'atomic': 4900, 'bsearch': 3500, 'cap': 1700, 'chmod': 1300, 'matrix': 4100, 'memcpy': 1300, 'vecmath': 2400, 'zero': 3300}
+75.26430253966049 at timestep 122
+Creating configuration for window size of 2
+{'affinity': 1400, 'atomic': 4800, 'bsearch': 2800, 'cap': 2200, 'chmod': 1400, 'matrix': 4000, 'memcpy': 1300, 'vecmath': 2300, 'zero': 3800}
+77.7665070419768 at timestep 123
+Creating configuration for window size of 2
+{'affinity': 1700, 'atomic': 4800, 'bsearch': 3000, 'cap': 2000, 'chmod': 1500, 'matrix': 4000, 'memcpy': 1300, 'vecmath': 2500, 'zero': 3200}
+77.56926878943457 at timestep 124
+82.16850389380626 at timestep 125
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4400, 'bsearch': 3200, 'cap': 2100, 'chmod': 1700, 'matrix': 4300, 'memcpy': 1300, 'vecmath': 2500, 'zero': 2700}
+79.2954547815896 at timestep 126
+84.8304141678815 at timestep 127
+85.30785143054021 at timestep 128
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 3700, 'bsearch': 3600, 'cap': 1800, 'chmod': 1700, 'matrix': 4200, 'memcpy': 1300, 'vecmath': 2800, 'zero': 3100}
+76.8406740972507 at timestep 129
+77.8821822149381 at timestep 130
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 2300, 'bsearch': 4400, 'cap': 1600, 'chmod': 1900, 'matrix': 4100, 'memcpy': 1500, 'vecmath': 3100, 'zero': 3100}
+68.92638451777006 at timestep 131
+66.40682195539837 at timestep 132
+72.27757538132789 at timestep 133
+69.82997219669913 at timestep 134
+74.6478580875757 at timestep 135
+75.96678346975378 at timestep 136
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 3900, 'bsearch': 5100, 'cap': 1300, 'chmod': 1900, 'matrix': 3500, 'memcpy': 1500, 'vecmath': 2600, 'zero': 2200}
+67.87810287098473 at timestep 137
+67.97994268834724 at timestep 138
+73.083193404801 at timestep 139
+73.5165422756357 at timestep 140
+Creating configuration for window size of 3
+{'affinity': 2300, 'atomic': 5000, 'bsearch': 5200, 'cap': 1100, 'chmod': 1800, 'matrix': 2700, 'memcpy': 1500, 'vecmath': 2300, 'zero': 2100}
+68.3905433833696 at timestep 141
+Creating configuration for window size of 2
+{'affinity': 2100, 'atomic': 4400, 'bsearch': 5000, 'cap': 1100, 'chmod': 1700, 'matrix': 2400, 'memcpy': 2900, 'vecmath': 2400, 'zero': 2000}
+71.80766430406139 at timestep 142
+84.65339242059238 at timestep 143
+Creating configuration for window size of 3
+{'affinity': 1700, 'atomic': 4400, 'bsearch': 4900, 'cap': 1400, 'chmod': 1600, 'matrix': 2200, 'memcpy': 2700, 'vecmath': 2300, 'zero': 2800}
+80.38898876077208 at timestep 144
+Creating configuration for window size of 3
+{'affinity': 1700, 'atomic': 4600, 'bsearch': 4800, 'cap': 1500, 'chmod': 1400, 'matrix': 2400, 'memcpy': 3000, 'vecmath': 2300, 'zero': 2300}
+79.6440791701053 at timestep 145
+Creating configuration for window size of 3
+{'affinity': 1700, 'atomic': 4500, 'bsearch': 4400, 'cap': 1700, 'chmod': 1500, 'matrix': 2200, 'memcpy': 2900, 'vecmath': 2200, 'zero': 2900}
+83.26676347450389 at timestep 146
+Creating configuration for window size of 3
+{'affinity': 1600, 'atomic': 4500, 'bsearch': 4100, 'cap': 2000, 'chmod': 1400, 'matrix': 2300, 'memcpy': 2700, 'vecmath': 2000, 'zero': 3400}
+90.07029486632693 at timestep 147
+92.84141020436137 at timestep 148
+Creating configuration for window size of 3
+{'affinity': 1600, 'atomic': 4200, 'bsearch': 4600, 'cap': 1700, 'chmod': 1500, 'matrix': 2300, 'memcpy': 2900, 'vecmath': 2200, 'zero': 3000}
+86.76055527349197 at timestep 149
+94.09264316482705 at timestep 150
+90.24862177775758 at timestep 151
+87.14568389081171 at timestep 152
+89.00278702722834 at timestep 153
+87.49361981931581 at timestep 154
+Creating configuration for window size of 3
+{'affinity': 1100, 'atomic': 4300, 'bsearch': 4700, 'cap': 1500, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2300, 'zero': 2700}
+78.1550329630303 at timestep 155
+86.30643863477057 at timestep 156
+89.33668698313929 at timestep 157
+Creating configuration for window size of 2
+{'affinity': 1000, 'atomic': 4700, 'bsearch': 4900, 'cap': 1400, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3200, 'vecmath': 2000, 'zero': 2600}
+80.46188312874017 at timestep 158
+79.11140416371055 at timestep 159
+79.53082933194261 at timestep 160
+78.64382996810754 at timestep 161
+78.1550329630303 at timestep 162
+78.1550329630303 at timestep 163
+80.97211075699352 at timestep 164
+Creating configuration for window size of 3
+{'affinity': 1500, 'atomic': 4700, 'bsearch': 4500, 'cap': 1000, 'chmod': 1700, 'matrix': 3100, 'memcpy': 3500, 'vecmath': 2100, 'zero': 1900}
+72.26294573312575 at timestep 165
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 4200, 'bsearch': 4600, 'cap': 1100, 'chmod': 1600, 'matrix': 2900, 'memcpy': 3500, 'vecmath': 2300, 'zero': 2000}
+72.17864342208851 at timestep 166
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 4000, 'bsearch': 4200, 'cap': 1400, 'chmod': 1500, 'matrix': 2700, 'memcpy': 3400, 'vecmath': 2200, 'zero': 2800}
+73.23479826146908 at timestep 167
+76.08936387651735 at timestep 168
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 3300, 'bsearch': 4000, 'cap': 1700, 'chmod': 1400, 'matrix': 2900, 'memcpy': 3300, 'vecmath': 2300, 'zero': 3300}
+76.38256524686017 at timestep 169
+83.11196602980563 at timestep 170
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 2200, 'bsearch': 3200, 'cap': 2400, 'chmod': 1500, 'matrix': 2800, 'memcpy': 3500, 'vecmath': 2500, 'zero': 4000}
+72.55313163901414 at timestep 171
+80.8206676012967 at timestep 172
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 1900, 'bsearch': 3200, 'cap': 2400, 'chmod': 1800, 'matrix': 2900, 'memcpy': 3500, 'vecmath': 2800, 'zero': 3700}
+70.99231729373143 at timestep 173
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 1900, 'bsearch': 3300, 'cap': 2100, 'chmod': 1800, 'matrix': 3300, 'memcpy': 3600, 'vecmath': 2800, 'zero': 3300}
+70.4416562282846 at timestep 174
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 2000, 'bsearch': 3500, 'cap': 1900, 'chmod': 1800, 'matrix': 3700, 'memcpy': 3600, 'vecmath': 2800, 'zero': 2900}
+72.97687583857781 at timestep 175
+76.00618829405951 at timestep 176
+83.82062723006597 at timestep 177
+Creating configuration for window size of 1
+{'affinity': 1800, 'atomic': 2100, 'bsearch': 3400, 'cap': 1700, 'chmod': 1800, 'matrix': 3700, 'memcpy': 3500, 'vecmath': 2500, 'zero': 3500}
+72.52373071704969 at timestep 178
+79.15042265175386 at timestep 179
+80.44460232414629 at timestep 180
+Creating configuration for window size of 3
+{'affinity': 1700, 'atomic': 3800, 'bsearch': 4200, 'cap': 1400, 'chmod': 1700, 'matrix': 3100, 'memcpy': 3300, 'vecmath': 2400, 'zero': 2400}
+76.62583394549036 at timestep 181
+79.23270380172556 at timestep 182
+82.92216130782514 at timestep 183
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 4300, 'bsearch': 4200, 'cap': 1300, 'chmod': 1700, 'matrix': 2900, 'memcpy': 3300, 'vecmath': 2300, 'zero': 2200}
+77.61097273194666 at timestep 184
+86.79266430578289 at timestep 185
+84.24564280183432 at timestep 186
+Creating configuration for window size of 3
+{'affinity': 2000, 'atomic': 4300, 'bsearch': 4500, 'cap': 1200, 'chmod': 1700, 'matrix': 2500, 'memcpy': 3100, 'vecmath': 2200, 'zero': 2500}
+80.58001339625231 at timestep 187
+80.62585010056624 at timestep 188
+80.58001339625231 at timestep 189
+Creating configuration for window size of 3
+{'affinity': 2100, 'atomic': 4100, 'bsearch': 4600, 'cap': 1300, 'chmod': 1600, 'matrix': 2800, 'memcpy': 3300, 'vecmath': 2300, 'zero': 1900}
+77.48853043258077 at timestep 190
+Creating configuration for window size of 2
+{'affinity': 2000, 'atomic': 4100, 'bsearch': 4600, 'cap': 1300, 'chmod': 1500, 'matrix': 2700, 'memcpy': 3200, 'vecmath': 2300, 'zero': 2300}
+79.15172754705087 at timestep 191
+Creating configuration for window size of 2
+{'affinity': 1900, 'atomic': 3900, 'bsearch': 4500, 'cap': 1400, 'chmod': 1500, 'matrix': 2600, 'memcpy': 3100, 'vecmath': 2200, 'zero': 2900}
+81.67342374848326 at timestep 192
+92.310599595987 at timestep 193
+Creating configuration for window size of 3
+{'affinity': 1800, 'atomic': 3900, 'bsearch': 4200, 'cap': 1800, 'chmod': 1400, 'matrix': 2500, 'memcpy': 2700, 'vecmath': 2400, 'zero': 3300}
+90.07241397453438 at timestep 194
+92.82746636380743 at timestep 195
+Creating configuration for window size of 2
+{'affinity': 1800, 'atomic': 3800, 'bsearch': 4500, 'cap': 2200, 'chmod': 1500, 'matrix': 2500, 'memcpy': 1600, 'vecmath': 2500, 'zero': 3600}
+83.31960896972033 at timestep 196
+Creating configuration for window size of 3
+{'affinity': 1900, 'atomic': 4300, 'bsearch': 4800, 'cap': 1700, 'chmod': 1600, 'matrix': 2800, 'memcpy': 1700, 'vecmath': 2800, 'zero': 2400}
+77.72749586215336 at timestep 197
+Creating configuration for window size of 2
+{'affinity': 1700, 'atomic': 4200, 'bsearch': 4500, 'cap': 1800, 'chmod': 1400, 'matrix': 2700, 'memcpy': 1700, 'vecmath': 3000, 'zero': 3000}
+82.07453967447567 at timestep 198
+84.41427382804704 at timestep 199
+Simulation took 15948.21665878345 total seconds, with 90 Checkpoints
+With checkpoints, the total duration would be 17298.21665878345

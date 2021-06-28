@@ -148,8 +148,10 @@ class ResourceConfigurer:
         total_runtime: float = 0
         forecast_step: int
         for forecast_step in range(configuration_window.window_size):
-            total_runtime += self.get_slowest_job(resource_configuration=resource_configuration,
-                                                  configuration_window=configuration_window, forecast_step=forecast_step).runtime
+            slowest_job: RunResult = self.get_slowest_job(resource_configuration=resource_configuration,
+                                                          configuration_window=configuration_window, forecast_step=forecast_step)
+            # print(slowest_job)
+            total_runtime += slowest_job.runtime
         return total_runtime
 
 
@@ -158,22 +160,30 @@ def main():
     actual: Dict[str, numpy.ndarray] = get_actual_dict(WORKLOADS)
     resource_configurer: ResourceConfigurer = ResourceConfigurer(
         WORKLOADS, actual)
+    print(resource_configurer.workload_models["atomic"](
+        30, 3500, grid="False"))
+    print(resource_configurer.workload_models["atomic"](
+        30, 3600, grid="False"))
+    print(resource_configurer.workload_models["atomic"](
+        32, 3700, grid="False"))
+    print(resource_configurer.workload_models["atomic"](
+        33, 3500, grid="False"))
 
     # print(resource_configurer.calculate_static_configuration())
-    for i in range(10):
-        configuration_window: ConfigurationWindow = ConfigurationWindow(
-            simulation_time_step=0, window_size=i + 1, starting_prediction=0)
-        resource_configuration: Dict[str, int] = resource_configurer.calculate_resource_configurations(
-            configuration_window)
-        # print(resource_configuration)
-        # for time_step in range(4, 6):
-        #     for workload in WORKLOADS:
-        #         job_name: str = workload.task.task_name
-        #         print(
-        #             f"{job_name}, {time_step},  {resource_configurer.workload_models[job_name](actual[job_name][time_step][0], resource_configuration[job_name])}, {actual[job_name][time_step][0]}")
-        print(resource_configuration)
-        print(resource_configurer.calculate_estimated_runtime(
-            resource_configuration=resource_configuration, configuration_window=configuration_window) / (i + 1))
+    # for i in range(10):
+    #     configuration_window: ConfigurationWindow = ConfigurationWindow(
+    #         simulation_time_step=0, window_size=i + 1, starting_prediction=0)
+    #     resource_configuration: Dict[str, int] = resource_configurer.calculate_resource_configurations(
+    #         configuration_window)
+    #     # print(resource_configuration)
+    #     # for time_step in range(4, 6):
+    #     #     for workload in WORKLOADS:
+    #     #         job_name: str = workload.task.task_name
+    #     #         print(
+    #     #             f"{job_name}, {time_step},  {resource_configurer.workload_models[job_name](actual[job_name][time_step][0], resource_configuration[job_name])}, {actual[job_name][time_step][0]}")
+    #     print(resource_configuration)
+    #     print(resource_configurer.calculate_estimated_runtime(
+    #         resource_configuration=resource_configuration, configuration_window=configuration_window) / (i + 1))
 
 
 if __name__ == "__main__":
