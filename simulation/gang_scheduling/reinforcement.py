@@ -24,6 +24,7 @@ class SimulatorEnv(Env):
                  default_reward: int,
                  default_time_step: int,
                  workloads: List[Workload],
+                 actual_workload_sizes: Dict[str, numpy.ndarray],
                  num_actions: int,
                  duration_low: float,
                  duration_high: float,
@@ -49,6 +50,10 @@ class SimulatorEnv(Env):
         self.observation_space: Space = Box(low=0, high=1, shape=(
             num_actions, window_size), dtype="float64")
         self.state = self.get_state_from_time_step(self.time_step)
+        self.simulation_resource_configurer = ResourceConfigurer(
+            workloads=self.workloads,
+            predictions=actual_workload_sizes
+        )
 
     def get_durations_from_action(self, time_step: int, action: int) -> numpy.ndarray:
         durations: numpy.ndarray = numpy.empty((self.window_size,))
@@ -98,7 +103,7 @@ class SimulatorEnv(Env):
                 configuration_window
             )
 
-        reward -= self.resource_configurer.calculate_estimated_runtime(
+        reward -= self.simulation_resource_configurer.calculate_estimated_runtime(
             resource_configuration=self.current_config,
             configuration_window=next_timestep)
         reward = (reward + self.duration_high) / \
@@ -120,24 +125,25 @@ class SimulatorEnv(Env):
 
 
 def main():
-    predictions: Dict[str, float] = get_predictions_dict(WORKLOADS)
-    actual: Dict[str, float] = get_actual_dict(WORKLOADS)
+    predictions: Dict[str, numpy.ndarray] = get_predictions_dict(WORKLOADS)
+    actual: Dict[str, numpy.ndarray] = get_actual_dict(WORKLOADS)
     resource_configurer: ResourceConfigurer = ResourceConfigurer(
         workloads=WORKLOADS,
-        predictions=actual
+        predictions=predictions
     )
     env = SimulatorEnv(
         resource_configurer=resource_configurer,
-        window_size=5,
+        window_size=6,
         default_reward=0,
-        default_time_step=0,
+        default_time_step=200,
         workloads=WORKLOADS,
-        num_actions=3,
+        actual_workload_sizes=actual,
+        num_actions=4,
         duration_low=75,
         duration_high=150
     )
-    model = A2C("MlpPolicy", env, verbose=2)
-    model.learn(total_timesteps=100002, log_interval=1)
+    model = DQN("MlpPolicy", env, verbose=2)
+    model.learn(total_timesteps=100000, log_interval=1)
     model.save(A2C_PATH)
 
 
