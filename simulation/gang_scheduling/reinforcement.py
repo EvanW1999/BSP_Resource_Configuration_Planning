@@ -15,6 +15,8 @@ from simulation.gang_scheduling.resource_configurer import ConfigurationWindow, 
 MODEL_PATH: str = f"{SIMULATION_DIR}/gang_scheduling/models"
 A2C_PATH: str = f"{MODEL_PATH}/A2C_MlpPolicy_scaled"
 DQN_PATH: str = f"{MODEL_PATH}/DQN_MlpPolicy_scaled"
+DQN_PATH_TMP: str = f"{MODEL_PATH}/DQN_MlpPolicy_scaled_TMP"
+DQN_PATH_TMP_2: str = f"{MODEL_PATH}/DQN_MlpPolicy_scaled_TMP_2"
 
 
 class SimulatorEnv(Env):
@@ -133,18 +135,18 @@ def main():
     )
     env = SimulatorEnv(
         resource_configurer=resource_configurer,
-        window_size=6,
+        window_size=5,
         default_reward=0,
-        default_time_step=200,
+        default_time_step=400,
         workloads=WORKLOADS,
         actual_workload_sizes=actual,
-        num_actions=4,
+        num_actions=5,
         duration_low=75,
         duration_high=150
     )
     model = DQN("MlpPolicy", env, verbose=2)
-    model.learn(total_timesteps=100000, log_interval=1)
-    model.save(A2C_PATH)
+    model.learn(total_timesteps=300000, log_interval=1)
+    model.save(DQN_PATH_TMP_2)
 
 
 if __name__ == "__main__":

@@ -246,23 +246,23 @@ def main() -> None:
         zookeeper_barrier_path=ZOOKEEPER_BARRIER_PATH,
         real_simulation=False)
     static_simulator.simulate()
-    for i in range(1, GANG_SCHEDULING_WINDOW_SIZE):
-        static_mpc: StaticMPController = StaticMPController(
-            resource_configurer=resource_configurer,
-            window_size=i,
-            simulation_length=GANG_SCHEDULING_SIMULATION_LENGTH
-        )
-        mpc_simulator: MPCSimulator = MPCSimulator(
-            mpc=static_mpc,
-            resource_configurer=resource_configurer,
-            workloads=WORKLOADS,
-            actual=predictions,
-            zookeeper_client_endpoint=ZOOKEEPER_CLIENT_ENDPOINT,
-            zookeeper_barrier_path=ZOOKEEPER_BARRIER_PATH,
-            real_simulation=False
-        )
-        print(f"Simulating simulation for static window of size {i}")
-        mpc_simulator.simulate()
+    # for i in range(1, GANG_SCHEDULING_WINDOW_SIZE):
+    #     static_mpc: StaticMPController = StaticMPController(
+    #         resource_configurer=resource_configurer,
+    #         window_size=i,
+    #         simulation_length=GANG_SCHEDULING_SIMULATION_LENGTH
+    #     )
+    #     mpc_simulator: MPCSimulator = MPCSimulator(
+    #         mpc=static_mpc,
+    #         resource_configurer=resource_configurer,
+    #         workloads=WORKLOADS,
+    #         actual=actual,
+    #         zookeeper_client_endpoint=ZOOKEEPER_CLIENT_ENDPOINT,
+    #         zookeeper_barrier_path=ZOOKEEPER_BARRIER_PATH,
+    #         real_simulation=False
+    #     )
+    #     print(f"Simulating simulation for static window of size {i}")
+    #     mpc_simulator.simulate()
 
     dynamic_mpc: MPController = DynamicMPController(
         resource_configurer=resource_configurer,
@@ -273,7 +273,7 @@ def main() -> None:
         mpc=dynamic_mpc,
         resource_configurer=resource_configurer,
         workloads=WORKLOADS,
-        actual=predictions,
+        actual=actual,
         zookeeper_client_endpoint=ZOOKEEPER_CLIENT_ENDPOINT,
         zookeeper_barrier_path=ZOOKEEPER_BARRIER_PATH,
         real_simulation=False
@@ -282,5 +282,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    # main()
-    generate_onetime_simulation()
+    main()
+    # generate_onetime_simulation()

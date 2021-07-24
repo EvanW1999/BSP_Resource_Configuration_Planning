@@ -20,16 +20,38 @@ STANDARD_SCALER: MinMaxScaler = MinMaxScaler(
     feature_range=(SIMULATION_MIN_WORKLOAD, SIMULATION_MAX_WORKLOAD))
 
 
+def plot_series(workload: Workload, title: str, ylabel: str) -> None:
+    series_path: str = f"{PATH}/data/{workload.time_series.file_name}"
+    series_df: pandas.DataFrame = pandas.read_csv(
+        series_path, usecols=[workload.time_series.target_col], nrows=workload.time_series.n_rows, dtype="float32")
+    series_df = series_df.iloc[::5]
+    series_df.rename({workload.time_series.target_col: ylabel},
+                     axis="columns", inplace=True)
+    series_df.reset_index().plot(
+        x="index", y=ylabel, figsize=(10, 5))
+    plt.title(title)
+    # plt.ylabel(ylabel)
+    plt.xlabel("Time Step")
+
+    plt.savefig(
+        f"{PATH}/figures/tmp_{workload.time_series.file_name[:-4]}.png")
+
+
 def plot_series_data() -> None:
-    for workload in WORKLOADS:
-        series_path: str = f"{PATH}/data/{workload.time_series.file_name}"
-        series_df: pandas.DataFrame = pandas.read_csv(
-            series_path, usecols=[workload.time_series.target_col], nrows=1500, dtype="float32")
-        series_df = series_df.iloc[::5]
-        series_df.reset_index().plot(
-            x="index", y=workload.time_series.target_col, figsize=(10, 5))
-        plt.savefig(
-            f"{PATH}/figures/{workload.time_series.file_name[:-4]}.png")
+    plot_series(WORKLOADS[0], "NYC Taxi Data", "Number of Passengers")
+    plot_series(
+        WORKLOADS[1], "Artificial Daily Small Noise", "Artificial Value")
+    plot_series(
+        WORKLOADS[2], "Ambient Temperature System Failure Data", "Temperature (Fahrenheit)")
+    # for workload in WORKLOADS:
+    #     series_path: str = f"{PATH}/data/{workload.time_series.file_name}"
+    #     series_df: pandas.DataFrame = pandas.read_csv(
+    #         series_path, usecols=[workload.time_series.target_col], nrows=1500, dtype="float32")
+    #     series_df = series_df.iloc[::5]
+    #     series_df.reset_index().plot(
+    #         x="index", y=workload.time_series.target_col, figsize=(10, 5))
+    #     plt.savefig(
+    #         f"{PATH}/figures/tmp_{workload.time_series.file_name[:-4]}.png")
 
 
 def get_series_data(series_data: Series) -> pandas.DataFrame:
@@ -279,8 +301,8 @@ def get_actual_dict(workloads: List[Workload]) -> Dict[str, numpy.ndarray]:
 
 
 def main():
-    # plot_series_data()
-    forecast_workloads()
+    plot_series_data()
+    # forecast_workloads()
 
 
 if __name__ == "__main__":

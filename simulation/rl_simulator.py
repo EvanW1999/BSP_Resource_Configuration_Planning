@@ -4,7 +4,7 @@ from typing import Dict
 from stable_baselines3 import DQN
 from simulation.config.config import (GANG_SCHEDULING_SIMULATION_LENGTH,
                                       GANG_SCHEDULING_WINDOW_SIZE, ZOOKEEPER_BARRIER_PATH, ZOOKEEPER_CLIENT_ENDPOINT)
-from simulation.gang_scheduling.reinforcement import SimulatorEnv, A2C_PATH, DQN_PATH
+from simulation.gang_scheduling.reinforcement import SimulatorEnv, A2C_PATH, DQN_PATH, DQN_PATH_TMP_2, DQN_PATH_TMP
 from simulation.gang_scheduling.resource_configurer import ResourceConfigurer
 from simulation.shared.workloads import WORKLOADS
 from simulation.forecaster.lstm_forecaster import get_actual_dict, get_predictions_dict
@@ -15,7 +15,7 @@ def main() -> None:
     actual: Dict[str, float] = get_actual_dict(WORKLOADS)
     resource_configurer: ResourceConfigurer = ResourceConfigurer(
         workloads=WORKLOADS,
-        predictions=actual
+        predictions=predictions
     )
     env = SimulatorEnv(
         resource_configurer=resource_configurer,
@@ -23,12 +23,13 @@ def main() -> None:
         default_reward=100,
         default_time_step=0,
         workloads=WORKLOADS,
-        num_actions=3,
+        actual_workload_sizes=actual,
+        num_actions=5,
         duration_low=75,
         duration_high=150
     )
     env.reset()
-    model = DQN.load(DQN_PATH)
+    model = DQN.load(DQN_PATH_TMP_2)
 
     reinforcement_mpc: ReinforcementMPController = ReinforcementMPController(
         model=model,

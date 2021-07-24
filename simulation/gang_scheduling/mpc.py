@@ -36,7 +36,7 @@ class DynamicMPController(MPController):
     def __init__(self, resource_configurer: ResourceConfigurer, simulation_length: int, window_size: int):
         super().__init__(resource_configurer=resource_configurer,
                          simulation_length=simulation_length, window_size=window_size)
-        self.length_punishment = 1.02
+        self.length_punishment = 1.01
 
     def calculate_duration(self, configuration_window: ConfigurationWindow) -> float:
         resource_configuration: Dict[str, int] = self.resource_configurer.calculate_resource_configurations(
