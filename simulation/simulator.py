@@ -1,19 +1,26 @@
+from typing import Dict, List
 import numpy
 import time
 from abc import ABC, abstractmethod
 from kazoo.client import KazooClient
 from kazoo.recipe.queue import LockingQueue
 from kazoo.recipe.barrier import DoubleBarrier
-from numpy.core.einsumfunc import _compute_size_by_dict
-from simulation.shared.zookeeper import reset_zookeeper
-from simulation.shared.kube_api import kube_create_stress_job, kube_delete_job
+
+
+import sys
+from pathlib import Path
+
+sys.path.append(str(Path(__file__).parent.parent))
+
+
+from simulation.gang_scheduling.resource_configurer import ResourceConfigurer, ConfigurationWindow
+from simulation.gang_scheduling.mpc import DynamicMPController, MPController, StaticMPController
+from simulation.forecaster.lstm_forecaster import get_actual_dict, get_predictions_dict
+from simulation.shared.workloads import WORKLOADS, Workload, get_env_vars
 from simulation.config.config import (GANG_SCHEDULING_CHECKPOINT_PENALTY, GANG_SCHEDULING_STARTING_SHARES, ZOOKEEPER_CLIENT_ENDPOINT,
                                       ZOOKEEPER_BARRIER_PATH, GANG_SCHEDULING_SIMULATION_LENGTH, GANG_SCHEDULING_WINDOW_SIZE)
-from simulation.shared.workloads import WORKLOADS, Workload, get_env_vars
-from simulation.forecaster.lstm_forecaster import get_actual_dict, get_predictions_dict
-from simulation.gang_scheduling.mpc import DynamicMPController, MPController, StaticMPController
-from simulation.gang_scheduling.resource_configurer import ResourceConfigurer, ConfigurationWindow
-from typing import Dict, List
+from simulation.shared.kube_api import kube_create_stress_job, kube_delete_job
+from simulation.shared.zookeeper import reset_zookeeper
 
 
 class Simulator(ABC):
@@ -278,6 +285,7 @@ def main() -> None:
         zookeeper_barrier_path=ZOOKEEPER_BARRIER_PATH,
         real_simulation=False
     )
+
     mpc_simulator.simulate()
 
 

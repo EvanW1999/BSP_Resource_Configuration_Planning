@@ -9,8 +9,16 @@ from typing import List, Tuple, Dict
 from math import sqrt
 import matplotlib.pyplot as plt
 
+
+import sys
+from pathlib import Path
+
+sys.path.append(str(Path(__file__).parent.parent.parent))
+
+
 from simulation.config.config import SIMULATION_MIN_WORKLOAD, SIMULATION_MAX_WORKLOAD, FORECASTER_WINDOW_SIZE
 from simulation.shared.workloads import WORKLOADS, Workload, Series
+
 
 PATH: str = str(Path(__file__).parent.absolute())
 HEADER: str = "t, t+1, t+2, t+3, t+4, t+5, t+6, t+7, t+8, t+9, t+10, t+11, t+12, t+13, t+14, t+15, t+16, t+17, t+18, t+19"
