@@ -97,6 +97,15 @@ If we want to run a simulation with real jobs on a Kubernetes cluster, we need t
 - Use the `simulator.Dockerfile` to create a Docker Container
 - Run the job via `kubctl create -f deployments/simulator.yaml`
 
+We have both the actual time-series data and the predictions made by our LSTM model to use to model changes in task workloads.
+The predictions are used in our configuration algorithm which decides how our resources are distributed across tasks.
+For the task workloads actually used in the simulation, we can use either the actual time-series data or the LSTM predictions (if we want to run a simulation assuming we have perfect knowledge of future workloads).
+
+The overall simulation duration consists of the sum of the durations at each time-step of the BSP job and `# of checkpoints * checkpoint_penalty` (configured in `config.ini`).
+
 ### **Reinforcement Learning**
 
-IN PROGRESS
+In order to train our reinfrocement learning model, we use the OpenAI Gym library.
+In our environment, we define our reward function to reduce both the duration of the BSP timesteps as well as the number of reconfigurations (which is equivalent to reducing the duration calculated in the simulation).
+In order to train the model, run `python simulation/gang_scheduling/reinforcement.py`.
+The trained model will be saved in `simulation/gang_scheduling/models`.

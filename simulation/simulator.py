@@ -6,7 +6,6 @@ from kazoo.client import KazooClient
 from kazoo.recipe.queue import LockingQueue
 from kazoo.recipe.barrier import DoubleBarrier
 
-
 import sys
 from pathlib import Path
 

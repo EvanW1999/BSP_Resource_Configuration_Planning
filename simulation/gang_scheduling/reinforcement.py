@@ -5,12 +5,18 @@ from stable_baselines3 import DQN, A2C
 
 from typing import Dict, List, Tuple, Any
 
+import sys
+from pathlib import Path
 
+sys.path.append(str(Path(__file__).parent.parent.parent))
+
+
+from simulation.gang_scheduling.resource_configurer import ConfigurationWindow, ResourceConfigurer
+from simulation.forecaster.lstm_forecaster import get_actual_dict, get_predictions_dict
+from simulation.shared.workloads import WORKLOADS, Workload
 from simulation.config.config import (SIMULATION_DIR, GANG_SCHEDULING_CHECKPOINT_PENALTY,
                                       GANG_SCHEDULING_SIMULATION_LENGTH, GANG_SCHEDULING_STARTING_SHARES)
-from simulation.shared.workloads import WORKLOADS, Workload
-from simulation.forecaster.lstm_forecaster import get_actual_dict, get_predictions_dict
-from simulation.gang_scheduling.resource_configurer import ConfigurationWindow, ResourceConfigurer
+
 
 MODEL_PATH: str = f"{SIMULATION_DIR}/gang_scheduling/models"
 A2C_PATH: str = f"{MODEL_PATH}/A2C_MlpPolicy_scaled"
